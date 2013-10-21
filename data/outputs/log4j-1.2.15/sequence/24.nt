@@ -1,0 +1,13 @@
+<http://www.semcomplete.com#Enumeration> <http://www.semcomplete.com#nodeType> "Class" .
+<http://www.semcomplete.com#Enumeration> <http://www.semcomplete.com#hasInstance> "children" .
+<http://www.semcomplete.com#while> <http://www.semcomplete.com#nodeType> "Control" .
+<http://www.semcomplete.com#Enumeration.hasMoreElements> <http://www.semcomplete.com#nodeType> "Method" .
+<http://www.semcomplete.com#Enumeration> <http://www.semcomplete.com#hasMethod> <http://www.semcomplete.com#Enumeration.hasMoreElements> .
+<http://www.semcomplete.com#while> <http://www.semcomplete.com#hasCondition> <http://www.semcomplete.com#Enumeration.hasMoreElements> .
+<http://www.semcomplete.com#CategoryNode> <http://www.semcomplete.com#nodeType> "Class" .
+<http://www.semcomplete.com#CategoryNode> <http://www.semcomplete.com#hasInstance> "node" .
+<http://www.semcomplete.com#CategoryNode> <http://www.semcomplete.com#varInitiatedBy> "(CategoryNode) children.nextElement()" .
+<http://www.semcomplete.com#CategoryNode.setSelected> <http://www.semcomplete.com#nodeType> "Method" .
+<http://www.semcomplete.com#CategoryNode> <http://www.semcomplete.com#hasMethod> <http://www.semcomplete.com#CategoryNode.setSelected> .
+<http://www.semcomplete.com#CategoryNode.setAllDescendantsSelected> <http://www.semcomplete.com#nodeType> "Method" .
+<http://www.semcomplete.com#CategoryNode> <http://www.semcomplete.com#hasMethod> <http://www.semcomplete.com#CategoryNode.setAllDescendantsSelected> .

@@ -1,0 +1,70 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://www.semcomplete.com#" > 
+  <rdf:Description rdf:about="http://www.semcomplete.com#Throwable.printStackTrace">
+    <j.0:nodeID>7</j.0:nodeID>
+    <j.0:nodeType>Method</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#StringWriter.new">
+    <j.0:nodeID>4</j.0:nodeID>
+    <j.0:nodeType>Constructor</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#PrintWriter.new">
+    <j.0:hasParameter rdf:resource="http://www.semcomplete.com#StringWriter"/>
+    <j.0:nodeID>6</j.0:nodeID>
+    <j.0:nodeType>Constructor</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#PrintWriter">
+    <j.0:hasMethod rdf:resource="http://www.semcomplete.com#PrintWriter.close"/>
+    <j.0:hasMethod rdf:resource="http://www.semcomplete.com#PrintWriter.flush"/>
+    <j.0:varInitiatedBy rdf:resource="http://www.semcomplete.com#PrintWriter.new"/>
+    <j.0:hasConstructor rdf:resource="http://www.semcomplete.com#PrintWriter.new"/>
+    <j.0:hasInstance>out</j.0:hasInstance>
+    <j.0:nodeID>5</j.0:nodeID>
+    <j.0:nodeType>Class</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#PrintWriter.close">
+    <j.0:nodeID>11</j.0:nodeID>
+    <j.0:nodeType>Method</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#StringWriter.close">
+    <j.0:nodeID>12</j.0:nodeID>
+    <j.0:nodeType>Method</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#Throwable">
+    <j.0:hasMethod rdf:resource="http://www.semcomplete.com#Throwable.printStackTrace"/>
+    <j.0:hasInstance>thrown</j.0:hasInstance>
+    <j.0:nodeID>1</j.0:nodeID>
+    <j.0:nodeType>Class</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#if">
+    <j.0:hasCondition rdf:resource="http://www.semcomplete.com#Throwable"/>
+    <j.0:nodeID>2</j.0:nodeID>
+    <j.0:nodeType>Control</j.0:nodeType>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#try">
+    <rdf:_2 rdf:resource="http://www.semcomplete.com#StringWriter.close"/>
+    <rdf:_1 rdf:resource="http://www.semcomplete.com#PrintWriter.close"/>
+    <j.0:nodeID>10</j.0:nodeID>
+    <j.0:nodeType>Control</j.0:nodeType>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#PrintWriter.flush">
+    <j.0:nodeID>8</j.0:nodeID>
+    <j.0:nodeType>Method</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#StringWriter">
+    <j.0:hasMethod rdf:resource="http://www.semcomplete.com#StringWriter.close"/>
+    <j.0:hasMethod rdf:resource="http://www.semcomplete.com#StringWriter.toString"/>
+    <j.0:varInitiatedBy rdf:resource="http://www.semcomplete.com#StringWriter.new"/>
+    <j.0:hasConstructor rdf:resource="http://www.semcomplete.com#StringWriter.new"/>
+    <j.0:hasInstance>sw</j.0:hasInstance>
+    <j.0:nodeID>3</j.0:nodeID>
+    <j.0:nodeType>Class</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#StringWriter.toString">
+    <j.0:nodeID>9</j.0:nodeID>
+    <j.0:nodeType>Method</j.0:nodeType>
+  </rdf:Description>
+</rdf:RDF>

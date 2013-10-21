@@ -1,0 +1,7 @@
+<http://www.semcomplete.com#String> <http://www.semcomplete.com#nodeType> "Class" .
+<http://www.semcomplete.com#String> <http://www.semcomplete.com#hasInstance> "aNamespaceURI" .
+<http://www.semcomplete.com#String> <http://www.semcomplete.com#nodeType> "Class" .
+<http://www.semcomplete.com#String> <http://www.semcomplete.com#hasInstance> "aLocalName" .
+<http://www.semcomplete.com#String> <http://www.semcomplete.com#nodeType> "Class" .
+<http://www.semcomplete.com#String> <http://www.semcomplete.com#hasInstance> "aQName" .
+<http://www.semcomplete.com#if> <http://www.semcomplete.com#nodeType> "Control" .

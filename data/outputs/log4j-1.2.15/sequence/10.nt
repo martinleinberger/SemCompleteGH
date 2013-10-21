@@ -1,0 +1,8 @@
+<http://www.semcomplete.com#Object> <http://www.semcomplete.com#nodeType> "Class" .
+<http://www.semcomplete.com#Object> <http://www.semcomplete.com#hasInstance> "parentValue" .
+<http://www.semcomplete.com#Hashtable> <http://www.semcomplete.com#nodeType> "Class" .
+<http://www.semcomplete.com#Hashtable> <http://www.semcomplete.com#hasInstance> "ht" .
+<http://www.semcomplete.com#Hashtable> <http://www.semcomplete.com#varInitiatedBy> "(Hashtable) parentValue" .
+<http://www.semcomplete.com#if> <http://www.semcomplete.com#nodeType> "Control" .
+<http://www.semcomplete.com#if> <http://www.semcomplete.com#hasCondition> <http://www.semcomplete.com#Hashtable> .
+<http://www.semcomplete.com#else> <http://www.semcomplete.com#nodeType> "Control" .

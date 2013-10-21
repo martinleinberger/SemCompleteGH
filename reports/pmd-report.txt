@@ -1,0 +1,1357 @@
+
+src/CustomFolderCreator.java:4	All classes and interfaces must belong to a named package
+src/CustomFolderCreator.java:10	Method names should not contain underscores
+src/CustomFolderCreator.java:10	Parameter 'HomeDir' is not assigned and could be declared final
+src/CustomFolderCreator.java:14	Local variable 'file' could be declared final
+src/CustomFolderCreator.java:17	Local variable 'files' could be declared final
+src/CustomFolderCreator.java:18	Found 'DD'-anomaly for variable 'count' (lines '18'-'45').
+src/CustomFolderCreator.java:23	Local variable 'folderName' could be declared final
+src/CustomFolderCreator.java:25	Local variable 'pattFolder' could be declared final
+src/CustomFolderCreator.java:26	Avoid instantiating new objects inside loops
+src/CustomFolderCreator.java:26	Local variable 'pfile' could be declared final
+src/CustomFolderCreator.java:27	Deeply nested if..then statements are hard to read
+src/CustomFolderCreator.java:33	Avoid instantiating new objects inside loops
+src/CustomFolderCreator.java:34	Deeply nested if..then statements are hard to read
+src/CustomFolderCreator.java:40	Avoid instantiating new objects inside loops
+src/CustomFolderCreator.java:41	Deeply nested if..then statements are hard to read
+src/CustomFolderCreator.java:45	Found 'DD'-anomaly for variable 'count' (lines '45'-'45').
+src/CustomFolderCreator.java:49	System.out.print is used
+src/CustomFolderCreator.java:55	System.out.print is used
+src/CustomFolderCreator.java:61	Parameter 'args' is not assigned and could be declared final
+src/FileCounter.java:8	All classes and interfaces must belong to a named package
+src/FileCounter.java:14	Use explicit scoping instead of the default package private level
+src/FileCounter.java:15	Method names should not contain underscores
+src/FileCounter.java:15	Parameter 'Directory_path' is not assigned and could be declared final
+src/FileCounter.java:18	Local variable 'fileDir' could be declared final
+src/FileCounter.java:21	Local variable 'moreFiles' could be declared final
+src/FileCounter.java:24	Local variable 'myFile' could be declared final
+src/FileCounter.java:27	Found 'DD'-anomaly for variable 'mycount' (lines '27'-'28').
+src/FileCounter.java:34	Avoid using if statements without curly braces
+src/FileCounter.java:43	Avoid using if statements without curly braces
+src/FileCounter.java:50	Parameter 'args' is not assigned and could be declared final
+src/FileCounter.java:52	Avoid variables with short names like fc
+src/FileCounter.java:52	Local variable 'fc' could be declared final
+src/FileCounter.java:53	Local variable 'project_directory' could be declared final
+src/FileCounter.java:56	System.out.print is used
+src/FileWriterDemo.java:6	All classes and interfaces must belong to a named package
+src/FileWriterDemo.java:16	Local variable 'cities' could be declared final
+src/FileWriterDemo.java:17	Local variable 'file' could be declared final
+src/FileWriterDemo.java:18	Local variable 'writer' could be declared final
+src/FileWriterDemo.java:19	Local variable 'bwriter' could be declared final
+src/FileWriterDemo.java:26	Avoid empty catch blocks
+src/FileWriterDemo.java:31	Parameter 'args' is not assigned and could be declared final
+src/FileWriterDemo.java:33	Local variable 'demo' could be declared final
+src/ImportExtractor.java:7	Avoid unused imports such as 'java.util.Scanner'
+src/ImportExtractor.java:7	Avoid unused imports such as 'java.util.Scanner'
+src/ImportExtractor.java:12	All classes and interfaces must belong to a named package
+src/ImportExtractor.java:15	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/ImportExtractor.java:15	Use explicit scoping instead of the default package private level
+src/ImportExtractor.java:16	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/ImportExtractor.java:16	Use explicit scoping instead of the default package private level
+src/ImportExtractor.java:17	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/ImportExtractor.java:17	Use explicit scoping instead of the default package private level
+src/ImportExtractor.java:17	Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).
+src/ImportExtractor.java:19	Parameter 'outFile' is not assigned and could be declared final
+src/ImportExtractor.java:19	Parameter 'projDir' is not assigned and could be declared final
+src/ImportExtractor.java:25	Local variable 'file' could be declared final
+src/ImportExtractor.java:27	Avoid empty catch blocks
+src/ImportExtractor.java:31	Method names should not contain underscores
+src/ImportExtractor.java:31	Parameter 'classFile' is not assigned and could be declared final
+src/ImportExtractor.java:36	Local variable 'file' could be declared final
+src/ImportExtractor.java:37	Avoid variables with short names like in
+src/ImportExtractor.java:37	Found 'DD'-anomaly for variable 'in' (lines '37'-'38').
+src/ImportExtractor.java:39	Avoid variables with short names like cu
+src/ImportExtractor.java:39	Local variable 'cu' could be declared final
+src/ImportExtractor.java:40	Local variable 'imports' could be declared final
+src/ImportExtractor.java:46	Avoid empty catch blocks
+src/ImportExtractor.java:50	Method names should not contain underscores
+src/ImportExtractor.java:50	Parameter 'projectDir' is not assigned and could be declared final
+src/ImportExtractor.java:53	Local variable 'fileDir' could be declared final
+src/ImportExtractor.java:62	Avoid unused local variables such as 'mycount'.
+src/ImportExtractor.java:62	Found 'DD'-anomaly for variable 'mycount' (lines '62'-'62').
+src/ImportExtractor.java:62	Found 'DU'-anomaly for variable 'mycount' (lines '62'-'84').
+src/ImportExtractor.java:85	Parameter 'args' is not assigned and could be declared final
+src/ImportExtractor.java:96	System.out.print is used
+src/ImportExtractor.java:97	System.out.print is used
+src/ImportExtractor.java:102	System.out.print is used
+src/JavaParseDemoTest.java:3	Avoid unused imports such as 'japa.parser.ASTHelper'
+src/JavaParseDemoTest.java:3	Avoid unused imports such as 'japa.parser.ASTHelper'
+src/JavaParseDemoTest.java:5	Avoid unused imports such as 'japa.parser.ParseException'
+src/JavaParseDemoTest.java:5	Avoid unused imports such as 'japa.parser.ParseException'
+src/JavaParseDemoTest.java:7	Avoid unused imports such as 'japa.parser.ast.expr.NameExpr'
+src/JavaParseDemoTest.java:7	Avoid unused imports such as 'japa.parser.ast.expr.NameExpr'
+src/JavaParseDemoTest.java:10	All classes and interfaces must belong to a named package
+src/JavaParseDemoTest.java:10	All methods are static.  Consider using Singleton instead.  Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/JavaParseDemoTest.java:15	Parameter 'args' is not assigned and could be declared final
+src/JavaParseDemoTest.java:18	Avoid variables with short names like in
+src/JavaParseDemoTest.java:18	Found 'DD'-anomaly for variable 'in' (lines '18'-'23').
+src/JavaParseDemoTest.java:19	Local variable 'fileName' could be declared final
+src/JavaParseDemoTest.java:20	Avoid variables with short names like cu
+src/JavaParseDemoTest.java:20	Found 'DD'-anomaly for variable 'cu' (lines '20'-'24').
+src/JavaParseDemoTest.java:25	Local variable 'visitor' could be declared final
+src/JavaParseDemoTest.java:30	System.out.print is used
+src/MethodVisitor.java:1	Avoid unused imports such as 'java.util.ArrayList'
+src/MethodVisitor.java:1	Avoid unused imports such as 'java.util.ArrayList'
+src/MethodVisitor.java:15	Avoid unused imports such as 'com.hp.hpl.jena.util.FileManager'
+src/MethodVisitor.java:15	Avoid unused imports such as 'com.hp.hpl.jena.util.FileManager'
+src/MethodVisitor.java:16	Avoid unused imports such as 'com.hp.hpl.jena.vocabulary'
+src/MethodVisitor.java:19	All classes and interfaces must belong to a named package
+src/MethodVisitor.java:19	The class 'MethodVisitor' has a Cyclomatic Complexity of 4 (Highest = 11).
+src/MethodVisitor.java:22	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/MethodVisitor.java:22	Use explicit scoping instead of the default package private level
+src/MethodVisitor.java:23	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/MethodVisitor.java:23	Use explicit scoping instead of the default package private level
+src/MethodVisitor.java:24	Use explicit scoping instead of the default package private level
+src/MethodVisitor.java:25	Avoid variables with short names like ns
+src/MethodVisitor.java:25	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/MethodVisitor.java:25	Use explicit scoping instead of the default package private level
+src/MethodVisitor.java:27	It is a good practice to call super() in a constructor
+src/MethodVisitor.java:35	Avoid variables with short names like n
+src/MethodVisitor.java:35	Parameter 'arg' is not assigned and could be declared final
+src/MethodVisitor.java:35	Parameter 'n' is not assigned and could be declared final
+src/MethodVisitor.java:41	System.out.print is used
+src/MethodVisitor.java:46	Local variable 'block' could be declared final
+src/MethodVisitor.java:47	System.out.print is used
+src/MethodVisitor.java:50	System.out.print is used
+src/MethodVisitor.java:56	Local variable 'file' could be declared final
+src/MethodVisitor.java:57	Avoid variables with short names like fs
+src/MethodVisitor.java:57	Local variable 'fs' could be declared final
+src/MethodVisitor.java:59	Avoid empty catch blocks
+src/MethodVisitor.java:68	Method names should not contain underscores
+src/MethodVisitor.java:68	Parameter 'block' is not assigned and could be declared final
+src/MethodVisitor.java:68	The method 'handle_the_block' has a Cyclomatic Complexity of 11.
+src/MethodVisitor.java:72	Local variable 'mylist' could be declared final
+src/MethodVisitor.java:84	Avoid variables with short names like b
+src/MethodVisitor.java:84	Local variable 'b' could be declared final
+src/MethodVisitor.java:91	Avoid variables with short names like b
+src/MethodVisitor.java:121	Avoid empty catch blocks
+src/MethodVisitor.java:133	Avoid empty catch blocks
+src/MethodVisitor.java:139	Method names should not contain underscores
+src/MethodVisitor.java:139	Parameter 'stmt' is not assigned and could be declared final
+src/MethodVisitor.java:145	System.out.print is used
+src/MethodVisitor.java:148	System.out.print is used
+src/MethodVisitor.java:156	Avoid empty if statements
+src/MethodVisitor.java:162	Method names should not contain underscores
+src/MethodVisitor.java:162	Parameter 'stmt' is not assigned and could be declared final
+src/MethodVisitor.java:182	Avoid empty catch blocks
+src/MethodVisitor.java:190	Method names should not contain underscores
+src/MethodVisitor.java:218	Method names should not contain underscores
+src/MethodVisitor.java:222	Avoid empty try blocks
+src/MethodVisitor.java:276	Avoid empty catch blocks
+src/PKMGTest.java:3	Avoid unused imports such as 'com.hp.hpl.jena.graph.impl.AllCapabilities'
+src/PKMGTest.java:3	Avoid unused imports such as 'com.hp.hpl.jena.graph.impl.AllCapabilities'
+src/PKMGTest.java:7	All classes and interfaces must belong to a named package
+src/PKMGTest.java:7	All methods are static.  Consider using Singleton instead.  Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/PKMGTest.java:12	Parameter 'args' is not assigned and could be declared final
+src/PKMGTest.java:16	Local variable 'pkg' could be declared final
+src/PKMGTest.java:17	Local variable 'packageName' could be declared final
+src/PKMGTest.java:18	Local variable 'allClasses' could be declared final
+src/PKMGTest.java:19	System.out.print is used
+src/PKMGTest.java:22	System.out.print is used
+src/PKMGTest.java:23	System.out.print is used
+src/PackageListManager.java:3	Avoid unused imports such as 'java.lang.reflect.Constructor'
+src/PackageListManager.java:3	Avoid unused imports such as 'java.lang.reflect.Constructor'
+src/PackageListManager.java:4	Avoid unused imports such as 'java.lang.reflect.Field'
+src/PackageListManager.java:4	Avoid unused imports such as 'java.lang.reflect.Field'
+src/PackageListManager.java:5	Avoid unused imports such as 'java.lang.reflect.Method'
+src/PackageListManager.java:5	Avoid unused imports such as 'java.lang.reflect.Method'
+src/PackageListManager.java:6	Avoid unused imports such as 'java.lang.reflect.Member'
+src/PackageListManager.java:6	Avoid unused imports such as 'java.lang.reflect.Member'
+src/PackageListManager.java:7	Avoid unused imports such as 'com.google.common.base.Predicate'
+src/PackageListManager.java:7	Avoid unused imports such as 'com.google.common.base.Predicate'
+src/PackageListManager.java:24	All classes and interfaces must belong to a named package
+src/PackageListManager.java:32	Method names should not contain underscores
+src/PackageListManager.java:32	Parameter 'packageName' is not assigned and could be declared final
+src/PackageListManager.java:36	Found 'DD'-anomaly for variable 'allClasses' (lines '36'-'61').
+src/PackageListManager.java:41	Local variable 'classLoadersList' could be declared final
+src/PackageListManager.java:45	Local variable 'reflections' could be declared final
+src/PackageListManager.java:66	Avoid unused local variables such as 'showed'.
+src/PackageListManager.java:66	Found 'DD'-anomaly for variable 'showed' (lines '66'-'75').
+src/PackageListManager.java:66	Found 'DU'-anomaly for variable 'showed' (lines '66'-'90').
+src/PackageListManager.java:75	Found 'DD'-anomaly for variable 'showed' (lines '75'-'75').
+src/PackageListManager.java:75	Found 'DU'-anomaly for variable 'showed' (lines '75'-'90').
+src/PackageListManager.java:76	Avoid empty catch blocks
+src/PackageListManager.java:85	Avoid printStackTrace(); use a logger call instead.
+src/PackageStats.java:4	Avoid unused imports such as 'java.util.Iterator'
+src/PackageStats.java:4	Avoid unused imports such as 'java.util.Iterator'
+src/PackageStats.java:8	All classes and interfaces must belong to a named package
+src/PackageStats.java:8	The class 'PackageStats' has a Cyclomatic Complexity of 8 (Highest = 12).
+src/PackageStats.java:15	Method names should not contain underscores
+src/PackageStats.java:20	Local variable 'file' could be declared final
+src/PackageStats.java:21	Local variable 'file2' could be declared final
+src/PackageStats.java:22	Local variable 'writer' could be declared final
+src/PackageStats.java:23	Local variable 'scanner' could be declared final
+src/PackageStats.java:24	Consider replacing this Hashtable with the newer java.util.Map
+src/PackageStats.java:27	Local variable 'line' could be declared final
+src/PackageStats.java:32	Found 'DD'-anomaly for variable 'count' (lines '32'-'33').
+src/PackageStats.java:50	System.out.print is used
+src/PackageStats.java:53	System.out.print is used
+src/PackageStats.java:57	Method names should not contain underscores
+src/PackageStats.java:57	The method 'create_compact_package' has a Cyclomatic Complexity of 12.
+src/PackageStats.java:66	Consider replacing this Hashtable with the newer java.util.Map
+src/PackageStats.java:76	Found 'DD'-anomaly for variable '_line' (lines '76'-'77').
+src/PackageStats.java:78	System.out.print is used
+src/PackageStats.java:89	Avoid empty catch blocks
+src/PackageStats.java:96	Found 'DD'-anomaly for variable '_line' (lines '96'-'97').
+src/PackageStats.java:98	System.out.print is used
+src/PackageStats.java:109	Avoid empty catch blocks
+src/PackageStats.java:120	System.out.print is used
+src/PackageStats.java:121	Avoid empty catch blocks
+src/PackageStats.java:129	Parameter 'args' is not assigned and could be declared final
+src/RegexChecker.java:5	All classes and interfaces must belong to a named package
+src/RegexChecker.java:12	Method names should not contain underscores
+src/RegexChecker.java:12	Parameter 'content' is not assigned and could be declared final
+src/RegexChecker.java:17	Local variable 'lines' could be declared final
+src/RegexChecker.java:18	System.out.print is used
+src/RegexChecker.java:21	System.out.print is used
+src/RegexChecker.java:29	Method names should not contain underscores
+src/RegexChecker.java:29	Parameter 'xml_file_name' is not assigned and could be declared final
+src/RegexChecker.java:34	Local variable 'xmlFile' could be declared final
+src/RegexChecker.java:35	Local variable 'factory' could be declared final
+src/RegexChecker.java:36	Local variable 'builder' could be declared final
+src/RegexChecker.java:37	Local variable 'xmldoc' could be declared final
+src/RegexChecker.java:40	Avoid unused local variables such as 'row_added'.
+src/RegexChecker.java:40	Found 'DU'-anomaly for variable 'row_added' (lines '40'-'53').
+src/RegexChecker.java:44	Avoid variables with short names like e
+src/RegexChecker.java:51	System.out.print is used
+src/RegexChecker.java:56	Parameter 'args' is not assigned and could be declared final
+src/garbagemanager/ManageGarbage.java:9	Method names should not contain underscores
+src/garbagemanager/ManageGarbage.java:9	Parameter 'projDir' is not assigned and could be declared final
+src/garbagemanager/ManageGarbage.java:14	Local variable 'file' could be declared final
+src/garbagemanager/ManageGarbage.java:17	Local variable 'files' could be declared final
+src/garbagemanager/ManageGarbage.java:41	Avoid empty catch blocks
+src/garbagemanager/ManageGarbage.java:44	Parameter 'args' is not assigned and could be declared final
+src/garbagemanager/ManageGarbage.java:48	Local variable 'projDir' could be declared final
+src/garbagemanager/ManageGarbage.java:49	Local variable 'garbage' could be declared final
+src/garbagemanager/ManageGarbage.java:51	System.out.print is used
+src/garbagemanager/ManageGarbage.java:54	System.out.print is used
+src/lcs/LowestCommonSubSeq.java:8	Avoid using implementation types like 'HashSet'; use the interface instead
+src/lcs/LowestCommonSubSeq.java:8	Avoid using implementation types like 'HashSet'; use the interface instead
+src/lcs/LowestCommonSubSeq.java:8	Avoid using implementation types like 'HashSet'; use the interface instead
+src/lcs/LowestCommonSubSeq.java:8	Avoid using implementation types like 'HashSet'; use the interface instead
+src/lcs/LowestCommonSubSeq.java:8	Method names should not contain underscores
+src/lcs/LowestCommonSubSeq.java:8	Parameter 'set1' is not assigned and could be declared final
+src/lcs/LowestCommonSubSeq.java:8	Parameter 'set2' is not assigned and could be declared final
+src/lcs/LowestCommonSubSeq.java:12	Avoid variables with short names like M
+src/lcs/LowestCommonSubSeq.java:12	Local variable 'M' could be declared final
+src/lcs/LowestCommonSubSeq.java:13	Avoid variables with short names like N
+src/lcs/LowestCommonSubSeq.java:13	Local variable 'N' could be declared final
+src/lcs/LowestCommonSubSeq.java:14	Ensure that resources like this Statement object are closed after use
+src/lcs/LowestCommonSubSeq.java:14	Found 'DD'-anomaly for variable 'commons' (lines '14'-'36').
+src/lcs/LowestCommonSubSeq.java:15	Found 'DU'-anomaly for variable 'count' (lines '15'-'50').
+src/lcs/LowestCommonSubSeq.java:19	Found 'DD'-anomaly for variable 'opt' (lines '19'-'25').
+src/lcs/LowestCommonSubSeq.java:19	Found 'DD'-anomaly for variable 'opt' (lines '19'-'27').
+src/lcs/LowestCommonSubSeq.java:19	Found 'DU'-anomaly for variable 'opt' (lines '19'-'50').
+src/lcs/LowestCommonSubSeq.java:25	Avoid using if...else statements without curly braces
+src/lcs/LowestCommonSubSeq.java:27	Avoid using if...else statements without curly braces
+src/lcs/LowestCommonSubSeq.java:32	Avoid variables with short names like i
+src/lcs/LowestCommonSubSeq.java:32	Avoid variables with short names like j
+src/lcs/LowestCommonSubSeq.java:36	Found 'DD'-anomaly for variable 'commons' (lines '36'-'36').
+src/lcs/LowestCommonSubSeq.java:41	Avoid using if...else statements without curly braces
+src/lcs/LowestCommonSubSeq.java:42	Avoid using if...else statements without curly braces
+src/lcs/LowestCommonSubSeq.java:44	System.out.print is used
+src/rdfcompare/PatternExplorer.java:17	Avoid unused imports such as 'com.hp.hpl.jena.rdf.model.ModelFactoryBase'
+src/rdfcompare/PatternExplorer.java:17	Avoid unused imports such as 'com.hp.hpl.jena.rdf.model.ModelFactoryBase'
+src/rdfcompare/PatternExplorer.java:21	The class 'PatternExplorer' has a Cyclomatic Complexity of 4 (Highest = 14).
+src/rdfcompare/PatternExplorer.java:21	This class has too many methods, consider refactoring it.
+src/rdfcompare/PatternExplorer.java:26	Avoid using implementation types like 'HashSet'; use the interface instead
+src/rdfcompare/PatternExplorer.java:26	Avoid using implementation types like 'HashSet'; use the interface instead
+src/rdfcompare/PatternExplorer.java:26	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/rdfcompare/PatternExplorer.java:26	Use explicit scoping instead of the default package private level
+src/rdfcompare/PatternExplorer.java:27	Avoid using implementation types like 'HashSet'; use the interface instead
+src/rdfcompare/PatternExplorer.java:27	Avoid using implementation types like 'HashSet'; use the interface instead
+src/rdfcompare/PatternExplorer.java:27	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/rdfcompare/PatternExplorer.java:27	Use explicit scoping instead of the default package private level
+src/rdfcompare/PatternExplorer.java:28	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/rdfcompare/PatternExplorer.java:28	Use explicit scoping instead of the default package private level
+src/rdfcompare/PatternExplorer.java:28	Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).
+src/rdfcompare/PatternExplorer.java:29	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/rdfcompare/PatternExplorer.java:29	Use explicit scoping instead of the default package private level
+src/rdfcompare/PatternExplorer.java:31	Use explicit scoping instead of the default package private level
+src/rdfcompare/PatternExplorer.java:32	Avoid excessively long variable names like model_size_threshold
+src/rdfcompare/PatternExplorer.java:32	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/rdfcompare/PatternExplorer.java:32	This final field could be made static
+src/rdfcompare/PatternExplorer.java:34	Avoid excessively long variable names like convergence_threshold
+src/rdfcompare/PatternExplorer.java:34	Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).
+src/rdfcompare/PatternExplorer.java:35	Consider replacing this Hashtable with the newer java.util.Map
+src/rdfcompare/PatternExplorer.java:35	Variables should start with a lowercase character
+src/rdfcompare/PatternExplorer.java:36	Avoid excessively long variable names like primary_pattern_threshold
+src/rdfcompare/PatternExplorer.java:36	Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).
+src/rdfcompare/PatternExplorer.java:37	Avoid using implementation types like 'HashMap'; use the interface instead
+src/rdfcompare/PatternExplorer.java:37	Avoid using implementation types like 'HashMap'; use the interface instead
+src/rdfcompare/PatternExplorer.java:39	Avoid excessively long variable names like threshold_frequnecy
+src/rdfcompare/PatternExplorer.java:39	Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).
+src/rdfcompare/PatternExplorer.java:46	Parameter 'modelFolder' is not assigned and could be declared final
+src/rdfcompare/PatternExplorer.java:49	Local variable 'file' could be declared final
+src/rdfcompare/PatternExplorer.java:52	Local variable 'files' could be declared final
+src/rdfcompare/PatternExplorer.java:75	Method names should not contain underscores
+src/rdfcompare/PatternExplorer.java:78	Local variable 'file' could be declared final
+src/rdfcompare/PatternExplorer.java:81	Local variable 'rdfs' could be declared final
+src/rdfcompare/PatternExplorer.java:86	Avoid instantiating new objects inside loops
+src/rdfcompare/PatternExplorer.java:86	Avoid variables with short names like in
+src/rdfcompare/PatternExplorer.java:86	Local variable 'in' could be declared final
+src/rdfcompare/PatternExplorer.java:92	Avoid empty catch blocks
+src/rdfcompare/PatternExplorer.java:141	Method names should not contain underscores
+src/rdfcompare/PatternExplorer.java:141	Parameter 'model1' is not assigned and could be declared final
+src/rdfcompare/PatternExplorer.java:141	Parameter 'model2' is not assigned and could be declared final
+src/rdfcompare/PatternExplorer.java:150	System.out.print is used
+src/rdfcompare/PatternExplorer.java:152	System.out.print is used
+src/rdfcompare/PatternExplorer.java:154	System.out.print is used
+src/rdfcompare/PatternExplorer.java:158	Avoid variables with short names like a
+src/rdfcompare/PatternExplorer.java:158	Avoid variables with short names like b
+src/rdfcompare/PatternExplorer.java:158	Parameter 'a' is not assigned and could be declared final
+src/rdfcompare/PatternExplorer.java:158	Parameter 'b' is not assigned and could be declared final
+src/rdfcompare/PatternExplorer.java:161	A method should have only one exit point, and that should be the last statement in the method
+src/rdfcompare/PatternExplorer.java:161	Avoid using if...else statements without curly braces
+src/rdfcompare/PatternExplorer.java:162	Avoid using if...else statements without curly braces
+src/rdfcompare/PatternExplorer.java:166	Avoid using implementation types like 'HashSet'; use the interface instead
+src/rdfcompare/PatternExplorer.java:166	Avoid using implementation types like 'HashSet'; use the interface instead
+src/rdfcompare/PatternExplorer.java:166	Avoid using implementation types like 'HashSet'; use the interface instead
+src/rdfcompare/PatternExplorer.java:166	Avoid using implementation types like 'HashSet'; use the interface instead
+src/rdfcompare/PatternExplorer.java:166	Method names should not contain underscores
+src/rdfcompare/PatternExplorer.java:172	Avoid unused local variables such as 'total_model_count'.
+src/rdfcompare/PatternExplorer.java:172	Found 'DD'-anomaly for variable 'total_model_count' (lines '172'-'189').
+src/rdfcompare/PatternExplorer.java:172	Found 'DU'-anomaly for variable 'total_model_count' (lines '172'-'207').
+src/rdfcompare/PatternExplorer.java:173	Avoid excessively long variable names like avg_intersect_size
+src/rdfcompare/PatternExplorer.java:173	Avoid unused local variables such as 'avg_intersect_size'.
+src/rdfcompare/PatternExplorer.java:173	Found 'DU'-anomaly for variable 'avg_intersect_size' (lines '173'-'207').
+src/rdfcompare/PatternExplorer.java:174	Found 'DU'-anomaly for variable 'total_intersect_size' (lines '174'-'207').
+src/rdfcompare/PatternExplorer.java:189	Found 'DD'-anomaly for variable 'total_model_count' (lines '189'-'189').
+src/rdfcompare/PatternExplorer.java:189	Found 'DU'-anomaly for variable 'total_model_count' (lines '189'-'207').
+src/rdfcompare/PatternExplorer.java:193	System.out.print is used
+src/rdfcompare/PatternExplorer.java:209	Method names should not contain underscores
+src/rdfcompare/PatternExplorer.java:214	Found 'DU'-anomaly for variable 'temp' (lines '214'-'260').
+src/rdfcompare/PatternExplorer.java:227	Ensure that resources like this Statement object are closed after use
+src/rdfcompare/PatternExplorer.java:231	Found 'DD'-anomaly for variable 'intVal' (lines '231'-'232').
+src/rdfcompare/PatternExplorer.java:233	Avoid instantiating Integer objects. Call Integer.valueOf() instead.
+src/rdfcompare/PatternExplorer.java:233	Avoid instantiating new objects inside loops
+src/rdfcompare/PatternExplorer.java:258	System.out.print is used
+src/rdfcompare/PatternExplorer.java:262	Avoid variables with short names like t
+src/rdfcompare/PatternExplorer.java:262	Consider replacing this Hashtable with the newer java.util.Map
+src/rdfcompare/PatternExplorer.java:264	Avoid variables with short names like l
+src/rdfcompare/PatternExplorer.java:271	Consider replacing this Hashtable with the newer java.util.Map
+src/rdfcompare/PatternExplorer.java:284	Method names should not contain underscores
+src/rdfcompare/PatternExplorer.java:290	Found 'DD'-anomaly for variable 'model_counter' (lines '290'-'294').
+src/rdfcompare/PatternExplorer.java:290	Found 'DU'-anomaly for variable 'model_counter' (lines '290'-'319').
+src/rdfcompare/PatternExplorer.java:298	Found 'DD'-anomaly for variable 'stmt_occurred' (lines '298'-'308').
+src/rdfcompare/PatternExplorer.java:301	Ensure that resources like this Statement object are closed after use
+src/rdfcompare/PatternExplorer.java:308	Found 'DD'-anomaly for variable 'stmt_occurred' (lines '308'-'308').
+src/rdfcompare/PatternExplorer.java:309	Avoid empty catch blocks
+src/rdfcompare/PatternExplorer.java:333	Found 'DD'-anomaly for variable 'master' (lines '333'-'341').
+src/rdfcompare/PatternExplorer.java:336	Found 'DD'-anomaly for variable 'temp1' (lines '336'-'336').
+src/rdfcompare/PatternExplorer.java:336	Found 'DU'-anomaly for variable 'temp1' (lines '336'-'352').
+src/rdfcompare/PatternExplorer.java:353	Avoid really long methods.
+src/rdfcompare/PatternExplorer.java:353	The method 'clusterize_the_model' has a Cyclomatic Complexity of 14.
+src/rdfcompare/PatternExplorer.java:363	Found 'DD'-anomaly for variable 'iso_morph_count' (lines '363'-'379').
+src/rdfcompare/PatternExplorer.java:364	Found 'DD'-anomaly for variable 'model_size' (lines '364'-'374').
+src/rdfcompare/PatternExplorer.java:366	Found 'DD'-anomaly for variable 'score1' (lines '366'-'383').
+src/rdfcompare/PatternExplorer.java:367	Found 'DD'-anomaly for variable 'score2' (lines '367'-'389').
+src/rdfcompare/PatternExplorer.java:369	Found 'DU'-anomaly for variable 'model1' (lines '369'-'453').
+src/rdfcompare/PatternExplorer.java:374	Found 'DD'-anomaly for variable 'model_size' (lines '374'-'374').
+src/rdfcompare/PatternExplorer.java:379	Found 'DD'-anomaly for variable 'iso_morph_count' (lines '379'-'379').
+src/rdfcompare/PatternExplorer.java:389	Found 'DD'-anomaly for variable 'score2' (lines '389'-'389').
+src/rdfcompare/PatternExplorer.java:400	Avoid instantiating Integer objects. Call Integer.valueOf() instead.
+src/rdfcompare/PatternExplorer.java:400	Avoid instantiating new objects inside loops
+src/rdfcompare/PatternExplorer.java:402	Found 'DU'-anomaly for variable 'existing' (lines '402'-'453').
+src/rdfcompare/PatternExplorer.java:406	Avoid instantiating Integer objects. Call Integer.valueOf() instead.
+src/rdfcompare/PatternExplorer.java:406	Avoid instantiating new objects inside loops
+src/rdfcompare/PatternExplorer.java:407	Avoid instantiating Integer objects. Call Integer.valueOf() instead.
+src/rdfcompare/PatternExplorer.java:407	Avoid instantiating new objects inside loops
+src/rdfcompare/PatternExplorer.java:415	Avoid instantiating Integer objects. Call Integer.valueOf() instead.
+src/rdfcompare/PatternExplorer.java:421	Avoid printStackTrace(); use a logger call instead.
+src/rdfcompare/PatternExplorer.java:433	Found 'DD'-anomaly for variable 'pattern_size_count' (lines '433'-'441').
+src/rdfcompare/PatternExplorer.java:434	Found 'DD'-anomaly for variable 'pattMap' (lines '434'-'435').
+src/rdfcompare/PatternExplorer.java:441	Found 'DD'-anomaly for variable 'pattern_size_count' (lines '441'-'441').
+src/rdfcompare/PatternExplorer.java:457	Document empty method
+src/rdfcompare/PatternExplorer.java:473	Found 'DD'-anomaly for variable 'completed' (lines '473'-'497').
+src/rdfcompare/PatternExplorer.java:486	Avoid using if statements without curly braces
+src/rdfcompare/PatternExplorer.java:487	Avoid using if statements without curly braces
+src/rdfcompare/PatternExplorer.java:497	Found 'DD'-anomaly for variable 'completed' (lines '497'-'497').
+src/rdfcompare/PatternExplorer.java:498	Do not explicitly trigger a garbage collection.
+src/rdfcompare/PatternExplorer.java:499	Avoid empty catch blocks
+src/rdfcompare/PatternExplorer.java:506	Avoid empty catch blocks
+src/rdfcompare/RDFComparer.java:5	Avoid unused imports such as 'com.hp.hpl.jena.graph.Graph'
+src/rdfcompare/RDFComparer.java:5	Avoid unused imports such as 'com.hp.hpl.jena.graph.Graph'
+src/rdfcompare/RDFComparer.java:13	Method names should not contain underscores
+src/rdfcompare/RDFComparer.java:13	Parameter 'file1' is not assigned and could be declared final
+src/rdfcompare/RDFComparer.java:13	Parameter 'file2' is not assigned and could be declared final
+src/rdfcompare/RDFComparer.java:19	Local variable 'model1' could be declared final
+src/rdfcompare/RDFComparer.java:20	Local variable 'model2' could be declared final
+src/rdfcompare/RDFComparer.java:25	Local variable 'subjects1' could be declared final
+src/rdfcompare/RDFComparer.java:26	Local variable 'subjects2' could be declared final
+src/rdfcompare/RDFComparer.java:28	Found 'DD'-anomaly for variable 'matched' (lines '28'-'42').
+src/rdfcompare/RDFComparer.java:28	Found 'DD'-anomaly for variable 'matched' (lines '28'-'59').
+src/rdfcompare/RDFComparer.java:29	Avoid unused local variables such as 'total'.
+src/rdfcompare/RDFComparer.java:29	Found 'DD'-anomaly for variable 'total' (lines '29'-'46').
+src/rdfcompare/RDFComparer.java:29	Found 'DD'-anomaly for variable 'total' (lines '29'-'63').
+src/rdfcompare/RDFComparer.java:29	Found 'DU'-anomaly for variable 'total' (lines '29'-'71').
+src/rdfcompare/RDFComparer.java:30	Found 'DD'-anomaly for variable 'explored' (lines '30'-'34').
+src/rdfcompare/RDFComparer.java:34	Found 'DD'-anomaly for variable 'explored' (lines '34'-'34').
+src/rdfcompare/RDFComparer.java:35	Found 'DD'-anomaly for variable 'myURI' (lines '35'-'35').
+src/rdfcompare/RDFComparer.java:35	Found 'DD'-anomaly for variable 'myURI' (lines '35'-'52').
+src/rdfcompare/RDFComparer.java:35	Found 'DU'-anomaly for variable 'myURI' (lines '35'-'71').
+src/rdfcompare/RDFComparer.java:35	Local variable 'myURI' could be declared final
+src/rdfcompare/RDFComparer.java:42	Found 'DD'-anomaly for variable 'matched' (lines '42'-'42').
+src/rdfcompare/RDFComparer.java:42	Found 'DD'-anomaly for variable 'matched' (lines '42'-'59').
+src/rdfcompare/RDFComparer.java:46	Found 'DD'-anomaly for variable 'total' (lines '46'-'46').
+src/rdfcompare/RDFComparer.java:46	Found 'DD'-anomaly for variable 'total' (lines '46'-'63').
+src/rdfcompare/RDFComparer.java:46	Found 'DU'-anomaly for variable 'total' (lines '46'-'71').
+src/rdfcompare/RDFComparer.java:49	Avoid using if statements without curly braces
+src/rdfcompare/RDFComparer.java:52	Found 'DD'-anomaly for variable 'myURI' (lines '52'-'52').
+src/rdfcompare/RDFComparer.java:52	Found 'DU'-anomaly for variable 'myURI' (lines '52'-'71').
+src/rdfcompare/RDFComparer.java:59	Found 'DD'-anomaly for variable 'matched' (lines '59'-'59').
+src/rdfcompare/RDFComparer.java:63	Found 'DD'-anomaly for variable 'total' (lines '63'-'63').
+src/rdfcompare/RDFComparer.java:63	Found 'DU'-anomaly for variable 'total' (lines '63'-'71').
+src/rdfcompare/RDFComparer.java:65	System.out.print is used
+src/rdfcompare/RDFComparer.java:66	System.out.print is used
+src/rdfcompare/RDFComparer.java:67	System.out.print is used
+src/rdfcompare/RDFComparer.java:69	System.out.print is used
+src/rdfcompare/RDFComparer.java:73	Method names should not contain underscores
+src/rdfcompare/RDFComparer.java:73	Parameter 'projDir' is not assigned and could be declared final
+src/rdfcompare/RDFComparer.java:94	Parameter 'args' is not assigned and could be declared final
+src/rdfcompare/RDFComparer.java:101	System.out.print is used
+src/rdfcompare/RDFIntersectTest.java:3	Avoid unused imports such as 'java.io.File'
+src/rdfcompare/RDFIntersectTest.java:3	Avoid unused imports such as 'java.io.File'
+src/rdfcompare/RDFIntersectTest.java:17	Method names should not contain underscores
+src/rdfcompare/RDFIntersectTest.java:17	Parameter 'mymodel' is not assigned and could be declared final
+src/rdfcompare/RDFIntersectTest.java:22	Method names should not contain underscores
+src/rdfcompare/RDFIntersectTest.java:27	Local variable 'rdf1' could be declared final
+src/rdfcompare/RDFIntersectTest.java:28	Local variable 'rdf2' could be declared final
+src/rdfcompare/RDFIntersectTest.java:29	Local variable 'model1' could be declared final
+src/rdfcompare/RDFIntersectTest.java:30	Local variable 'model2' could be declared final
+src/rdfcompare/RDFIntersectTest.java:36	Local variable 'intersectModel' could be declared final
+src/rdfcompare/RDFIntersectTest.java:40	System.out.print is used
+src/rdfcompare/RDFIntersectTest.java:43	System.out.print is used
+src/rdfcompare/RDFIntersectTest.java:47	System.out.print is used
+src/rdfcompare/RDFIntersectTest.java:56	System.out.print is used
+src/rdfcompare/RDFIntersectTest.java:57	Avoid printStackTrace(); use a logger call instead.
+src/rdfcompare/RDFIntersectTest.java:63	Parameter 'args' is not assigned and could be declared final
+src/rdfcompare/ThresholdManager.java:12	Method names should not contain underscores
+src/rdfcompare/ThresholdManager.java:12	Parameter 'classFolder' is not assigned and could be declared final
+src/rdfcompare/ThresholdManager.java:14	Avoid excessively long variable names like rdf_node_threshold
+src/rdfcompare/ThresholdManager.java:14	Local variable 'rdf_node_threshold' could be declared final
+src/rdfcompare/ThresholdManager.java:17	Local variable 'file' could be declared final
+src/rdfcompare/ThresholdManager.java:20	Local variable 'files' could be declared final
+src/rdfcompare/ThresholdManager.java:26	System.out.print is used
+src/rdfcompare/ThresholdManager.java:33	Parameter 'args' is not assigned and could be declared final
+src/rdfmaker/APIFiltration.java:19	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/rdfmaker/APIFiltration.java:19	Use explicit scoping instead of the default package private level
+src/rdfmaker/APIFiltration.java:20	Consider replacing this Hashtable with the newer java.util.Map
+src/rdfmaker/APIFiltration.java:20	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/rdfmaker/APIFiltration.java:20	Use explicit scoping instead of the default package private level
+src/rdfmaker/APIFiltration.java:21	Consider replacing this Hashtable with the newer java.util.Map
+src/rdfmaker/APIFiltration.java:21	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/rdfmaker/APIFiltration.java:21	Use explicit scoping instead of the default package private level
+src/rdfmaker/APIFiltration.java:22	Avoid using implementation types like 'HashSet'; use the interface instead
+src/rdfmaker/APIFiltration.java:22	Avoid using implementation types like 'HashSet'; use the interface instead
+src/rdfmaker/APIFiltration.java:22	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/rdfmaker/APIFiltration.java:22	Use explicit scoping instead of the default package private level
+src/rdfmaker/APIFiltration.java:23	Avoid using implementation types like 'HashSet'; use the interface instead
+src/rdfmaker/APIFiltration.java:23	Avoid using implementation types like 'HashSet'; use the interface instead
+src/rdfmaker/APIFiltration.java:23	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/rdfmaker/APIFiltration.java:23	Use explicit scoping instead of the default package private level
+src/rdfmaker/APIFiltration.java:32	Overridable method 'load_the_classes' called during object construction
+src/rdfmaker/APIFiltration.java:37	Method names should not contain underscores
+src/rdfmaker/APIFiltration.java:39	Local variable 'util_class_path' could be declared final
+src/rdfmaker/APIFiltration.java:42	Local variable 'file' could be declared final
+src/rdfmaker/APIFiltration.java:43	Local variable 'scanner' could be declared final
+src/rdfmaker/APIFiltration.java:44	Avoid unused local variables such as 'count'.
+src/rdfmaker/APIFiltration.java:44	Found 'DD'-anomaly for variable 'count' (lines '44'-'49').
+src/rdfmaker/APIFiltration.java:44	Found 'DU'-anomaly for variable 'count' (lines '44'-'63').
+src/rdfmaker/APIFiltration.java:49	Found 'DD'-anomaly for variable 'count' (lines '49'-'49').
+src/rdfmaker/APIFiltration.java:49	Found 'DU'-anomaly for variable 'count' (lines '49'-'63').
+src/rdfmaker/APIFiltration.java:60	System.out.print is used
+src/rdfmaker/APIFiltration.java:61	Avoid printStackTrace(); use a logger call instead.
+src/rdfmaker/APIFiltration.java:65	Avoid using implementation types like 'HashSet'; use the interface instead
+src/rdfmaker/APIFiltration.java:65	Avoid using implementation types like 'HashSet'; use the interface instead
+src/rdfmaker/APIFiltration.java:65	Avoid using implementation types like 'HashSet'; use the interface instead
+src/rdfmaker/APIFiltration.java:65	Avoid using implementation types like 'HashSet'; use the interface instead
+src/rdfmaker/APIFiltration.java:65	Method names should not contain underscores
+src/rdfmaker/APIFiltration.java:65	Parameter 'methodBody' is not assigned and could be declared final
+src/rdfmaker/APIFiltration.java:65	Parameter 'set' is not assigned and could be declared final
+src/rdfmaker/APIFiltration.java:68	Avoid unused local variables such as 'used'.
+src/rdfmaker/APIFiltration.java:68	Found 'DU'-anomaly for variable 'used' (lines '68'-'87').
+src/rdfmaker/APIFiltration.java:68	Local variable 'used' could be declared final
+src/rdfmaker/APIFiltration.java:71	Local variable 'tokenizer' could be declared final
+src/rdfmaker/APIFiltration.java:78	Avoid using if statements without curly braces
+src/rdfmaker/APIFiltration.java:78	These nested if statements could be combined
+src/rdfmaker/APIFiltration.java:83	System.out.print is used
+src/rdfmaker/APIFiltration.java:90	Method names should not contain underscores
+src/rdfmaker/APIFiltration.java:90	Parameter 'srcFile' is not assigned and could be declared final
+src/rdfmaker/APIFiltration.java:94	Found 'DD'-anomaly for variable 'temp_class' (lines '94'-'106').
+src/rdfmaker/APIFiltration.java:95	Found 'DD'-anomaly for variable 'set' (lines '95'-'103').
+src/rdfmaker/APIFiltration.java:96	Avoid instantiating String objects; this is usually unnecessary.
+src/rdfmaker/APIFiltration.java:100	Prefer StringBuffer over += for concatenating strings
+src/rdfmaker/APIFiltration.java:112	Avoid instantiating Integer objects. Call Integer.valueOf() instead.
+src/rdfmaker/APIFiltration.java:112	Avoid instantiating new objects inside loops
+src/rdfmaker/APIFiltration.java:116	Prefer StringBuffer over += for concatenating strings
+src/rdfmaker/APIFiltration.java:123	Avoid empty catch blocks
+src/rdfmaker/APIFiltration.java:128	Method names should not contain underscores
+src/rdfmaker/APIFiltration.java:128	Parameter 'projDir' is not assigned and could be declared final
+src/rdfmaker/APIFiltration.java:143	The String literal ".java" appears 4 times in this file; the first occurrence is on line 143
+src/rdfmaker/APIFiltration.java:152	Avoid empty catch blocks
+src/rdfmaker/APIFiltration.java:158	Method names should not contain underscores
+src/rdfmaker/APIFiltration.java:158	Parameter 'APIClass' is not assigned and could be declared final
+src/rdfmaker/APIFiltration.java:171	Avoid using if statements without curly braces
+src/rdfmaker/APIFiltration.java:174	Avoid using if statements without curly braces
+src/rdfmaker/APIFiltration.java:179	Found 'DD'-anomaly for variable 'copied' (lines '179'-'212').
+src/rdfmaker/APIFiltration.java:183	Avoid instantiating new objects inside loops
+src/rdfmaker/APIFiltration.java:193	Avoid instantiating new objects inside loops
+src/rdfmaker/APIFiltration.java:195	Avoid empty if statements
+src/rdfmaker/APIFiltration.java:202	Avoid instantiating new objects inside loops
+src/rdfmaker/APIFiltration.java:203	System.out.print is used
+src/rdfmaker/APIFiltration.java:204	Avoid instantiating new objects inside loops
+src/rdfmaker/APIFiltration.java:207	Avoid empty if statements
+src/rdfmaker/APIFiltration.java:212	Found 'DD'-anomaly for variable 'copied' (lines '212'-'212').
+src/rdfmaker/APIFiltration.java:215	System.out.print is used
+src/rdfmaker/APIFiltration.java:218	System.out.print is used
+src/rdfmaker/APIFiltration.java:224	Avoid really long methods.
+src/rdfmaker/APIFiltration.java:234	Found 'DD'-anomaly for variable 'total_api_found' (lines '234'-'317').
+src/rdfmaker/APIFiltration.java:238	Found 'DD'-anomaly for variable 'api_class_found' (lines '238'-'257').
+src/rdfmaker/APIFiltration.java:270	Assigning an Object to null is a code smell.  Consider refactoring.
+src/rdfmaker/APIFiltration.java:270	Found 'DD'-anomaly for variable 'model' (lines '270'-'244').
+src/rdfmaker/APIFiltration.java:270	Found 'DU'-anomaly for variable 'model' (lines '270'-'327').
+src/rdfmaker/APIFiltration.java:277	An empty statement (semicolon) not part of a loop
+src/rdfmaker/APIFiltration.java:317	Found 'DD'-anomaly for variable 'total_api_found' (lines '317'-'317').
+src/rdfmaker/APIFiltration.java:325	Avoid printStackTrace(); use a logger call instead.
+src/rdfmaker/APIFiltration.java:334	Avoid unused local variables such as 'projDir'.
+src/rdfmaker/APIFiltration.java:334	Found 'DU'-anomaly for variable 'projDir' (lines '334'-'362').
+src/rdfmaker/APIFiltration.java:335	Avoid unused local variables such as 'targetDir'.
+src/rdfmaker/APIFiltration.java:335	Found 'DU'-anomaly for variable 'targetDir' (lines '335'-'362').
+src/rdfmaker/APIFiltration.java:344	Found 'DD'-anomaly for variable 'gt_than_5' (lines '344'-'352').
+src/rdfmaker/APIFiltration.java:352	Found 'DD'-anomaly for variable 'gt_than_5' (lines '352'-'352').
+src/rdfmaker/APIStatCounter.java:15	Use explicit scoping instead of the default package private level
+src/rdfmaker/APIStatCounter.java:16	Avoid using implementation types like 'HashSet'; use the interface instead
+src/rdfmaker/APIStatCounter.java:16	Avoid using implementation types like 'HashSet'; use the interface instead
+src/rdfmaker/APIStatCounter.java:16	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/rdfmaker/APIStatCounter.java:16	Use explicit scoping instead of the default package private level
+src/rdfmaker/APIStatCounter.java:18	Avoid using implementation types like 'HashSet'; use the interface instead
+src/rdfmaker/APIStatCounter.java:18	Avoid using implementation types like 'HashSet'; use the interface instead
+src/rdfmaker/APIStatCounter.java:18	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/rdfmaker/APIStatCounter.java:18	Use explicit scoping instead of the default package private level
+src/rdfmaker/APIStatCounter.java:21	Avoid unnecessary constructors - the compiler will generate these for you
+src/rdfmaker/APIStatCounter.java:21	Document empty constructor
+src/rdfmaker/APIStatCounter.java:27	Method names should not contain underscores
+src/rdfmaker/APIStatCounter.java:29	Local variable 'util_class_path' could be declared final
+src/rdfmaker/APIStatCounter.java:32	Local variable 'file' could be declared final
+src/rdfmaker/APIStatCounter.java:33	Local variable 'scanner' could be declared final
+src/rdfmaker/APIStatCounter.java:34	Avoid unused local variables such as 'count'.
+src/rdfmaker/APIStatCounter.java:34	Found 'DD'-anomaly for variable 'count' (lines '34'-'39').
+src/rdfmaker/APIStatCounter.java:34	Found 'DU'-anomaly for variable 'count' (lines '34'-'55').
+src/rdfmaker/APIStatCounter.java:39	Found 'DD'-anomaly for variable 'count' (lines '39'-'39').
+src/rdfmaker/APIStatCounter.java:39	Found 'DU'-anomaly for variable 'count' (lines '39'-'55').
+src/rdfmaker/APIStatCounter.java:52	System.out.print is used
+src/rdfmaker/APIStatCounter.java:53	Avoid printStackTrace(); use a logger call instead.
+src/rdfmaker/APIStatCounter.java:60	Parameter 'args' is not assigned and could be declared final
+src/rdfmaker/FileNumberManager.java:3	Each class should declare at least one constructor
+src/rdfmaker/FileNumberManager.java:4	Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).
+src/rdfmaker/MethodRDFMaker.java:16	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/rdfmaker/MethodRDFMaker.java:16	Use explicit scoping instead of the default package private level
+src/rdfmaker/MethodRDFMaker.java:16	Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).
+src/rdfmaker/MethodRDFMaker.java:17	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/rdfmaker/MethodRDFMaker.java:17	Use explicit scoping instead of the default package private level
+src/rdfmaker/MethodRDFMaker.java:17	Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).
+src/rdfmaker/MethodRDFMaker.java:18	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/rdfmaker/MethodRDFMaker.java:18	Use explicit scoping instead of the default package private level
+src/rdfmaker/MethodRDFMaker.java:21	Method names should not contain underscores
+src/rdfmaker/MethodRDFMaker.java:21	Parameter 'fileName' is not assigned and could be declared final
+src/rdfmaker/MethodRDFMaker.java:21	Parameter 'outputDir' is not assigned and could be declared final
+src/rdfmaker/MethodRDFMaker.java:24	Avoid variables with short names like in
+src/rdfmaker/MethodRDFMaker.java:24	Found 'DD'-anomaly for variable 'in' (lines '24'-'30').
+src/rdfmaker/MethodRDFMaker.java:26	Avoid variables with short names like cu
+src/rdfmaker/MethodRDFMaker.java:26	Found 'DD'-anomaly for variable 'cu' (lines '26'-'31').
+src/rdfmaker/MethodRDFMaker.java:29	System.out.print is used
+src/rdfmaker/MethodRDFMaker.java:32	Local variable 'visitor' could be declared final
+src/rdfmaker/MethodRDFMaker.java:39	System.out.print is used
+src/rdfmaker/MethodRDFMaker.java:43	Method names should not contain underscores
+src/rdfmaker/MethodRDFMaker.java:43	Parameter 'outputDir' is not assigned and could be declared final
+src/rdfmaker/MethodRDFMaker.java:43	Parameter 'projDir' is not assigned and could be declared final
+src/rdfmaker/MethodRDFMaker.java:49	Local variable 'fileDir' could be declared final
+src/rdfmaker/MethodRDFMaker.java:52	Local variable 'moreFiles' could be declared final
+src/rdfmaker/MethodRDFMaker.java:55	Local variable 'myFile' could be declared final
+src/rdfmaker/MethodRDFMaker.java:58	Avoid unused local variables such as 'mycount'.
+src/rdfmaker/MethodRDFMaker.java:58	Found 'DD'-anomaly for variable 'mycount' (lines '58'-'58').
+src/rdfmaker/MethodRDFMaker.java:58	Found 'DU'-anomaly for variable 'mycount' (lines '58'-'80').
+src/rdfmaker/MethodRDFMaker.java:58	Local variable 'mycount' could be declared final
+src/rdfmaker/MethodRDFMaker.java:78	System.out.print is used
+src/rdfmaker/MethodRDFMaker.java:82	Parameter 'args' is not assigned and could be declared final
+src/rdfmaker/MethodRDFMaker.java:84	Avoid unused local variables such as 'projDir'.
+src/rdfmaker/MethodRDFMaker.java:84	Found 'DU'-anomaly for variable 'projDir' (lines '84'-'94').
+src/rdfmaker/MethodRDFMaker.java:92	System.out.print is used
+src/rdfmaker/MethodRDFMaker.java:93	System.out.print is used
+src/rdfmaker/MethodVisitor.java:1	A high number of imports can indicate a high degree of coupling within an object.
+src/rdfmaker/MethodVisitor.java:5	Avoid unused imports such as 'japa.parser.ast.Comment'
+src/rdfmaker/MethodVisitor.java:5	Avoid unused imports such as 'japa.parser.ast.Comment'
+src/rdfmaker/MethodVisitor.java:13	Avoid unused imports such as 'japa.parser.ast.expr.NameExpr'
+src/rdfmaker/MethodVisitor.java:13	Avoid unused imports such as 'japa.parser.ast.expr.NameExpr'
+src/rdfmaker/MethodVisitor.java:15	Avoid unused imports such as 'japa.parser.ast.expr.StringLiteralExpr'
+src/rdfmaker/MethodVisitor.java:15	Avoid unused imports such as 'japa.parser.ast.expr.StringLiteralExpr'
+src/rdfmaker/MethodVisitor.java:29	Avoid unused imports such as 'com.hp.hpl.jena.graph.query.Expression.Variable'
+src/rdfmaker/MethodVisitor.java:29	Avoid unused imports such as 'com.hp.hpl.jena.graph.query.Expression.Variable'
+src/rdfmaker/MethodVisitor.java:36	Avoid unused imports such as 'com.hp.hpl.jena.vocabulary.RDF'
+src/rdfmaker/MethodVisitor.java:36	Avoid unused imports such as 'com.hp.hpl.jena.vocabulary.RDF'
+src/rdfmaker/MethodVisitor.java:41	The class 'MethodVisitor' has a Cyclomatic Complexity of 5 (Highest = 12).
+src/rdfmaker/MethodVisitor.java:41	This class has too many methods, consider refactoring it.
+src/rdfmaker/MethodVisitor.java:41	Too many fields
+src/rdfmaker/MethodVisitor.java:44	Avoid excessively long variable names like project_file_counter
+src/rdfmaker/MethodVisitor.java:44	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/rdfmaker/MethodVisitor.java:44	Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).
+src/rdfmaker/MethodVisitor.java:47	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/rdfmaker/MethodVisitor.java:47	Use explicit scoping instead of the default package private level
+src/rdfmaker/MethodVisitor.java:48	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/rdfmaker/MethodVisitor.java:48	Use explicit scoping instead of the default package private level
+src/rdfmaker/MethodVisitor.java:49	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/rdfmaker/MethodVisitor.java:49	Use explicit scoping instead of the default package private level
+src/rdfmaker/MethodVisitor.java:49	Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).
+src/rdfmaker/MethodVisitor.java:50	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/rdfmaker/MethodVisitor.java:50	Use explicit scoping instead of the default package private level
+src/rdfmaker/MethodVisitor.java:50	Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).
+src/rdfmaker/MethodVisitor.java:51	Use explicit scoping instead of the default package private level
+src/rdfmaker/MethodVisitor.java:52	Avoid variables with short names like ns
+src/rdfmaker/MethodVisitor.java:86	Avoid unnecessary constructors - the compiler will generate these for you
+src/rdfmaker/MethodVisitor.java:86	It is a good practice to call super() in a constructor
+src/rdfmaker/MethodVisitor.java:91	Method names should not contain underscores
+src/rdfmaker/MethodVisitor.java:91	Parameter 'commentText' is not assigned and could be declared final
+src/rdfmaker/MethodVisitor.java:93	Local variable 'comment' could be declared final
+src/rdfmaker/MethodVisitor.java:94	System.out.print is used
+src/rdfmaker/MethodVisitor.java:97	Method names should not contain underscores
+src/rdfmaker/MethodVisitor.java:97	Parameter 'block' is not assigned and could be declared final
+src/rdfmaker/MethodVisitor.java:101	Local variable 'stmts' could be declared final
+src/rdfmaker/MethodVisitor.java:104	Local variable 'lines' could be declared final
+src/rdfmaker/MethodVisitor.java:113	Avoid variables with short names like n
+src/rdfmaker/MethodVisitor.java:113	Parameter 'arg' is not assigned and could be declared final
+src/rdfmaker/MethodVisitor.java:113	Parameter 'n' is not assigned and could be declared final
+src/rdfmaker/MethodVisitor.java:117	Local variable 'rdfDir' could be declared final
+src/rdfmaker/MethodVisitor.java:118	Local variable 'javaDir' could be declared final
+src/rdfmaker/MethodVisitor.java:121	System.out.print is used
+src/rdfmaker/MethodVisitor.java:123	Avoid unused local variables such as 'rdf_file_name'.
+src/rdfmaker/MethodVisitor.java:123	Found 'DU'-anomaly for variable 'rdf_file_name' (lines '123'-'172').
+src/rdfmaker/MethodVisitor.java:124	Found 'DU'-anomaly for variable 'java_file_name' (lines '124'-'172').
+src/rdfmaker/MethodVisitor.java:126	System.out.print is used
+src/rdfmaker/MethodVisitor.java:146	Avoid unused local variables such as 'block_line_count'.
+src/rdfmaker/MethodVisitor.java:146	Found 'DU'-anomaly for variable 'block_line_count' (lines '146'-'172').
+src/rdfmaker/MethodVisitor.java:148	Do not use if statements that are always true or always false
+src/rdfmaker/MethodVisitor.java:150	Avoid unused local variables such as 'javafile'.
+src/rdfmaker/MethodVisitor.java:150	Found 'DU'-anomaly for variable 'javafile' (lines '150'-'172').
+src/rdfmaker/MethodVisitor.java:161	Assigning an Object to null is a code smell.  Consider refactoring.
+src/rdfmaker/MethodVisitor.java:166	Avoid empty catch blocks
+src/rdfmaker/MethodVisitor.java:169	System.out.print is used
+src/rdfmaker/MethodVisitor.java:170	Avoid empty catch blocks
+src/rdfmaker/MethodVisitor.java:174	Avoid really long methods.
+src/rdfmaker/MethodVisitor.java:174	Method names should not contain underscores
+src/rdfmaker/MethodVisitor.java:174	Parameter 'block' is not assigned and could be declared final
+src/rdfmaker/MethodVisitor.java:174	The method 'explore_the_block' has a Cyclomatic Complexity of 12.
+src/rdfmaker/MethodVisitor.java:174	The method explore_the_block() has an NPath complexity of 258
+src/rdfmaker/MethodVisitor.java:185	Avoid variables with short names like b
+src/rdfmaker/MethodVisitor.java:195	Avoid instantiating new objects inside loops
+src/rdfmaker/MethodVisitor.java:200	Avoid variables with short names like b
+src/rdfmaker/MethodVisitor.java:209	Avoid instantiating new objects inside loops
+src/rdfmaker/MethodVisitor.java:214	Avoid variables with short names like b
+src/rdfmaker/MethodVisitor.java:223	Avoid instantiating new objects inside loops
+src/rdfmaker/MethodVisitor.java:236	Avoid instantiating new objects inside loops
+src/rdfmaker/MethodVisitor.java:250	Avoid instantiating new objects inside loops
+src/rdfmaker/MethodVisitor.java:267	Avoid empty catch blocks
+src/rdfmaker/MethodVisitor.java:278	Avoid empty catch blocks
+src/rdfmaker/MethodVisitor.java:282	Method names should not contain underscores
+src/rdfmaker/MethodVisitor.java:300	System.out.print is used
+src/rdfmaker/MethodVisitor.java:303	Avoid empty catch blocks
+src/rdfmaker/MethodVisitor.java:307	Method names should not contain underscores
+src/rdfmaker/MethodVisitor.java:309	Found 'DD'-anomaly for variable 'targetResource' (lines '309'-'316').
+src/rdfmaker/MethodVisitor.java:328	Found 'DD'-anomaly for variable 'targetResource' (lines '328'-'341').
+src/rdfmaker/MethodVisitor.java:331	Avoid excessively long variable names like constructorProperty
+src/rdfmaker/MethodVisitor.java:331	Found 'DU'-anomaly for variable 'constructorProperty' (lines '331'-'350').
+src/rdfmaker/MethodVisitor.java:333	Found 'DU'-anomaly for variable 'initiatedProperty' (lines '333'-'350').
+src/rdfmaker/MethodVisitor.java:339	These nested if statements could be combined
+src/rdfmaker/MethodVisitor.java:354	Found 'DD'-anomaly for variable 'targetResource' (lines '354'-'362').
+src/rdfmaker/MethodVisitor.java:374	Found 'DD'-anomaly for variable 'targetResource' (lines '374'-'383').
+src/rdfmaker/MethodVisitor.java:397	Assigning an Object to null is a code smell.  Consider refactoring.
+src/rdfmaker/MethodVisitor.java:410	Avoid excessively long variable names like constructorResource
+src/rdfmaker/MethodVisitor.java:415	Avoid if (x != y) ..; else ..;
+src/rdfmaker/MethodVisitor.java:420	Avoid empty if statements
+src/rdfmaker/MethodVisitor.java:426	Avoid using if statements without curly braces
+src/rdfmaker/MethodVisitor.java:501	Found 'DD'-anomaly for variable 'scopeResource' (lines '501'-'503').
+src/rdfmaker/MethodVisitor.java:510	Found 'DD'-anomaly for variable 'scopeValue' (lines '510'-'512').
+src/rdfmaker/MethodVisitor2.java:1	A high number of imports can indicate a high degree of coupling within an object.
+src/rdfmaker/MethodVisitor2.java:3	Avoid unused imports such as 'java.security.acl.LastOwnerException'
+src/rdfmaker/MethodVisitor2.java:3	Avoid unused imports such as 'java.security.acl.LastOwnerException'
+src/rdfmaker/MethodVisitor2.java:9	Avoid unused imports such as 'japa.parser.ast.Comment'
+src/rdfmaker/MethodVisitor2.java:9	Avoid unused imports such as 'japa.parser.ast.Comment'
+src/rdfmaker/MethodVisitor2.java:11	Avoid unused imports such as 'japa.parser.ast.body.BodyDeclaration'
+src/rdfmaker/MethodVisitor2.java:11	Avoid unused imports such as 'japa.parser.ast.body.BodyDeclaration'
+src/rdfmaker/MethodVisitor2.java:15	Avoid unused imports such as 'japa.parser.ast.body.TypeDeclaration'
+src/rdfmaker/MethodVisitor2.java:15	Avoid unused imports such as 'japa.parser.ast.body.TypeDeclaration'
+src/rdfmaker/MethodVisitor2.java:23	Avoid unused imports such as 'japa.parser.ast.expr.ClassExpr'
+src/rdfmaker/MethodVisitor2.java:23	Avoid unused imports such as 'japa.parser.ast.expr.ClassExpr'
+src/rdfmaker/MethodVisitor2.java:60	Avoid really long classes.
+src/rdfmaker/MethodVisitor2.java:60	The class 'MethodVisitor2' has a Cyclomatic Complexity of 6 (Highest = 14).
+src/rdfmaker/MethodVisitor2.java:60	This class has too many methods, consider refactoring it.
+src/rdfmaker/MethodVisitor2.java:60	Too many fields
+src/rdfmaker/MethodVisitor2.java:62	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/rdfmaker/MethodVisitor2.java:62	Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).
+src/rdfmaker/MethodVisitor2.java:63	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/rdfmaker/MethodVisitor2.java:63	Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).
+src/rdfmaker/MethodVisitor2.java:64	Avoid excessively long variable names like project_file_counter
+src/rdfmaker/MethodVisitor2.java:64	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/rdfmaker/MethodVisitor2.java:64	Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).
+src/rdfmaker/MethodVisitor2.java:65	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/rdfmaker/MethodVisitor2.java:65	Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).
+src/rdfmaker/MethodVisitor2.java:66	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/rdfmaker/MethodVisitor2.java:69	Use explicit scoping instead of the default package private level
+src/rdfmaker/MethodVisitor2.java:70	Use explicit scoping instead of the default package private level
+src/rdfmaker/MethodVisitor2.java:71	Use explicit scoping instead of the default package private level
+src/rdfmaker/MethodVisitor2.java:72	Use explicit scoping instead of the default package private level
+src/rdfmaker/MethodVisitor2.java:73	Use explicit scoping instead of the default package private level
+src/rdfmaker/MethodVisitor2.java:76	Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).
+src/rdfmaker/MethodVisitor2.java:79	Avoid variables with short names like ns
+src/rdfmaker/MethodVisitor2.java:122	Avoid using implementation types like 'HashSet'; use the interface instead
+src/rdfmaker/MethodVisitor2.java:122	Avoid using implementation types like 'HashSet'; use the interface instead
+src/rdfmaker/MethodVisitor2.java:124	Avoid using implementation types like 'HashSet'; use the interface instead
+src/rdfmaker/MethodVisitor2.java:124	Avoid using implementation types like 'HashSet'; use the interface instead
+src/rdfmaker/MethodVisitor2.java:134	It is a good practice to call super() in a constructor
+src/rdfmaker/MethodVisitor2.java:134	Parameter 'currFileNumber' is not assigned and could be declared final
+src/rdfmaker/MethodVisitor2.java:134	Parameter 'projectDir' is not assigned and could be declared final
+src/rdfmaker/MethodVisitor2.java:140	Overridable method 'load_the_classes' called during object construction
+src/rdfmaker/MethodVisitor2.java:152	Method names should not contain underscores
+src/rdfmaker/MethodVisitor2.java:154	Local variable 'util_class_path' could be declared final
+src/rdfmaker/MethodVisitor2.java:157	Local variable 'file' could be declared final
+src/rdfmaker/MethodVisitor2.java:158	Local variable 'scanner' could be declared final
+src/rdfmaker/MethodVisitor2.java:159	Avoid unused local variables such as 'count'.
+src/rdfmaker/MethodVisitor2.java:159	Found 'DD'-anomaly for variable 'count' (lines '159'-'164').
+src/rdfmaker/MethodVisitor2.java:159	Found 'DU'-anomaly for variable 'count' (lines '159'-'179').
+src/rdfmaker/MethodVisitor2.java:164	Found 'DD'-anomaly for variable 'count' (lines '164'-'164').
+src/rdfmaker/MethodVisitor2.java:164	Found 'DU'-anomaly for variable 'count' (lines '164'-'179').
+src/rdfmaker/MethodVisitor2.java:176	System.out.print is used
+src/rdfmaker/MethodVisitor2.java:177	Avoid printStackTrace(); use a logger call instead.
+src/rdfmaker/MethodVisitor2.java:181	Method names should not contain underscores
+src/rdfmaker/MethodVisitor2.java:181	Parameter 'commentText' is not assigned and could be declared final
+src/rdfmaker/MethodVisitor2.java:183	Local variable 'comment' could be declared final
+src/rdfmaker/MethodVisitor2.java:184	System.out.print is used
+src/rdfmaker/MethodVisitor2.java:188	Method names should not contain underscores
+src/rdfmaker/MethodVisitor2.java:188	Parameter 'block' is not assigned and could be declared final
+src/rdfmaker/MethodVisitor2.java:192	Local variable 'stmts' could be declared final
+src/rdfmaker/MethodVisitor2.java:202	Method names should not contain underscores
+src/rdfmaker/MethodVisitor2.java:202	Parameter 'methodBody' is not assigned and could be declared final
+src/rdfmaker/MethodVisitor2.java:205	Found 'DD'-anomaly for variable 'used' (lines '205'-'214').
+src/rdfmaker/MethodVisitor2.java:219	System.out.print is used
+src/rdfmaker/MethodVisitor2.java:225	Avoid variables with short names like n
+src/rdfmaker/MethodVisitor2.java:239	System.out.print is used
+src/rdfmaker/MethodVisitor2.java:240	System.out.print is used
+src/rdfmaker/MethodVisitor2.java:242	Found 'DU'-anomaly for variable 'rdf_file_name' (lines '242'-'315').
+src/rdfmaker/MethodVisitor2.java:243	Found 'DU'-anomaly for variable 'java_file_name' (lines '243'-'315').
+src/rdfmaker/MethodVisitor2.java:244	The String literal "==============================" appears 4 times in this file; the first occurrence is on line 244
+src/rdfmaker/MethodVisitor2.java:247	Avoid using if statements without curly braces
+src/rdfmaker/MethodVisitor2.java:279	Avoid unused local variables such as 'javafile'.
+src/rdfmaker/MethodVisitor2.java:279	Found 'DU'-anomaly for variable 'javafile' (lines '279'-'315').
+src/rdfmaker/MethodVisitor2.java:285	Avoid unused local variables such as 'rdffile'.
+src/rdfmaker/MethodVisitor2.java:285	Found 'DU'-anomaly for variable 'rdffile' (lines '285'-'315').
+src/rdfmaker/MethodVisitor2.java:294	Assigning an Object to null is a code smell.  Consider refactoring.
+src/rdfmaker/MethodVisitor2.java:313	Avoid printStackTrace(); use a logger call instead.
+src/rdfmaker/MethodVisitor2.java:317	Avoid variables with short names like n
+src/rdfmaker/MethodVisitor2.java:333	Found 'DU'-anomaly for variable 'rdf_file_name' (lines '333'-'404').
+src/rdfmaker/MethodVisitor2.java:334	Found 'DU'-anomaly for variable 'java_file_name' (lines '334'-'404').
+src/rdfmaker/MethodVisitor2.java:339	Avoid using if statements without curly braces
+src/rdfmaker/MethodVisitor2.java:372	Avoid unused local variables such as 'javafile'.
+src/rdfmaker/MethodVisitor2.java:372	Found 'DU'-anomaly for variable 'javafile' (lines '372'-'404').
+src/rdfmaker/MethodVisitor2.java:378	Avoid unused local variables such as 'rdffile'.
+src/rdfmaker/MethodVisitor2.java:378	Found 'DU'-anomaly for variable 'rdffile' (lines '378'-'404').
+src/rdfmaker/MethodVisitor2.java:407	Method names should not contain underscores
+src/rdfmaker/MethodVisitor2.java:411	Avoid using if statements without curly braces
+src/rdfmaker/MethodVisitor2.java:411	Substitute calls to size() == 0 (or size() != 0) with calls to isEmpty()
+src/rdfmaker/MethodVisitor2.java:416	Found 'DD'-anomaly for variable 'varID' (lines '416'-'416').
+src/rdfmaker/MethodVisitor2.java:416	Found 'DU'-anomaly for variable 'varID' (lines '416'-'431').
+src/rdfmaker/MethodVisitor2.java:422	The String literal "Class" appears 4 times in this file; the first occurrence is on line 422
+src/rdfmaker/MethodVisitor2.java:423	Avoid using if statements without curly braces
+src/rdfmaker/MethodVisitor2.java:425	Do not add empty strings
+src/rdfmaker/MethodVisitor2.java:433	Avoid really long methods.
+src/rdfmaker/MethodVisitor2.java:433	The method 'explore_the_block' has a Cyclomatic Complexity of 12.
+src/rdfmaker/MethodVisitor2.java:433	The method explore_the_block() has an NPath complexity of 258
+src/rdfmaker/MethodVisitor2.java:443	The String literal "start" appears 8 times in this file; the first occurrence is on line 443
+src/rdfmaker/MethodVisitor2.java:445	Avoid variables with short names like b
+src/rdfmaker/MethodVisitor2.java:448	The String literal "end" appears 8 times in this file; the first occurrence is on line 448
+src/rdfmaker/MethodVisitor2.java:463	Avoid variables with short names like b
+src/rdfmaker/MethodVisitor2.java:543	Avoid empty catch blocks
+src/rdfmaker/MethodVisitor2.java:564	Assigning an Object to null is a code smell.  Consider refactoring.
+src/rdfmaker/MethodVisitor2.java:565	Assigning an Object to null is a code smell.  Consider refactoring.
+src/rdfmaker/MethodVisitor2.java:566	Assigning an Object to null is a code smell.  Consider refactoring.
+src/rdfmaker/MethodVisitor2.java:576	Deeply nested if..then statements are hard to read
+src/rdfmaker/MethodVisitor2.java:582	Deeply nested if..then statements are hard to read
+src/rdfmaker/MethodVisitor2.java:588	Deeply nested if..then statements are hard to read
+src/rdfmaker/MethodVisitor2.java:596	Avoid empty catch blocks
+src/rdfmaker/MethodVisitor2.java:610	Avoid using if statements without curly braces
+src/rdfmaker/MethodVisitor2.java:611	Do not add empty strings
+src/rdfmaker/MethodVisitor2.java:658	The method 'explore_the_expression_stmt' has a Cyclomatic Complexity of 14.
+src/rdfmaker/MethodVisitor2.java:658	The method explore_the_expression_stmt() has an NPath complexity of 332
+src/rdfmaker/MethodVisitor2.java:664	Found 'DD'-anomaly for variable 'already_found' (lines '664'-'668').
+src/rdfmaker/MethodVisitor2.java:664	Found 'DD'-anomaly for variable 'already_found' (lines '664'-'671').
+src/rdfmaker/MethodVisitor2.java:664	Found 'DD'-anomaly for variable 'already_found' (lines '664'-'674').
+src/rdfmaker/MethodVisitor2.java:664	Found 'DD'-anomaly for variable 'already_found' (lines '664'-'677').
+src/rdfmaker/MethodVisitor2.java:664	Found 'DD'-anomaly for variable 'already_found' (lines '664'-'683').
+src/rdfmaker/MethodVisitor2.java:700	Avoid empty catch blocks
+src/rdfmaker/MethodVisitor2.java:703	Avoid empty catch blocks
+src/rdfmaker/MethodVisitor2.java:732	Avoid empty catch blocks
+src/rdfmaker/MethodVisitor2.java:742	Found 'DD'-anomaly for variable 'targetResource' (lines '742'-'749').
+src/rdfmaker/MethodVisitor2.java:761	Found 'DD'-anomaly for variable 'targetResource' (lines '761'-'774').
+src/rdfmaker/MethodVisitor2.java:764	Avoid excessively long variable names like constructorProperty
+src/rdfmaker/MethodVisitor2.java:764	Found 'DU'-anomaly for variable 'constructorProperty' (lines '764'-'783').
+src/rdfmaker/MethodVisitor2.java:766	Found 'DU'-anomaly for variable 'initiatedProperty' (lines '766'-'783').
+src/rdfmaker/MethodVisitor2.java:772	These nested if statements could be combined
+src/rdfmaker/MethodVisitor2.java:788	Found 'DD'-anomaly for variable 'targetResource' (lines '788'-'794').
+src/rdfmaker/MethodVisitor2.java:803	Found 'DD'-anomaly for variable 'targetResource' (lines '803'-'811').
+src/rdfmaker/MethodVisitor2.java:826	Found 'DD'-anomaly for variable 'targetResource' (lines '826'-'832').
+src/rdfmaker/MethodVisitor2.java:846	Assigning an Object to null is a code smell.  Consider refactoring.
+src/rdfmaker/MethodVisitor2.java:856	The method 'visit' has a Cyclomatic Complexity of 12.
+src/rdfmaker/MethodVisitor2.java:865	Avoid excessively long variable names like constructorResource
+src/rdfmaker/MethodVisitor2.java:872	Do not add empty strings
+src/rdfmaker/MethodVisitor2.java:874	Avoid if (x != y) ..; else ..;
+src/rdfmaker/MethodVisitor2.java:879	Avoid empty if statements
+src/rdfmaker/MethodVisitor2.java:894	Avoid instantiating new objects inside loops
+src/rdfmaker/MethodVisitor2.java:903	Avoid instantiating new objects inside loops
+src/rdfmaker/MethodVisitor2.java:912	Avoid instantiating new objects inside loops
+src/rdfmaker/MethodVisitor2.java:916	Avoid if (x != y) ..; else ..;
+src/rdfmaker/MethodVisitor2.java:950	These nested if statements could be combined
+src/rdfmaker/MethodVisitor2.java:953	These nested if statements could be combined
+src/rdfmaker/MethodVisitor2.java:961	Do not add empty strings
+src/rdfmaker/MethodVisitor2.java:975	Do not add empty strings
+src/rdfmaker/MethodVisitor2.java:986	The method 'visit' has a Cyclomatic Complexity of 13.
+src/rdfmaker/MethodVisitor2.java:986	The method visit() has an NPath complexity of 253
+src/rdfmaker/MethodVisitor2.java:991	Found 'DD'-anomaly for variable 'scopeResource' (lines '991'-'993').
+src/rdfmaker/MethodVisitor2.java:991	Found 'DD'-anomaly for variable 'scopeResource' (lines '991'-'998').
+src/rdfmaker/MethodVisitor2.java:992	Avoid if (x != y) ..; else ..;
+src/rdfmaker/MethodVisitor2.java:993	Avoid if (x != y) ..; else ..;
+src/rdfmaker/MethodVisitor2.java:1003	Found 'DD'-anomaly for variable 'scopeValue' (lines '1,003'-'1,006').
+src/rdfmaker/MethodVisitor2.java:1003	Found 'DD'-anomaly for variable 'scopeValue' (lines '1,003'-'1,008').
+src/rdfmaker/MethodVisitor2.java:1003	Found 'DD'-anomaly for variable 'scopeValue' (lines '1,003'-'1,009').
+src/rdfmaker/MethodVisitor2.java:1003	Found 'DD'-anomaly for variable 'scopeValue' (lines '1,003'-'1,014').
+src/rdfmaker/MethodVisitor2.java:1004	Avoid if (x != y) ..; else ..;
+src/rdfmaker/MethodVisitor2.java:1006	Avoid using if...else statements without curly braces
+src/rdfmaker/MethodVisitor2.java:1006	Found 'DU'-anomaly for variable 'scopeValue' (lines '1,006'-'1,031').
+src/rdfmaker/MethodVisitor2.java:1008	Avoid using if...else statements without curly braces
+src/rdfmaker/MethodVisitor2.java:1008	Found 'DU'-anomaly for variable 'scopeValue' (lines '1,008'-'1,031').
+src/rdfmaker/MethodVisitor2.java:1009	Avoid using if...else statements without curly braces
+src/rdfmaker/MethodVisitor2.java:1009	Found 'DU'-anomaly for variable 'scopeValue' (lines '1,009'-'1,031').
+src/rdfmaker/MethodVisitor2.java:1014	Found 'DU'-anomaly for variable 'scopeValue' (lines '1,014'-'1,031').
+src/rdfmaker/MethodVisitor2.java:1026	Avoid using if...else statements without curly braces
+src/rdfmaker/MethodVisitor2.java:1027	Avoid using if...else statements without curly braces
+src/rdfmaker/MethodVisitor2.java:1045	The method visit() has an NPath complexity of 337
+src/rdfmaker/MethodVisitor2.java:1052	Found 'DD'-anomaly for variable 'scopeResource' (lines '1,052'-'1,054').
+src/rdfmaker/MethodVisitor2.java:1052	Found 'DD'-anomaly for variable 'scopeResource' (lines '1,052'-'1,059').
+src/rdfmaker/MethodVisitor2.java:1065	Found 'DD'-anomaly for variable 'scopeValue' (lines '1,065'-'1,068').
+src/rdfmaker/MethodVisitor2.java:1065	Found 'DD'-anomaly for variable 'scopeValue' (lines '1,065'-'1,070').
+src/rdfmaker/MethodVisitor2.java:1065	Found 'DD'-anomaly for variable 'scopeValue' (lines '1,065'-'1,071').
+src/rdfmaker/MethodVisitor2.java:1065	Found 'DD'-anomaly for variable 'scopeValue' (lines '1,065'-'1,076').
+src/rdfmaker/MethodVisitor2.java:1080	Found 'DU'-anomaly for variable 'binOpr' (lines '1,080'-'1,098').
+src/rdfmaker/MethodVisitor2.java:1108	Avoid excessively long variable names like constructorResource
+src/rdfmaker/MethodVisitor2.java:1122	Avoid empty if statements
+src/rdfmaker/MethodVisitor2.java:1139	Found 'DD'-anomaly for variable 'myTemp' (lines '1,139'-'1,142').
+src/rdfmaker/MethodVisitor2.java:1139	Found 'DD'-anomaly for variable 'myTemp' (lines '1,139'-'1,145').
+src/rdfmaker/MethodVisitor2.java:1206	Avoid instantiating new objects inside loops
+src/rdfmaker/MethodVisitor2.java:1261	Found 'DD'-anomaly for variable 'typeResource' (lines '1,261'-'1,265').
+src/rdfmaker/MethodVisitor2.java:1261	Found 'DU'-anomaly for variable 'typeResource' (lines '1,261'-'1,346').
+src/rdfmaker/MethodVisitor2.java:1300	Avoid instantiating new objects inside loops
+src/skeletons/RDF2SourceConverter.java:5	Avoid unused imports such as 'java.util.Collection'
+src/skeletons/RDF2SourceConverter.java:5	Avoid unused imports such as 'java.util.Collection'
+src/skeletons/RDF2SourceConverter.java:6	Avoid unused imports such as 'java.util.Collections'
+src/skeletons/RDF2SourceConverter.java:6	Avoid unused imports such as 'java.util.Collections'
+src/skeletons/RDF2SourceConverter.java:7	Avoid unused imports such as 'java.util.List'
+src/skeletons/RDF2SourceConverter.java:7	Avoid unused imports such as 'java.util.List'
+src/skeletons/RDF2SourceConverter.java:12	Avoid unused imports such as 'com.hp.hpl.jena.rdf.model.RDFNode'
+src/skeletons/RDF2SourceConverter.java:12	Avoid unused imports such as 'com.hp.hpl.jena.rdf.model.RDFNode'
+src/skeletons/RDF2SourceConverter.java:19	The class 'RDF2SourceConverter' has a Cyclomatic Complexity of 4 (Highest = 11).
+src/skeletons/RDF2SourceConverter.java:19	This class has too many methods, consider refactoring it.
+src/skeletons/RDF2SourceConverter.java:24	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/skeletons/RDF2SourceConverter.java:24	Use explicit scoping instead of the default package private level
+src/skeletons/RDF2SourceConverter.java:25	Avoid variables with short names like ns
+src/skeletons/RDF2SourceConverter.java:25	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/skeletons/RDF2SourceConverter.java:25	Use explicit scoping instead of the default package private level
+src/skeletons/RDF2SourceConverter.java:26	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/skeletons/RDF2SourceConverter.java:26	Use explicit scoping instead of the default package private level
+src/skeletons/RDF2SourceConverter.java:26	Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).
+src/skeletons/RDF2SourceConverter.java:29	Use explicit scoping instead of the default package private level
+src/skeletons/RDF2SourceConverter.java:30	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/skeletons/RDF2SourceConverter.java:30	Use explicit scoping instead of the default package private level
+src/skeletons/RDF2SourceConverter.java:32	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/skeletons/RDF2SourceConverter.java:63	Method names should not contain underscores
+src/skeletons/RDF2SourceConverter.java:63	Parameter 'nodeID' is not assigned and could be declared final
+src/skeletons/RDF2SourceConverter.java:65	Found 'DD'-anomaly for variable 'targetResource' (lines '65'-'75').
+src/skeletons/RDF2SourceConverter.java:68	Local variable 'iter1' could be declared final
+src/skeletons/RDF2SourceConverter.java:71	Local variable 'temp' could be declared final
+src/skeletons/RDF2SourceConverter.java:73	Do not add empty strings
+src/skeletons/RDF2SourceConverter.java:81	System.out.print is used
+src/skeletons/RDF2SourceConverter.java:92	Method names should not contain underscores
+src/skeletons/RDF2SourceConverter.java:92	Parameter 'className' is not assigned and could be declared final
+src/skeletons/RDF2SourceConverter.java:95	Found 'DD'-anomaly for variable 'myInstance' (lines '95'-'99').
+src/skeletons/RDF2SourceConverter.java:98	Local variable 'initCar' could be declared final
+src/skeletons/RDF2SourceConverter.java:101	Avoid empty catch blocks
+src/skeletons/RDF2SourceConverter.java:106	Method names should not contain underscores
+src/skeletons/RDF2SourceConverter.java:106	Parameter 'node' is not assigned and could be declared final
+src/skeletons/RDF2SourceConverter.java:106	The method 'explore_class_node' has a Cyclomatic Complexity of 11.
+src/skeletons/RDF2SourceConverter.java:112	Found 'DU'-anomaly for variable 'className' (lines '112'-'159').
+src/skeletons/RDF2SourceConverter.java:112	Local variable 'className' could be declared final
+src/skeletons/RDF2SourceConverter.java:116	Found 'DD'-anomaly for variable 'obj_constructed' (lines '116'-'143').
+src/skeletons/RDF2SourceConverter.java:118	Local variable 'stmts' could be declared final
+src/skeletons/RDF2SourceConverter.java:121	Ensure that resources like this Statement object are closed after use
+src/skeletons/RDF2SourceConverter.java:125	System.out.print is used
+src/skeletons/RDF2SourceConverter.java:133	Found 'DU'-anomaly for variable 'id_assigned' (lines '133'-'159').
+src/skeletons/RDF2SourceConverter.java:136	System.out.print is used
+src/skeletons/RDF2SourceConverter.java:141	System.out.print is used
+src/skeletons/RDF2SourceConverter.java:147	System.out.print is used
+src/skeletons/RDF2SourceConverter.java:151	Avoid empty if statements
+src/skeletons/RDF2SourceConverter.java:161	Method names should not contain underscores
+src/skeletons/RDF2SourceConverter.java:161	Parameter 'node' is not assigned and could be declared final
+src/skeletons/RDF2SourceConverter.java:169	Ensure that resources like this Statement object are closed after use
+src/skeletons/RDF2SourceConverter.java:173	The String literal "\\." appears 5 times in this file; the first occurrence is on line 173
+src/skeletons/RDF2SourceConverter.java:194	Method names should not contain underscores
+src/skeletons/RDF2SourceConverter.java:194	Parameter 'node' is not assigned and could be declared final
+src/skeletons/RDF2SourceConverter.java:201	Found 'DU'-anomaly for variable 'className' (lines '201'-'230').
+src/skeletons/RDF2SourceConverter.java:202	Found 'DU'-anomaly for variable 'methodName' (lines '202'-'230').
+src/skeletons/RDF2SourceConverter.java:206	Ensure that resources like this Statement object are closed after use
+src/skeletons/RDF2SourceConverter.java:223	Avoid empty if statements
+src/skeletons/RDF2SourceConverter.java:237	Found 'DU'-anomaly for variable 'className' (lines '237'-'274').
+src/skeletons/RDF2SourceConverter.java:238	Found 'DU'-anomaly for variable 'fieldName' (lines '238'-'274').
+src/skeletons/RDF2SourceConverter.java:241	Found 'DU'-anomaly for variable 'id_assigned' (lines '241'-'274').
+src/skeletons/RDF2SourceConverter.java:245	Ensure that resources like this Statement object are closed after use
+src/skeletons/RDF2SourceConverter.java:258	Found 'DU'-anomaly for variable 'id_assigned' (lines '258'-'274').
+src/skeletons/RDF2SourceConverter.java:266	Avoid empty if statements
+src/skeletons/RDF2SourceConverter.java:280	Avoid empty try blocks
+src/skeletons/RDF2SourceConverter.java:310	A switch with less than 3 branches is inefficient, use a if statement instead.
+src/skeletons/RDF2SourceConverter.java:310	Switch statements should have a default label
+src/skeletons/RDF2SourceConverter.java:373	Found 'DD'-anomaly for variable 'targetResource' (lines '373'-'381').
+src/skeletons/RDF2SourceConverter.java:429	Found 'DD'-anomaly for variable 'nodeID' (lines '429'-'431').
+src/skeletons/RDF2SourceConverter.java:446	Avoid variables with short names like in
+src/testprac/OpeatorVisitor.java:9	Avoid unused imports such as 'japa.parser.ast.expr.ConditionalExpr'
+src/testprac/OpeatorVisitor.java:9	Avoid unused imports such as 'japa.parser.ast.expr.ConditionalExpr'
+src/testprac/OpeatorVisitor.java:20	Parameter 'arg' is not assigned and could be declared final
+src/testprac/OpeatorVisitor.java:20	Parameter 'expr' is not assigned and could be declared final
+src/testprac/OpeatorVisitor.java:22	Local variable 'leftExpr' could be declared final
+src/testprac/OpeatorVisitor.java:23	Local variable 'rightExpr' could be declared final
+src/testprac/OpeatorVisitor.java:24	Local variable 'operExpr' could be declared final
+src/testprac/OpeatorVisitor.java:25	System.out.print is used
+src/testprac/OpeatorVisitor.java:30	Parameter 'arg' is not assigned and could be declared final
+src/testprac/OpeatorVisitor.java:30	Parameter 'expr' is not assigned and could be declared final
+src/testprac/OpeatorVisitor.java:32	Local variable 'target' could be declared final
+src/testprac/OpeatorVisitor.java:33	Local variable 'value' could be declared final
+src/testprac/OpeatorVisitor.java:34	System.out.print is used
+src/testprac/OpeatorVisitor.java:45	Parameter 'arg' is not assigned and could be declared final
+src/testprac/OpeatorVisitor.java:48	System.out.print is used
+src/testprac/OpeatorVisitor.java:53	Method names should not contain underscores
+src/testprac/OpeatorVisitor.java:71	Avoid variables with short names like n
+src/testprac/OperatorParser.java:20	Local variable 'fileName' could be declared final
+src/testprac/OperatorParser.java:21	Local variable 'file' could be declared final
+src/testprac/OperatorParser.java:22	Avoid variables with short names like cu
+src/testprac/OperatorParser.java:22	Local variable 'cu' could be declared final
+src/testprac/OperatorParser.java:23	Local variable 'visitor' could be declared final
+src/testprac/OperatorParser.java:26	System.out.print is used
+src/testprac/OperatorParser.java:31	Parameter 'args' is not assigned and could be declared final
+src/testprac/OperatorParser.java:33	Local variable 'parser' could be declared final
+src/testprac/RDFBagTest.java:9	Avoid variables with short names like ns
+src/testprac/RDFBagTest.java:9	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/testprac/RDFBagTest.java:9	Use explicit scoping instead of the default package private level
+src/testprac/RDFBagTest.java:11	Method names should not contain underscores
+src/testprac/RDFBagTest.java:16	Local variable 'model' could be declared final
+src/testprac/RDFBagTest.java:18	Local variable 'bag' could be declared final
+src/testprac/RDFBagTest.java:19	Local variable 'node1' could be declared final
+src/testprac/RDFBagTest.java:21	Local variable 'node2' could be declared final
+src/testprac/RDFBagTest.java:22	Local variable 'node3' could be declared final
+src/testprac/RDFBagTest.java:24	The String literal "child" appears 5 times in this file; the first occurrence is on line 24
+src/testprac/RDFBagTest.java:35	System.out.print is used
+src/testprac/RDFBagTest.java:40	Parameter 'args' is not assigned and could be declared final
+src/visualizer/AnalyzedGraph.java:49	The class 'AnalyzedGraph' has a Cyclomatic Complexity of 5 (Highest = 21).
+src/visualizer/AnalyzedGraph.java:49	This class has too many methods, consider refactoring it.
+src/visualizer/AnalyzedGraph.java:50	Avoid excessively long variable names like SHORT_LABEL_LENGTH
+src/visualizer/AnalyzedGraph.java:51	Avoid excessively long variable names like MEDIUM_LABEL_LENGTH
+src/visualizer/AnalyzedGraph.java:53	Avoid using implementation types like 'HashMap'; use the interface instead
+src/visualizer/AnalyzedGraph.java:53	Avoid using implementation types like 'HashMap'; use the interface instead
+src/visualizer/AnalyzedGraph.java:53	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/visualizer/AnalyzedGraph.java:53	Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).
+src/visualizer/AnalyzedGraph.java:54	Avoid using implementation types like 'HashMap'; use the interface instead
+src/visualizer/AnalyzedGraph.java:54	Avoid using implementation types like 'HashMap'; use the interface instead
+src/visualizer/AnalyzedGraph.java:54	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/visualizer/AnalyzedGraph.java:54	Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).
+src/visualizer/AnalyzedGraph.java:55	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/visualizer/AnalyzedGraph.java:55	Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).
+src/visualizer/AnalyzedGraph.java:56	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/visualizer/AnalyzedGraph.java:56	Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).
+src/visualizer/AnalyzedGraph.java:66	Avoid variables with short names like m
+src/visualizer/AnalyzedGraph.java:66	Parameter 'm' is not assigned and could be declared final
+src/visualizer/AnalyzedGraph.java:85	Parameter 'word' is not assigned and could be declared final
+src/visualizer/AnalyzedGraph.java:93	Avoid using implementation types like 'HashMap'; use the interface instead
+src/visualizer/AnalyzedGraph.java:93	Avoid using implementation types like 'HashMap'; use the interface instead
+src/visualizer/AnalyzedGraph.java:93	Parameter 'word' is not assigned and could be declared final
+src/visualizer/AnalyzedGraph.java:102	Avoid variables with short names like p
+src/visualizer/AnalyzedGraph.java:102	Parameter 'p' is not assigned and could be declared final
+src/visualizer/AnalyzedGraph.java:106	The method 'analyze' has a Cyclomatic Complexity of 11.
+src/visualizer/AnalyzedGraph.java:106	The method analyze() has an NPath complexity of 242
+src/visualizer/AnalyzedGraph.java:107	Local variable 'stmtIterator' could be declared final
+src/visualizer/AnalyzedGraph.java:108	Local variable 'allLiterals' could be declared final
+src/visualizer/AnalyzedGraph.java:110	Avoid instantiating new objects inside loops
+src/visualizer/AnalyzedGraph.java:110	Local variable 'nodesToAddLater' could be declared final
+src/visualizer/AnalyzedGraph.java:111	Ensure that resources like this Statement object are closed after use
+src/visualizer/AnalyzedGraph.java:111	Local variable 'stmt' could be declared final
+src/visualizer/AnalyzedGraph.java:112	Local variable 'source' could be declared final
+src/visualizer/AnalyzedGraph.java:115	Avoid instantiating new objects inside loops
+src/visualizer/AnalyzedGraph.java:121	Avoid instantiating new objects inside loops
+src/visualizer/AnalyzedGraph.java:123	Avoid using if statements without curly braces
+src/visualizer/AnalyzedGraph.java:126	Avoid instantiating new objects inside loops
+src/visualizer/AnalyzedGraph.java:129	Avoid instantiating new objects inside loops
+src/visualizer/AnalyzedGraph.java:146	Avoid using if statements without curly braces
+src/visualizer/AnalyzedGraph.java:171	The class 'NodeInfo' has a Cyclomatic Complexity of 8 (Highest = 13).
+src/visualizer/AnalyzedGraph.java:172	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/visualizer/AnalyzedGraph.java:172	Use explicit scoping instead of the default package private level
+src/visualizer/AnalyzedGraph.java:173	Use explicit scoping instead of the default package private level
+src/visualizer/AnalyzedGraph.java:174	Use explicit scoping instead of the default package private level
+src/visualizer/AnalyzedGraph.java:175	Use explicit scoping instead of the default package private level
+src/visualizer/AnalyzedGraph.java:176	Use explicit scoping instead of the default package private level
+src/visualizer/AnalyzedGraph.java:183	Avoid variables with short names like n
+src/visualizer/AnalyzedGraph.java:183	It is a good practice to call super() in a constructor
+src/visualizer/AnalyzedGraph.java:183	Parameter 'n' is not assigned and could be declared final
+src/visualizer/AnalyzedGraph.java:190	Avoid variables with short names like o2
+src/visualizer/AnalyzedGraph.java:190	The method 'compareTo' has a Cyclomatic Complexity of 13.
+src/visualizer/AnalyzedGraph.java:193	Avoid using if statements without curly braces
+src/visualizer/AnalyzedGraph.java:194	A method should have only one exit point, and that should be the last statement in the method
+src/visualizer/AnalyzedGraph.java:196	Found 'DD'-anomaly for variable 'result' (lines '196'-'199').
+src/visualizer/AnalyzedGraph.java:198	Avoid using if statements without curly braces
+src/visualizer/AnalyzedGraph.java:201	Avoid using if statements without curly braces
+src/visualizer/AnalyzedGraph.java:211	A method should have only one exit point, and that should be the last statement in the method
+src/visualizer/AnalyzedGraph.java:213	A method should have only one exit point, and that should be the last statement in the method
+src/visualizer/AnalyzedGraph.java:213	Avoid using if...else statements without curly braces
+src/visualizer/AnalyzedGraph.java:216	A method should have only one exit point, and that should be the last statement in the method
+src/visualizer/AnalyzedGraph.java:219	A method should have only one exit point, and that should be the last statement in the method
+src/visualizer/AnalyzedGraph.java:219	Avoid using if...else statements without curly braces
+src/visualizer/AnalyzedGraph.java:222	Avoid using if...else statements without curly braces
+src/visualizer/AnalyzedGraph.java:228	Avoid if (x != y) ..; else ..;
+src/visualizer/AnalyzedGraph.java:229	Avoid using if...else statements without curly braces
+src/visualizer/AnalyzedGraph.java:231	Avoid using if...else statements without curly braces
+src/visualizer/AnalyzedGraph.java:253	It is a good practice to call super() in a constructor
+src/visualizer/AnalyzedGraph.java:261	Avoid variables with short names like o2
+src/visualizer/AnalyzedGraph.java:275	The class 'LiteralIndex' has a Cyclomatic Complexity of 6 (Highest = 11).
+src/visualizer/AnalyzedGraph.java:279	Avoid excessively long variable names like typedSubjectNodeInfos
+src/visualizer/AnalyzedGraph.java:279	Avoid using implementation types like 'HashMap'; use the interface instead
+src/visualizer/AnalyzedGraph.java:279	Avoid using implementation types like 'HashMap'; use the interface instead
+src/visualizer/AnalyzedGraph.java:283	Avoid using implementation types like 'HashMap'; use the interface instead
+src/visualizer/AnalyzedGraph.java:283	Avoid using implementation types like 'HashMap'; use the interface instead
+src/visualizer/AnalyzedGraph.java:284	Avoid excessively long variable names like sortedLiteralWords
+src/visualizer/AnalyzedGraph.java:286	Document empty constructor
+src/visualizer/AnalyzedGraph.java:318	Avoid if (x != y) ..; else ..;
+src/visualizer/AnalyzedGraph.java:349	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+src/visualizer/AnalyzedGraph.java:361	Substitute calls to size() == 0 (or size() != 0) with calls to isEmpty()
+src/visualizer/AnalyzedGraph.java:366	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+src/visualizer/AnalyzedGraph.java:374	Found 'DU'-anomaly for variable 'result' (lines '374'-'410').
+src/visualizer/AnalyzedGraph.java:379	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+src/visualizer/AnalyzedGraph.java:400	Substitute calls to size() == 0 (or size() != 0) with calls to isEmpty()
+src/visualizer/AnalyzedGraph.java:405	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+src/visualizer/AnalyzedGraph.java:415	The String literal "..." appears 5 times in this file; the first occurrence is on line 415
+src/visualizer/AnalyzedGraph.java:420	The method formatRDFNode() has an NPath complexity of 12480
+src/visualizer/AnalyzedGraph.java:422	Found 'DD'-anomaly for variable 'result' (lines '422'-'425').
+src/visualizer/AnalyzedGraph.java:422	Found 'DD'-anomaly for variable 'result' (lines '422'-'428').
+src/visualizer/AnalyzedGraph.java:425	Prefer StringBuffer over += for concatenating strings
+src/visualizer/AnalyzedGraph.java:426	This statement may have some unnecessary parentheses
+src/visualizer/AnalyzedGraph.java:428	Prefer StringBuffer over += for concatenating strings
+src/visualizer/AnalyzedGraph.java:430	The String literal "&amp;" appears 6 times in this file; the first occurrence is on line 430
+src/visualizer/AnalyzedGraph.java:439	Found 'DD'-anomaly for variable 'uri' (lines '439'-'453').
+src/visualizer/AnalyzedGraph.java:439	Found 'DD'-anomaly for variable 'uri' (lines '439'-'455').
+src/visualizer/AnalyzedGraph.java:439	Found 'DD'-anomaly for variable 'uri' (lines '439'-'457').
+src/visualizer/AnalyzedGraph.java:439	Found 'DD'-anomaly for variable 'uri' (lines '439'-'461').
+src/visualizer/AnalyzedGraph.java:440	Found 'DD'-anomaly for variable 'prefix' (lines '440'-'449').
+src/visualizer/AnalyzedGraph.java:441	Found 'DD'-anomaly for variable 'label' (lines '441'-'446').
+src/visualizer/AnalyzedGraph.java:442	Ensure that resources like this Statement object are closed after use
+src/visualizer/AnalyzedGraph.java:450	Avoid if (x != y) ..; else ..;
+src/visualizer/AnalyzedGraph.java:451	Avoid if (x != y) ..; else ..;
+src/visualizer/AnalyzedGraph.java:463	An empty statement (semicolon) not part of a loop
+src/visualizer/AnalyzedGraph.java:463	Avoid empty if statements
+src/visualizer/AnalyzedGraph.java:470	Found 'DD'-anomaly for variable 'end' (lines '470'-'471').
+src/visualizer/AnalyzedGraph.java:470	String.indexOf(char) is faster than String.indexOf(String).
+src/visualizer/HttpVisualizeHandler.java:72	The class 'HttpVisualizeHandler' has a Cyclomatic Complexity of 9 (Highest = 54).
+src/visualizer/HttpVisualizeHandler.java:73	The field name indicates a constant but its modifiers do not
+src/visualizer/HttpVisualizeHandler.java:73	Variables should start with a lowercase character
+src/visualizer/HttpVisualizeHandler.java:74	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/visualizer/HttpVisualizeHandler.java:74	Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).
+src/visualizer/HttpVisualizeHandler.java:75	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/visualizer/HttpVisualizeHandler.java:75	Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).
+src/visualizer/HttpVisualizeHandler.java:76	Avoid using implementation types like 'HashMap'; use the interface instead
+src/visualizer/HttpVisualizeHandler.java:76	Avoid using implementation types like 'HashMap'; use the interface instead
+src/visualizer/HttpVisualizeHandler.java:76	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/visualizer/HttpVisualizeHandler.java:76	Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).
+src/visualizer/HttpVisualizeHandler.java:85	Parameter 'directory' is not assigned and could be declared final
+src/visualizer/HttpVisualizeHandler.java:85	The constructor 'HttpVisualizeHandler' has a Cyclomatic Complexity of 12.
+src/visualizer/HttpVisualizeHandler.java:89	Local variable 'files' could be declared final
+src/visualizer/HttpVisualizeHandler.java:96	Local variable 'model' could be declared final
+src/visualizer/HttpVisualizeHandler.java:97	System.out.print is used
+src/visualizer/HttpVisualizeHandler.java:100	Avoid using if...else statements without curly braces
+src/visualizer/HttpVisualizeHandler.java:101	Avoid using if statements without curly braces
+src/visualizer/HttpVisualizeHandler.java:104	System.out.print is used
+src/visualizer/HttpVisualizeHandler.java:108	System.out.print is used
+src/visualizer/HttpVisualizeHandler.java:111	System.out.print is used
+src/visualizer/HttpVisualizeHandler.java:114	Avoid instantiating new objects inside loops
+src/visualizer/HttpVisualizeHandler.java:114	Local variable 'aGraph' could be declared final
+src/visualizer/HttpVisualizeHandler.java:115	System.out.print is used
+src/visualizer/HttpVisualizeHandler.java:123	Avoid throwing raw exception types.
+src/visualizer/HttpVisualizeHandler.java:150	Parameter 'arg0' is not assigned and could be declared final
+src/visualizer/HttpVisualizeHandler.java:161	Avoid really long methods.
+src/visualizer/HttpVisualizeHandler.java:161	Parameter 'arg0' is not assigned and could be declared final
+src/visualizer/HttpVisualizeHandler.java:161	Parameter 'arg1' is not assigned and could be declared final
+src/visualizer/HttpVisualizeHandler.java:161	Parameter 'arg2' is not assigned and could be declared final
+src/visualizer/HttpVisualizeHandler.java:161	The method 'handle' has a Cyclomatic Complexity of 54.
+src/visualizer/HttpVisualizeHandler.java:161	The method handle() has an NCSS line count of 177
+src/visualizer/HttpVisualizeHandler.java:161	The method handle() has an NPath complexity of 18616
+src/visualizer/HttpVisualizeHandler.java:163	Local variable 'method' could be declared final
+src/visualizer/HttpVisualizeHandler.java:164	Local variable 'lang' could be declared final
+src/visualizer/HttpVisualizeHandler.java:166	Found 'DU'-anomaly for variable 'model' (lines '166'-'400').
+src/visualizer/HttpVisualizeHandler.java:169	Found 'DU'-anomaly for variable 'out' (lines '169'-'400').
+src/visualizer/HttpVisualizeHandler.java:174	Avoid if (x != y) ..; else ..;
+src/visualizer/HttpVisualizeHandler.java:175	Avoid using if...else statements without curly braces
+src/visualizer/HttpVisualizeHandler.java:177	Assigning an Object to null is a code smell.  Consider refactoring.
+src/visualizer/HttpVisualizeHandler.java:177	Avoid using if...else statements without curly braces
+src/visualizer/HttpVisualizeHandler.java:178	StringBuffer.append is called 11 consecutive times with literal Strings. Use a single append with a single String.
+src/visualizer/HttpVisualizeHandler.java:178	StringBuffer.append is called 3 consecutive times with literal Strings. Use a single append with a single String.
+src/visualizer/HttpVisualizeHandler.java:191	Avoid variables with short names like it
+src/visualizer/HttpVisualizeHandler.java:195	Avoid using if statements without curly braces
+src/visualizer/HttpVisualizeHandler.java:201	Avoid using if statements without curly braces
+src/visualizer/HttpVisualizeHandler.java:206	Avoid if (x != y) ..; else ..;
+src/visualizer/HttpVisualizeHandler.java:207	Avoid using if...else statements without curly braces
+src/visualizer/HttpVisualizeHandler.java:212	Avoid using if...else statements without curly braces
+src/visualizer/HttpVisualizeHandler.java:220	Avoid variables with short names like os
+src/visualizer/HttpVisualizeHandler.java:227	Found 'DD'-anomaly for variable 'visualizer' (lines '227'-'242').
+src/visualizer/HttpVisualizeHandler.java:227	Found 'DD'-anomaly for variable 'visualizer' (lines '227'-'277').
+src/visualizer/HttpVisualizeHandler.java:227	Found 'DD'-anomaly for variable 'visualizer' (lines '227'-'285').
+src/visualizer/HttpVisualizeHandler.java:229	Found 'DU'-anomaly for variable 'styleString' (lines '229'-'400').
+src/visualizer/HttpVisualizeHandler.java:230	Found 'DU'-anomaly for variable 'aModel' (lines '230'-'400').
+src/visualizer/HttpVisualizeHandler.java:235	The String literal "arcs" appears 4 times in this file; the first occurrence is on line 235
+src/visualizer/HttpVisualizeHandler.java:243	Avoid if (x != y) ..; else ..;
+src/visualizer/HttpVisualizeHandler.java:247	This call to String.startsWith can be rewritten using String.charAt(0)
+src/visualizer/HttpVisualizeHandler.java:256	Avoid variables with short names like it
+src/visualizer/HttpVisualizeHandler.java:271	Avoid instantiating new objects inside loops
+src/visualizer/HttpVisualizeHandler.java:272	Avoid instantiating new objects inside loops
+src/visualizer/HttpVisualizeHandler.java:277	Assigning an Object to null is a code smell.  Consider refactoring.
+src/visualizer/HttpVisualizeHandler.java:277	Found 'DD'-anomaly for variable 'visualizer' (lines '277'-'337').
+src/visualizer/HttpVisualizeHandler.java:277	Found 'DD'-anomaly for variable 'visualizer' (lines '277'-'339').
+src/visualizer/HttpVisualizeHandler.java:285	Avoid instantiating new objects inside loops
+src/visualizer/HttpVisualizeHandler.java:299	Avoid excessively long variable names like previousMaxLiteralLines
+src/visualizer/HttpVisualizeHandler.java:302	Avoid using if statements without curly braces
+src/visualizer/HttpVisualizeHandler.java:307	Found 'DD'-anomaly for variable 'ainfo' (lines '307'-'310').
+src/visualizer/HttpVisualizeHandler.java:313	Avoid instantiating new objects inside loops
+src/visualizer/HttpVisualizeHandler.java:318	Avoid using if statements without curly braces
+src/visualizer/HttpVisualizeHandler.java:333	Assigning an Object to null is a code smell.  Consider refactoring.
+src/visualizer/HttpVisualizeHandler.java:336	Substitute calls to size() == 0 (or size() != 0) with calls to isEmpty()
+src/visualizer/HttpVisualizeHandler.java:337	Assigning an Object to null is a code smell.  Consider refactoring.
+src/visualizer/HttpVisualizeHandler.java:372	Avoid empty if statements
+src/visualizer/HttpVisualizeHandler.java:393	Avoid variables with short names like os
+src/visualizer/HttpVisualizeHandler.java:395	The String literal "UTF-8" appears 4 times in this file; the first occurrence is on line 395
+src/visualizer/HttpVisualizeHandler.java:407	A method/constructor shouldn't explicitly throw java.lang.Exception
+src/visualizer/HttpVisualizeHandler.java:407	A method/constructor shouldn't explicitly throw java.lang.Exception
+src/visualizer/HttpVisualizeHandler.java:430	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/visualizer/HttpVisualizeHandler.java:430	Use explicit scoping instead of the default package private level
+src/visualizer/HttpVisualizeHandler.java:430	Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).
+src/visualizer/HttpVisualizeHandler.java:431	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/visualizer/HttpVisualizeHandler.java:431	Use explicit scoping instead of the default package private level
+src/visualizer/HttpVisualizeHandler.java:432	Use explicit scoping instead of the default package private level
+src/visualizer/HttpVisualizeHandler.java:454	Found 'DD'-anomaly for variable 'uri' (lines '454'-'457').
+src/visualizer/HttpVisualizeHandler.java:456	Found 'DD'-anomaly for variable 'uri' (lines '456'-'457').
+src/visualizer/HttpVisualizeHandler.java:458	A method should have only one exit point, and that should be the last statement in the method
+src/visualizer/HttpVisualizeHandler.java:459	Avoid if (x != y) ..; else ..;
+src/visualizer/HttpVisualizeHandler.java:462	Avoid if (x != y) ..; else ..;
+src/visualizer/HttpVisualizeHandler.java:481	Use explicit scoping instead of the default package private level
+src/visualizer/HttpVisualizeHandler.java:490	Avoid variables with short names like o
+src/visualizer/HttpVisualizeHandler.java:499	Use explicit scoping instead of the default package private level
+src/visualizer/HttpVisualizeServer.java:47	The field name indicates a constant but its modifiers do not
+src/visualizer/HttpVisualizeServer.java:47	Use explicit scoping instead of the default package private level
+src/visualizer/HttpVisualizeServer.java:47	Variables should start with a lowercase character
+src/visualizer/HttpVisualizeServer.java:47	Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).
+src/visualizer/HttpVisualizeServer.java:48	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/visualizer/HttpVisualizeServer.java:48	Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).
+src/visualizer/HttpVisualizeServer.java:49	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/visualizer/HttpVisualizeServer.java:49	Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).
+src/visualizer/HttpVisualizeServer.java:50	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/visualizer/HttpVisualizeServer.java:50	Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).
+src/visualizer/HttpVisualizeServer.java:51	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/visualizer/HttpVisualizeServer.java:63	A method/constructor shouldn't explicitly throw java.lang.Exception
+src/visualizer/HttpVisualizeServer.java:63	A method/constructor shouldn't explicitly throw java.lang.Exception
+src/visualizer/HttpVisualizeServer.java:63	Parameter 'directory' is not assigned and could be declared final
+src/visualizer/HttpVisualizeServer.java:63	Parameter 'port' is not assigned and could be declared final
+src/visualizer/HttpVisualizeServer.java:66	Overridable method 'open' called during object construction
+src/visualizer/HttpVisualizeServer.java:75	A method/constructor shouldn't explicitly throw java.lang.Exception
+src/visualizer/HttpVisualizeServer.java:75	A method/constructor shouldn't explicitly throw java.lang.Exception
+src/visualizer/HttpVisualizeServer.java:75	Parameter 'directory' is not assigned and could be declared final
+src/visualizer/HttpVisualizeServer.java:83	A method/constructor shouldn't explicitly throw java.lang.Exception
+src/visualizer/HttpVisualizeServer.java:83	A method/constructor shouldn't explicitly throw java.lang.Exception
+src/visualizer/HttpVisualizeServer.java:83	Use block level rather than method level synchronization
+src/visualizer/HttpVisualizeServer.java:88	Local variable 'listener' could be declared final
+src/visualizer/HttpVisualizeServer.java:100	Avoid throwing raw exception types.
+src/visualizer/HttpVisualizeServer.java:107	Use block level rather than method level synchronization
+src/visualizer/HttpVisualizeServer.java:110	Assigning an Object to null is a code smell.  Consider refactoring.
+src/visualizer/HttpVisualizeServer.java:117	An empty statement (semicolon) not part of a loop
+src/visualizer/HttpVisualizeServer.java:123	An empty statement (semicolon) not part of a loop
+src/visualizer/HttpVisualizeServer.java:125	Assigning an Object to null is a code smell.  Consider refactoring.
+src/visualizer/HttpVisualizeServer.java:136	A method/constructor shouldn't explicitly throw java.lang.Exception
+src/visualizer/HttpVisualizeServer.java:136	A method/constructor shouldn't explicitly throw java.lang.Exception
+src/visualizer/HttpVisualizeServer.java:136	Parameter 'argv' is not assigned and could be declared final
+src/visualizer/HttpVisualizeServer.java:138	System.out.print is used
+src/visualizer/HttpVisualizeServer.java:139	A method should have only one exit point, and that should be the last statement in the method
+src/visualizer/HttpVisualizeServer.java:141	Local variable 'directory' could be declared final
+src/visualizer/HttpVisualizeServer.java:143	System.out.print is used
+src/visualizer/HttpVisualizeServer.java:147	System.out.print is used
+src/visualizer/HttpVisualizeServer.java:152	Avoid printStackTrace(); use a logger call instead.
+src/visualizer/ModelToSVG.java:52	The class 'ModelToSVG' has a Cyclomatic Complexity of 3 (Highest = 13).
+src/visualizer/ModelToSVG.java:54	Avoid unnecessary constructors - the compiler will generate these for you
+src/visualizer/ModelToSVG.java:54	Document empty constructor
+src/visualizer/ModelToSVG.java:54	It is a good practice to call super() in a constructor
+src/visualizer/ModelToSVG.java:57	Parameter 'aGraph' is not assigned and could be declared final
+src/visualizer/ModelToSVG.java:57	Parameter 'nodeFilter' is not assigned and could be declared final
+src/visualizer/ModelToSVG.java:57	Parameter 'out' is not assigned and could be declared final
+src/visualizer/ModelToSVG.java:57	Parameter 'pageInfo' is not assigned and could be declared final
+src/visualizer/ModelToSVG.java:66	Parameter 'aGraph' is not assigned and could be declared final
+src/visualizer/ModelToSVG.java:66	The method 'position' has a Cyclomatic Complexity of 13.
+src/visualizer/ModelToSVG.java:68	Local variable 'allowableMin' could be declared final
+src/visualizer/ModelToSVG.java:69	Local variable 'allowableMax' could be declared final
+src/visualizer/ModelToSVG.java:72	Local variable 'columns' could be declared final
+src/visualizer/ModelToSVG.java:73	Found 'DU'-anomaly for variable 'xSpacing' (lines '73'-'129').
+src/visualizer/ModelToSVG.java:73	Local variable 'xSpacing' could be declared final
+src/visualizer/ModelToSVG.java:75	Found 'DD'-anomaly for variable 'columnEnds' (lines '75'-'78').
+src/visualizer/ModelToSVG.java:77	Avoid using for statements without curly braces
+src/visualizer/ModelToSVG.java:78	Found 'DD'-anomaly for variable 'columnEnds' (lines '78'-'78').
+src/visualizer/ModelToSVG.java:84	Avoid variables with short names like it
+src/visualizer/ModelToSVG.java:84	Local variable 'it' could be declared final
+src/visualizer/ModelToSVG.java:88	Avoid instantiating new objects inside loops
+src/visualizer/ModelToSVG.java:89	Avoid using if statements without curly braces
+src/visualizer/ModelToSVG.java:93	Avoid using if...else statements without curly braces
+src/visualizer/ModelToSVG.java:95	Avoid using if...else statements without curly braces
+src/visualizer/ModelToSVG.java:97	Avoid using if...else statements without curly braces
+src/visualizer/ModelToSVG.java:99	Avoid if (x != y) ..; else ..;
+src/visualizer/ModelToSVG.java:101	Avoid instantiating new objects inside loops
+src/visualizer/ModelToSVG.java:103	Assigning an Object to null is a code smell.  Consider refactoring.
+src/visualizer/ModelToSVG.java:114	Found 'DU'-anomaly for variable 'columnEnds' (lines '114'-'129').
+src/visualizer/ModelToSVG.java:116	Found 'DU'-anomaly for variable 'columnEnds' (lines '116'-'129').
+src/visualizer/ModelToSVG.java:133	Avoid variables with short names like it
+src/visualizer/NodeToSVG.java:49	The class 'NodeToSVG' has a Cyclomatic Complexity of 5 (Highest = 35).
+src/visualizer/NodeToSVG.java:49	This class has too many methods, consider refactoring it.
+src/visualizer/NodeToSVG.java:50	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/visualizer/NodeToSVG.java:50	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/visualizer/NodeToSVG.java:50	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/visualizer/NodeToSVG.java:51	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/visualizer/NodeToSVG.java:51	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/visualizer/NodeToSVG.java:51	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/visualizer/NodeToSVG.java:55	Avoid unnecessary constructors - the compiler will generate these for you
+src/visualizer/NodeToSVG.java:55	Document empty constructor
+src/visualizer/NodeToSVG.java:62	Parameter 'out' is not assigned and could be declared final
+src/visualizer/NodeToSVG.java:62	Parameter 'pageInfo' is not assigned and could be declared final
+src/visualizer/NodeToSVG.java:70	Parameter 'out' is not assigned and could be declared final
+src/visualizer/NodeToSVG.java:70	Parameter 'pageInfo' is not assigned and could be declared final
+src/visualizer/NodeToSVG.java:79	Parameter 'out' is not assigned and could be declared final
+src/visualizer/NodeToSVG.java:106	Local variable 'nodeInfo' could be declared final
+src/visualizer/NodeToSVG.java:108	Avoid using if...else statements without curly braces
+src/visualizer/NodeToSVG.java:110	Avoid using if...else statements without curly braces
+src/visualizer/NodeToSVG.java:126	Local variable 'positionedNode' could be declared final
+src/visualizer/NodeToSVG.java:154	Avoid modifiers which are implied by the context
+src/visualizer/NodeToSVG.java:156	Avoid modifiers which are implied by the context
+src/visualizer/NodeToSVG.java:166	Too many fields
+src/visualizer/NodeToSVG.java:168	Use explicit scoping instead of the default package private level
+src/visualizer/NodeToSVG.java:170	Use explicit scoping instead of the default package private level
+src/visualizer/NodeToSVG.java:178	Avoid excessively long variable names like maxLiteralLineLength
+src/visualizer/NodeToSVG.java:181	Avoid excessively long variable names like subheadingFontSize
+src/visualizer/NodeToSVG.java:182	Avoid excessively long variable names like literalsToHighlight
+src/visualizer/NodeToSVG.java:184	Avoid excessively long variable names like ignoreTagsInLiterals
+src/visualizer/NodeToSVG.java:188	Avoid unnecessary constructors - the compiler will generate these for you
+src/visualizer/NodeToSVG.java:188	Document empty constructor
+src/visualizer/NodeToSVG.java:197	Avoid using if statements without curly braces
+src/visualizer/NodeToSVG.java:199	Avoid using if statements without curly braces
+src/visualizer/NodeToSVG.java:202	Local variable 'arcs' could be declared final
+src/visualizer/NodeToSVG.java:204	Local variable 'arcInfo' could be declared final
+src/visualizer/NodeToSVG.java:206	Avoid instantiating new objects inside loops
+src/visualizer/NodeToSVG.java:206	Local variable 'positionedArc' could be declared final
+src/visualizer/NodeToSVG.java:216	The method 'subgraph' has a Cyclomatic Complexity of 16.
+src/visualizer/NodeToSVG.java:216	The method subgraph() has an NPath complexity of 234
+src/visualizer/NodeToSVG.java:218	Avoid excessively long variable names like arcsPerNodeAtNextLevel
+src/visualizer/NodeToSVG.java:222	Avoid using if...else statements without curly braces
+src/visualizer/NodeToSVG.java:225	Avoid using if...else statements without curly braces
+src/visualizer/NodeToSVG.java:226	Found 'DU'-anomaly for variable 'arcsPerNodeAtNextLevel' (lines '226'-'288').
+src/visualizer/NodeToSVG.java:234	Found 'DD'-anomaly for variable 'arcCount' (lines '234'-'245').
+src/visualizer/NodeToSVG.java:241	Avoid using if...else statements without curly braces
+src/visualizer/NodeToSVG.java:245	Found 'DD'-anomaly for variable 'arcCount' (lines '245'-'245').
+src/visualizer/NodeToSVG.java:245	Found 'DU'-anomaly for variable 'arcCount' (lines '245'-'288').
+src/visualizer/NodeToSVG.java:248	Avoid instantiating new objects inside loops
+src/visualizer/NodeToSVG.java:253	Avoid instantiating new objects inside loops
+src/visualizer/NodeToSVG.java:257	Avoid instantiating new objects inside loops
+src/visualizer/NodeToSVG.java:276	Avoid using if statements without curly braces
+src/visualizer/NodeToSVG.java:282	Avoid using if statements without curly braces
+src/visualizer/NodeToSVG.java:294	Found 'DU'-anomaly for variable 'arrivingY' (lines '294'-'321').
+src/visualizer/NodeToSVG.java:295	Found 'DU'-anomaly for variable 'departingY' (lines '295'-'321').
+src/visualizer/NodeToSVG.java:297	Found 'DD'-anomaly for variable 'startY' (lines '297'-'304').
+src/visualizer/NodeToSVG.java:297	Found 'DD'-anomaly for variable 'startY' (lines '297'-'306').
+src/visualizer/NodeToSVG.java:298	Found 'DU'-anomaly for variable 'ySpacing' (lines '298'-'321').
+src/visualizer/NodeToSVG.java:307	Avoid using if statements without curly braces
+src/visualizer/NodeToSVG.java:310	Found 'DU'-anomaly for variable 'intermediateY' (lines '310'-'321').
+src/visualizer/NodeToSVG.java:319	Found 'DU'-anomaly for variable 'startY' (lines '319'-'321').
+src/visualizer/NodeToSVG.java:323	Avoid really long methods.
+src/visualizer/NodeToSVG.java:323	The method 'position' has a Cyclomatic Complexity of 35.
+src/visualizer/NodeToSVG.java:323	The method position() has an NCSS line count of 107
+src/visualizer/NodeToSVG.java:323	The method position() has an NPath complexity of 2929500
+src/visualizer/NodeToSVG.java:325	Found 'DU'-anomaly for variable 'startX' (lines '325'-'456').
+src/visualizer/NodeToSVG.java:327	Found 'DD'-anomaly for variable 'endY' (lines '327'-'448').
+src/visualizer/NodeToSVG.java:332	A method should have only one exit point, and that should be the last statement in the method
+src/visualizer/NodeToSVG.java:338	Assigning an Object to null is a code smell.  Consider refactoring.
+src/visualizer/NodeToSVG.java:339	Found 'DD'-anomaly for variable 'maxLines' (lines '339'-'342').
+src/visualizer/NodeToSVG.java:340	Found 'DD'-anomaly for variable 'maxLineLength' (lines '340'-'343').
+src/visualizer/NodeToSVG.java:349	A method should have only one exit point, and that should be the last statement in the method
+src/visualizer/NodeToSVG.java:352	Found 'DD'-anomaly for variable 'arcs' (lines '352'-'373').
+src/visualizer/NodeToSVG.java:396	Avoid variables with short names like it
+src/visualizer/NodeToSVG.java:448	Found 'DD'-anomaly for variable 'endY' (lines '448'-'449').
+src/visualizer/NodeToSVG.java:450	Found 'DU'-anomaly for variable 'startY' (lines '450'-'456').
+src/visualizer/NodeToSVG.java:475	Found 'DU'-anomaly for variable 'href' (lines '475'-'491').
+src/visualizer/NodeToSVG.java:538	The String literal "<g transform=\"translate(" appears 6 times in this file; the first occurrence is on line 538
+src/visualizer/NodeToSVG.java:541	Avoid variables with short names like x
+src/visualizer/NodeToSVG.java:541	Avoid variables with short names like y
+src/visualizer/NodeToSVG.java:552	String.indexOf(char) is faster than String.indexOf(String).
+src/visualizer/NodeToSVG.java:559	The String literal "</text>" appears 6 times in this file; the first occurrence is on line 559
+src/visualizer/NodeToSVG.java:563	The String literal "</g>" appears 9 times in this file; the first occurrence is on line 563
+src/visualizer/NodeToSVG.java:566	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/visualizer/NodeToSVG.java:566	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/visualizer/NodeToSVG.java:566	Avoid variables with short names like x
+src/visualizer/NodeToSVG.java:566	Avoid variables with short names like y
+src/visualizer/NodeToSVG.java:572	Found 'DU'-anomaly for variable 'yStart' (lines '572'-'579').
+src/visualizer/NodeToSVG.java:583	The String literal "\" font-family=\"Verdana\">" appears 4 times in this file; the first occurrence is on line 583
+src/visualizer/NodeToSVG.java:615	Avoid really long parameter lists.
+src/visualizer/NodeToSVG.java:646	Avoid reassigning parameters such as 'labelY'
+src/visualizer/NodeToSVG.java:647	Found 'DD'-anomaly for variable 'labelX' (lines '647'-'655').
+src/visualizer/NodeToSVG.java:648	Found 'DU'-anomaly for variable 'arcY' (lines '648'-'688').
+src/visualizer/NodeToSVG.java:649	Found 'DU'-anomaly for variable 'upperXspacing' (lines '649'-'688').
+src/visualizer/NodeToSVG.java:650	Found 'DU'-anomaly for variable 'midXspacing' (lines '650'-'688').
+src/visualizer/NodeToSVG.java:651	Found 'DU'-anomaly for variable 'labelSpacing' (lines '651'-'688').
+src/visualizer/NodeToSVG.java:700	A method should have only one exit point, and that should be the last statement in the method
+src/visualizer/NodeToSVG.java:700	The String literal "..." appears 5 times in this file; the first occurrence is on line 700
+src/visualizer/NodeToSVG.java:705	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/visualizer/NodeToSVG.java:705	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/visualizer/NodeToSVG.java:708	Found 'DD'-anomaly for variable 'literalText' (lines '708'-'710').
+src/visualizer/NodeToSVG.java:708	Found 'DD'-anomaly for variable 'literalText' (lines '708'-'712').
+src/visualizer/NodeToSVG.java:710	Prefer StringBuffer over += for concatenating strings
+src/visualizer/NodeToSVG.java:712	Prefer StringBuffer over += for concatenating strings
+src/visualizer/NodeToSVG.java:715	A method should have only one exit point, and that should be the last statement in the method
+src/visualizer/NodeToSVG.java:721	Avoid really long methods.
+src/visualizer/NodeToSVG.java:721	Avoid reassigning parameters such as 'searchText'
+src/visualizer/NodeToSVG.java:721	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/visualizer/NodeToSVG.java:721	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/visualizer/NodeToSVG.java:721	The method 'formatMultipleLines' has a Cyclomatic Complexity of 33.
+src/visualizer/NodeToSVG.java:721	The method formatMultipleLines() has an NPath complexity of 201624
+src/visualizer/NodeToSVG.java:726	Found 'DD'-anomaly for variable 'partialMatch' (lines '726'-'729').
+src/visualizer/NodeToSVG.java:729	Found 'DU'-anomaly for variable 'partialMatch' (lines '729'-'830').
+src/visualizer/NodeToSVG.java:736	Found 'DD'-anomaly for variable 'insideTag' (lines '736'-'748').
+src/visualizer/NodeToSVG.java:742	Avoid unnecessary comparisons in boolean expressions
+src/visualizer/NodeToSVG.java:751	Prefer StringBuffer over += for concatenating strings
+src/visualizer/NodeToSVG.java:758	Prefer StringBuffer over += for concatenating strings
+src/visualizer/NodeToSVG.java:760	Prefer StringBuffer over += for concatenating strings
+src/visualizer/NodeToSVG.java:781	Avoid instantiating new objects inside loops
+src/visualizer/NodeToSVG.java:782	Found 'DD'-anomaly for variable 'visibleChars' (lines '782'-'795').
+src/visualizer/NodeToSVG.java:791	Substitute calls to size() == 0 (or size() != 0) with calls to isEmpty()
+src/visualizer/NodeToSVG.java:805	Avoid if (x != y) ..; else ..;
+src/visualizer/NodeToSVG.java:809	Found 'DD'-anomaly for variable 'firstLineWithSearchText' (lines '809'-'809').
+src/visualizer/NodeToSVG.java:809	Found 'DD'-anomaly for variable 'firstLineWithSearchText' (lines '809'-'814').
+src/visualizer/NodeToSVG.java:809	Found 'DU'-anomaly for variable 'firstLineWithSearchText' (lines '809'-'830').
+src/visualizer/NodeToSVG.java:810	Avoid unnecessary comparisons in boolean expressions
+src/visualizer/NodeToSVG.java:810	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+src/visualizer/NodeToSVG.java:814	Found 'DU'-anomaly for variable 'firstLineWithSearchText' (lines '814'-'830').
+src/visualizer/NodeToSVG.java:822	Found 'DU'-anomaly for variable 'previousToken' (lines '822'-'830').
+src/visualizer/NodeToSVG.java:832	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/visualizer/NodeToSVG.java:832	Use explicit scoping instead of the default package private level
+src/visualizer/NodeToSVG.java:833	Use explicit scoping instead of the default package private level
+src/visualizer/NodeToSVG.java:834	Use explicit scoping instead of the default package private level
+src/visualizer/NodeToSVG.java:849	Found 'DU'-anomaly for variable 'n2' (lines '849'-'856').
+src/visualizer/NodeToSVG.java:851	A method should have only one exit point, and that should be the last statement in the method
+src/visualizer/NodeToSVG.java:865	Found non-transient, non-static member. Please mark as transient or provide accessors.

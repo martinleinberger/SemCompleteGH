@@ -1,0 +1,6 @@
+<http://www.semcomplete.com#Stack> <http://www.semcomplete.com#nodeType> "Class" .
+<http://www.semcomplete.com#Stack> <http://www.semcomplete.com#hasInstance> "stack" .
+<http://www.semcomplete.com#if> <http://www.semcomplete.com#nodeType> "Control" .
+<http://www.semcomplete.com#if> <http://www.semcomplete.com#hasCondition> <http://www.semcomplete.com#Stack> .
+<http://www.semcomplete.com#Stack> <http://www.semcomplete.com#hasInstance> "stack" .
+<http://www.semcomplete.com#if> <http://www.semcomplete.com#nodeType> "Control" .

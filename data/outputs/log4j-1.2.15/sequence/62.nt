@@ -1,0 +1,9 @@
+<http://www.semcomplete.com#while> <http://www.semcomplete.com#nodeType> "Control" .
+<http://www.semcomplete.com#ObjectOutputStream> <http://www.semcomplete.com#nodeType> "Class" .
+<http://www.semcomplete.com#ObjectOutputStream> <http://www.semcomplete.com#hasInstance> "oos" .
+<http://www.semcomplete.com#ObjectOutputStream> <http://www.semcomplete.com#varInitiatedBy> "(ObjectOutputStream) oosList.elementAt(0)" .
+<http://www.semcomplete.com#if> <http://www.semcomplete.com#nodeType> "Control" .
+<http://www.semcomplete.com#if> <http://www.semcomplete.com#hasCondition> <http://www.semcomplete.com#ObjectOutputStream> .
+<http://www.semcomplete.com#try> <http://www.semcomplete.com#nodeType> "Control" .
+<http://www.semcomplete.com#ObjectOutputStream.close> <http://www.semcomplete.com#nodeType> "Method" .
+<http://www.semcomplete.com#ObjectOutputStream> <http://www.semcomplete.com#hasMethod> <http://www.semcomplete.com#ObjectOutputStream.close> .

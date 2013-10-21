@@ -1,0 +1,10 @@
+<http://www.semcomplete.com#String> <http://www.semcomplete.com#nodeType> "Class" .
+<http://www.semcomplete.com#String> <http://www.semcomplete.com#hasInstance> "key" .
+<http://www.semcomplete.com#if> <http://www.semcomplete.com#nodeType> "Control" .
+<http://www.semcomplete.com#Hashtable> <http://www.semcomplete.com#nodeType> "Class" .
+<http://www.semcomplete.com#Hashtable> <http://www.semcomplete.com#hasInstance> "ht" .
+<http://www.semcomplete.com#Hashtable> <http://www.semcomplete.com#varInitiatedBy> "(Hashtable) ((ThreadLocalMap) tlm).get()" .
+<http://www.semcomplete.com#if> <http://www.semcomplete.com#nodeType> "Control" .
+<http://www.semcomplete.com#if> <http://www.semcomplete.com#hasCondition> <http://www.semcomplete.com#Hashtable> .
+<http://www.semcomplete.com#Hashtable.remove> <http://www.semcomplete.com#nodeType> "Method" .
+<http://www.semcomplete.com#Hashtable> <http://www.semcomplete.com#hasMethod> <http://www.semcomplete.com#Hashtable.remove> .

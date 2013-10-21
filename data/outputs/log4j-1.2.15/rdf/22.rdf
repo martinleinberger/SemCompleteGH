@@ -1,0 +1,118 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://www.semcomplete.com#" > 
+  <rdf:Description rdf:about="http://www.semcomplete.com#CategoryNode">
+    <j.0:hasInstance>node</j.0:hasInstance>
+    <j.0:hasMethod rdf:resource="http://www.semcomplete.com#CategoryNode.setSelected"/>
+    <j.0:assignedTo rdf:resource="http://www.semcomplete.com#CategoryNode"/>
+    <j.0:varInitiatedBy rdf:resource="http://www.semcomplete.com#CategoryNode.new"/>
+    <j.0:hasMethod rdf:resource="http://www.semcomplete.com#CategoryNode.depthFirstEnumeration"/>
+    <j.0:nodeType>Class</j.0:nodeType>
+    <j.0:nodeID>2</j.0:nodeID>
+    <j.0:hasInstance>root</j.0:hasInstance>
+    <j.0:hasMethod rdf:resource="http://www.semcomplete.com#CategoryNode.children"/>
+    <j.0:hasInstance>parent</j.0:hasInstance>
+    <j.0:hasInstance>current</j.0:hasInstance>
+    <j.0:hasMethod rdf:resource="http://www.semcomplete.com#CategoryNode.isSelected"/>
+    <j.0:varInitiatedBy>(CategoryNode) getRoot()</j.0:varInitiatedBy>
+    <j.0:varInitiatedBy>(CategoryNode) children.nextElement()</j.0:varInitiatedBy>
+    <j.0:varInitiatedBy>root</j.0:varInitiatedBy>
+    <j.0:hasInstance>newNode</j.0:hasInstance>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#CategoryElement">
+    <j.0:varInitiatedBy rdf:resource="http://www.semcomplete.com#CategoryPath.categoryElementAt"/>
+    <j.0:hasInstance>element</j.0:hasInstance>
+    <j.0:nodeID>5</j.0:nodeID>
+    <j.0:nodeType>Class</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#CategoryPath.size">
+    <j.0:nodeID>4</j.0:nodeID>
+    <j.0:nodeType>Method</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#CategoryPath.categoryElementAt">
+    <j.0:nodeID>6</j.0:nodeID>
+    <j.0:nodeType>Method</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#String.equals">
+    <j.0:nodeID>13</j.0:nodeID>
+    <j.0:nodeType>Method</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#CategoryNode.children">
+    <j.0:nodeID>8</j.0:nodeID>
+    <j.0:nodeType>Method</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#for">
+    <rdf:_5 rdf:resource="http://www.semcomplete.com#if"/>
+    <rdf:_4 rdf:resource="http://www.semcomplete.com#while"/>
+    <rdf:_3 rdf:resource="http://www.semcomplete.com#CategoryNode.children"/>
+    <rdf:_2 rdf:resource="http://www.semcomplete.com#CategoryPath.categoryElementAt"/>
+    <rdf:_1 rdf:resource="http://www.semcomplete.com#CategoryPath.size"/>
+    <j.0:nodeID>3</j.0:nodeID>
+    <j.0:nodeType>Control</j.0:nodeType>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#Enumeration.hasMoreElements">
+    <j.0:nodeID>10</j.0:nodeID>
+    <j.0:nodeType>Method</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#String">
+    <j.0:hasMethod rdf:resource="http://www.semcomplete.com#String.equals"/>
+    <j.0:hasInstance>pathLC</j.0:hasInstance>
+    <j.0:varInitiatedBy rdf:resource="http://www.semcomplete.com#Enumeration.hasMoreElements"/>
+    <j.0:hasInstance>title</j.0:hasInstance>
+    <j.0:nodeID>11</j.0:nodeID>
+    <j.0:nodeType>Class</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#CategoryNode.isSelected">
+    <j.0:nodeID>1</j.0:nodeID>
+    <j.0:nodeType>Method</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#while">
+    <rdf:_2 rdf:resource="http://www.semcomplete.com#if"/>
+    <rdf:_1 rdf:resource="http://www.semcomplete.com#Enumeration.hasMoreElements"/>
+    <j.0:hasCondition rdf:resource="http://www.semcomplete.com#Enumeration.hasMoreElements"/>
+    <j.0:nodeID>9</j.0:nodeID>
+    <j.0:nodeType>Control</j.0:nodeType>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#CategoryPath">
+    <j.0:hasMethod rdf:resource="http://www.semcomplete.com#CategoryPath.categoryElementAt"/>
+    <j.0:hasMethod rdf:resource="http://www.semcomplete.com#CategoryPath.size"/>
+    <j.0:hasInstance>path</j.0:hasInstance>
+    <j.0:nodeID>1</j.0:nodeID>
+    <j.0:nodeType>Class</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#CategoryNode.new">
+    <j.0:nodeID>1</j.0:nodeID>
+    <j.0:nodeType>Constructor</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#CategoryNode.setSelected">
+    <j.0:nodeID>2</j.0:nodeID>
+    <j.0:nodeType>Method</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#Enumeration">
+    <j.0:varInitiatedBy rdf:resource="http://www.semcomplete.com#CategoryNode.depthFirstEnumeration"/>
+    <j.0:hasInstance>descendants</j.0:hasInstance>
+    <j.0:hasMethod rdf:resource="http://www.semcomplete.com#Enumeration.hasMoreElements"/>
+    <j.0:varInitiatedBy rdf:resource="http://www.semcomplete.com#CategoryNode.children"/>
+    <j.0:hasInstance>children</j.0:hasInstance>
+    <j.0:nodeID>7</j.0:nodeID>
+    <j.0:nodeType>Class</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#if">
+    <j.0:nodeID>12</j.0:nodeID>
+    <rdf:_3 rdf:resource="http://www.semcomplete.com#if"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+    <rdf:_5 rdf:resource="http://www.semcomplete.com#CategoryNode.new"/>
+    <rdf:_6 rdf:resource="http://www.semcomplete.com#CategoryNode.setSelected"/>
+    <j.0:hasCondition rdf:resource="http://www.semcomplete.com#String.equals"/>
+    <rdf:_4 rdf:resource="http://www.semcomplete.com#CategoryNode.isSelected"/>
+    <rdf:_2 rdf:resource="http://www.semcomplete.com#String.equals"/>
+    <j.0:nodeType>Control</j.0:nodeType>
+    <rdf:_1 rdf:resource="http://www.semcomplete.com#CategoryNode"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#CategoryNode.depthFirstEnumeration">
+    <j.0:nodeID>1</j.0:nodeID>
+    <j.0:nodeType>Method</j.0:nodeType>
+  </rdf:Description>
+</rdf:RDF>

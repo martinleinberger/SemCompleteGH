@@ -1,0 +1,178 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://www.semcomplete.com#" > 
+  <rdf:Description rdf:about="http://www.semcomplete.com#Node">
+    <j.0:hasMethod rdf:resource="http://www.semcomplete.com#Node.getAttributes"/>
+    <j.0:varInitiatedBy rdf:resource="http://www.semcomplete.com#NodeList.item"/>
+    <j.0:hasInstance>n</j.0:hasInstance>
+    <j.0:nodeID>9</j.0:nodeID>
+    <j.0:nodeType>Class</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#JCheckBoxMenuItem">
+    <j.0:hasMethod rdf:resource="http://www.semcomplete.com#JCheckBoxMenuItem.isSelected"/>
+    <j.0:hasMethod rdf:resource="http://www.semcomplete.com#JCheckBoxMenuItem.setSelected"/>
+    <j.0:varInitiatedBy>(JCheckBoxMenuItem) menuItems.get(column)</j.0:varInitiatedBy>
+    <j.0:hasInstance>item</j.0:hasInstance>
+    <j.0:nodeID>17</j.0:nodeID>
+    <j.0:nodeType>Class</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#Map">
+    <j.0:hasInstance>menuItems</j.0:hasInstance>
+    <j.0:nodeID>4</j.0:nodeID>
+    <j.0:nodeType>Class</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#CategoryNode.breadthFirstEnumeration">
+    <j.0:nodeID>5</j.0:nodeID>
+    <j.0:nodeType>Method</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#try">
+    <rdf:_2 rdf:resource="http://www.semcomplete.com#if"/>
+    <rdf:_1 rdf:resource="http://www.semcomplete.com#JCheckBoxMenuItem.setSelected"/>
+    <j.0:nodeID>15</j.0:nodeID>
+    <j.0:nodeType>Control</j.0:nodeType>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#for">
+    <rdf:_3 rdf:resource="http://www.semcomplete.com#if"/>
+    <rdf:_7 rdf:resource="http://www.semcomplete.com#else"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+    <rdf:_6 rdf:resource="http://www.semcomplete.com#try"/>
+    <j.0:nodeType>Control</j.0:nodeType>
+    <rdf:_2 rdf:resource="http://www.semcomplete.com#NodeList.item"/>
+    <j.0:nodeID>7</j.0:nodeID>
+    <rdf:_1 rdf:resource="http://www.semcomplete.com#NodeList.getLength"/>
+    <rdf:_5 rdf:resource="http://www.semcomplete.com#Node.getAttributes"/>
+    <rdf:_4 rdf:resource="http://www.semcomplete.com#Node"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#Enumeration.hasMoreElements">
+    <j.0:nodeID>7</j.0:nodeID>
+    <j.0:nodeType>Method</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#NamedNodeMap">
+    <j.0:varInitiatedBy rdf:resource="http://www.semcomplete.com#Node.getAttributes"/>
+    <j.0:hasInstance>map</j.0:hasInstance>
+    <j.0:nodeID>12</j.0:nodeID>
+    <j.0:nodeType>Class</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#JCheckBoxMenuItem.isSelected">
+    <j.0:nodeID>19</j.0:nodeID>
+    <j.0:nodeType>Method</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#List.isEmpty">
+    <j.0:nodeID>21</j.0:nodeID>
+    <j.0:nodeType>Method</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#Node.getAttributes">
+    <j.0:nodeID>13</j.0:nodeID>
+    <j.0:nodeType>Method</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#NodeList.item">
+    <j.0:nodeID>10</j.0:nodeID>
+    <j.0:nodeType>Method</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#CategoryNode.setSelected">
+    <j.0:nodeID>8</j.0:nodeID>
+    <j.0:nodeType>Method</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#Enumeration">
+    <j.0:hasMethod rdf:resource="http://www.semcomplete.com#Enumeration.hasMoreElements"/>
+    <j.0:varInitiatedBy rdf:resource="http://www.semcomplete.com#CategoryNode.breadthFirstEnumeration"/>
+    <j.0:hasInstance>all</j.0:hasInstance>
+    <j.0:nodeID>4</j.0:nodeID>
+    <j.0:nodeType>Class</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#LogTableColumn">
+    <j.0:hasInstance>column</j.0:hasInstance>
+    <j.0:nodeID>16</j.0:nodeID>
+    <j.0:nodeType>Class</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#List.add">
+    <j.0:nodeID>20</j.0:nodeID>
+    <j.0:nodeType>Method</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#if">
+    <rdf:_3 rdf:resource="http://www.semcomplete.com#List.isEmpty"/>
+    <rdf:_2 rdf:resource="http://www.semcomplete.com#List.add"/>
+    <rdf:_1 rdf:resource="http://www.semcomplete.com#JCheckBoxMenuItem.isSelected"/>
+    <j.0:hasCondition rdf:resource="http://www.semcomplete.com#Node"/>
+    <j.0:nodeID>11</j.0:nodeID>
+    <j.0:nodeType>Control</j.0:nodeType>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#ArrayList.new">
+    <j.0:nodeID>6</j.0:nodeID>
+    <j.0:nodeType>Constructor</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#CategoryExplorerModel.getRootCategoryNode">
+    <j.0:nodeID>3</j.0:nodeID>
+    <j.0:nodeType>Method</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#Document.getElementsByTagName">
+    <j.0:nodeID>3</j.0:nodeID>
+    <j.0:nodeType>Method</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#CategoryNode">
+    <j.0:hasMethod rdf:resource="http://www.semcomplete.com#CategoryNode.setSelected"/>
+    <j.0:varInitiatedBy>null</j.0:varInitiatedBy>
+    <j.0:hasInstance>n</j.0:hasInstance>
+    <j.0:hasMethod rdf:resource="http://www.semcomplete.com#CategoryNode.breadthFirstEnumeration"/>
+    <j.0:varInitiatedBy rdf:resource="http://www.semcomplete.com#CategoryExplorerModel.getRootCategoryNode"/>
+    <j.0:hasInstance>root</j.0:hasInstance>
+    <j.0:nodeID>2</j.0:nodeID>
+    <j.0:nodeType>Class</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#CategoryExplorerModel">
+    <j.0:hasMethod rdf:resource="http://www.semcomplete.com#CategoryExplorerModel.getRootCategoryNode"/>
+    <j.0:hasInstance>model</j.0:hasInstance>
+    <j.0:nodeID>1</j.0:nodeID>
+    <j.0:nodeType>Class</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#List">
+    <j.0:hasMethod rdf:resource="http://www.semcomplete.com#List.isEmpty"/>
+    <j.0:hasMethod rdf:resource="http://www.semcomplete.com#List.add"/>
+    <j.0:varInitiatedBy rdf:resource="http://www.semcomplete.com#ArrayList.new"/>
+    <j.0:hasInstance>selectedColumns</j.0:hasInstance>
+    <j.0:nodeID>5</j.0:nodeID>
+    <j.0:nodeType>Class</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#String">
+    <j.0:hasInstance>name</j.0:hasInstance>
+    <j.0:nodeID>14</j.0:nodeID>
+    <j.0:nodeType>Class</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#NodeList.getLength">
+    <j.0:nodeID>8</j.0:nodeID>
+    <j.0:nodeType>Method</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#while">
+    <rdf:_1 rdf:resource="http://www.semcomplete.com#CategoryNode.setSelected"/>
+    <j.0:hasCondition rdf:resource="http://www.semcomplete.com#Enumeration.hasMoreElements"/>
+    <j.0:nodeID>6</j.0:nodeID>
+    <j.0:nodeType>Control</j.0:nodeType>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#NodeList">
+    <j.0:hasMethod rdf:resource="http://www.semcomplete.com#NodeList.item"/>
+    <j.0:hasMethod rdf:resource="http://www.semcomplete.com#NodeList.getLength"/>
+    <j.0:varInitiatedBy rdf:resource="http://www.semcomplete.com#Document.getElementsByTagName"/>
+    <j.0:hasInstance>nodeList</j.0:hasInstance>
+    <j.0:nodeID>2</j.0:nodeID>
+    <j.0:nodeType>Class</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#Document">
+    <j.0:hasMethod rdf:resource="http://www.semcomplete.com#Document.getElementsByTagName"/>
+    <j.0:hasInstance>doc</j.0:hasInstance>
+    <j.0:nodeID>1</j.0:nodeID>
+    <j.0:nodeType>Class</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#else">
+    <rdf:_1 rdf:resource="http://www.semcomplete.com#List.isEmpty"/>
+    <j.0:nodeID>22</j.0:nodeID>
+    <j.0:nodeType>Control</j.0:nodeType>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#JCheckBoxMenuItem.setSelected">
+    <j.0:nodeID>18</j.0:nodeID>
+    <j.0:nodeType>Method</j.0:nodeType>
+  </rdf:Description>
+</rdf:RDF>

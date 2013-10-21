@@ -1,0 +1,3 @@
+<http://www.semcomplete.com#List> <http://www.semcomplete.com#nodeType> "Class" .
+<http://www.semcomplete.com#List> <http://www.semcomplete.com#hasInstance> "records" .
+<http://www.semcomplete.com#if> <http://www.semcomplete.com#nodeType> "Control" .

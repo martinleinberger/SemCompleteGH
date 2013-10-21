@@ -1,0 +1,54 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://www.semcomplete.com#" > 
+  <rdf:Description rdf:about="http://www.semcomplete.com#Stack.push">
+    <j.0:nodeID>6</j.0:nodeID>
+    <j.0:nodeType>Method</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#Stack">
+    <j.0:hasMethod rdf:resource="http://www.semcomplete.com#Stack.push"/>
+    <j.0:assignedTo rdf:resource="http://www.semcomplete.com#Stack.new"/>
+    <j.0:hasConstructor rdf:resource="http://www.semcomplete.com#Stack.new"/>
+    <j.0:hasInstance>stack</j.0:hasInstance>
+    <j.0:hasInstance>s</j.0:hasInstance>
+    <j.0:nodeID>1</j.0:nodeID>
+    <j.0:nodeType>Class</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#Thread">
+    <j.0:hasInstance>key</j.0:hasInstance>
+    <j.0:nodeID>5</j.0:nodeID>
+    <j.0:nodeType>Class</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#if">
+    <rdf:_5 rdf:resource="http://www.semcomplete.com#Stack.push"/>
+    <rdf:_4 rdf:resource="http://www.semcomplete.com#Stack.new"/>
+    <rdf:_3 rdf:resource="http://www.semcomplete.com#DiagnosticContext.new"/>
+    <rdf:_2 rdf:resource="http://www.semcomplete.com#Stack"/>
+    <rdf:_1 rdf:resource="http://www.semcomplete.com#if"/>
+    <j.0:hasCondition rdf:resource="http://www.semcomplete.com#Stack"/>
+    <j.0:nodeID>2</j.0:nodeID>
+    <j.0:nodeType>Control</j.0:nodeType>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#DiagnosticContext.new">
+    <j.0:hasParameter rdf:resource="http://www.semcomplete.com#String"/>
+    <j.0:nodeID>3</j.0:nodeID>
+    <j.0:nodeType>Constructor</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#DiagnosticContext">
+    <j.0:varInitiatedBy rdf:resource="http://www.semcomplete.com#DiagnosticContext.new"/>
+    <j.0:hasConstructor rdf:resource="http://www.semcomplete.com#DiagnosticContext.new"/>
+    <j.0:hasInstance>dc</j.0:hasInstance>
+    <j.0:nodeID>2</j.0:nodeID>
+    <j.0:nodeType>Class</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#Stack.new">
+    <j.0:nodeID>4</j.0:nodeID>
+    <j.0:nodeType>Constructor</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#String">
+    <j.0:hasInstance>message</j.0:hasInstance>
+    <j.0:nodeID>1</j.0:nodeID>
+    <j.0:nodeType>Class</j.0:nodeType>
+  </rdf:Description>
+</rdf:RDF>

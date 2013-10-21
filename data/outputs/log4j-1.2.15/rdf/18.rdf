@@ -1,0 +1,27 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://www.semcomplete.com#" > 
+  <rdf:Description rdf:about="http://www.semcomplete.com#InputStreamReader.new">
+    <j.0:hasParameter rdf:resource="http://www.semcomplete.com#InputStream"/>
+    <j.0:nodeID>3</j.0:nodeID>
+    <j.0:nodeType>Constructor</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#if">
+    <j.0:hasCondition rdf:resource="http://www.semcomplete.com#InputStream"/>
+    <j.0:nodeID>1</j.0:nodeID>
+    <j.0:nodeType>Control</j.0:nodeType>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#InputStreamReader">
+    <j.0:varInitiatedBy rdf:resource="http://www.semcomplete.com#InputStreamReader.new"/>
+    <j.0:hasConstructor rdf:resource="http://www.semcomplete.com#InputStreamReader.new"/>
+    <j.0:hasInstance>reader</j.0:hasInstance>
+    <j.0:nodeID>2</j.0:nodeID>
+    <j.0:nodeType>Class</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#InputStream">
+    <j.0:hasInstance>in</j.0:hasInstance>
+    <j.0:nodeID>1</j.0:nodeID>
+    <j.0:nodeType>Class</j.0:nodeType>
+  </rdf:Description>
+</rdf:RDF>

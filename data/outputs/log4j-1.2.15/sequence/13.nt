@@ -1,0 +1,4 @@
+<http://www.semcomplete.com#Logger> <http://www.semcomplete.com#nodeType> "Class" .
+<http://www.semcomplete.com#Logger> <http://www.semcomplete.com#hasInstance> "root" .
+<http://www.semcomplete.com#Logger.closeNestedAppenders> <http://www.semcomplete.com#nodeType> "Method" .
+<http://www.semcomplete.com#Logger> <http://www.semcomplete.com#hasMethod> <http://www.semcomplete.com#Logger.closeNestedAppenders> .

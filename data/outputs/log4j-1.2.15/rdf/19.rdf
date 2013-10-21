@@ -1,0 +1,51 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://www.semcomplete.com#" > 
+  <rdf:Description rdf:about="http://www.semcomplete.com#Object">
+    <j.0:hasInstance>object</j.0:hasInstance>
+    <j.0:nodeID>1</j.0:nodeID>
+    <j.0:nodeType>Class</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#Resource.getName">
+    <j.0:nodeID>7</j.0:nodeID>
+    <j.0:nodeType>Method</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#else">
+    <j.0:nodeID>8</j.0:nodeID>
+    <j.0:nodeType>Control</j.0:nodeType>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#if">
+    <rdf:_3 rdf:resource="http://www.semcomplete.com#InputStream"/>
+    <rdf:_2 rdf:resource="http://www.semcomplete.com#ClassLoader.getResourceAsStream"/>
+    <rdf:_1 rdf:resource="http://www.semcomplete.com#Resource.getName"/>
+    <j.0:hasCondition rdf:resource="http://www.semcomplete.com#ClassLoader"/>
+    <j.0:nodeID>5</j.0:nodeID>
+    <j.0:nodeType>Control</j.0:nodeType>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#Resource">
+    <j.0:hasMethod rdf:resource="http://www.semcomplete.com#Resource.getName"/>
+    <j.0:hasInstance>resource</j.0:hasInstance>
+    <j.0:nodeID>2</j.0:nodeID>
+    <j.0:nodeType>Class</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#ClassLoader.getResourceAsStream">
+    <j.0:hasParameter rdf:resource="http://www.semcomplete.com#Resource.getName"/>
+    <j.0:nodeID>6</j.0:nodeID>
+    <j.0:nodeType>Method</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#ClassLoader">
+    <j.0:hasMethod rdf:resource="http://www.semcomplete.com#ClassLoader.getResourceAsStream"/>
+    <j.0:hasInstance>loader</j.0:hasInstance>
+    <j.0:nodeID>3</j.0:nodeID>
+    <j.0:nodeType>Class</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#InputStream">
+    <j.0:assignedTo rdf:resource="http://www.semcomplete.com#ClassLoader.getResourceAsStream"/>
+    <j.0:varInitiatedBy>null</j.0:varInitiatedBy>
+    <j.0:hasInstance>in</j.0:hasInstance>
+    <j.0:nodeID>4</j.0:nodeID>
+    <j.0:nodeType>Class</j.0:nodeType>
+  </rdf:Description>
+</rdf:RDF>
