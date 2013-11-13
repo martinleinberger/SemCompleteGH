@@ -1,21 +1,35 @@
 <rdf:RDF
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:j.0="http://www.semcomplete.com#" > 
-  <rdf:Description rdf:about="http://www.semcomplete.com#ExternallyRolledFileAppender.ROLL_OVER">
-    <j.0:nodeID>10</j.0:nodeID>
-    <j.0:nodeType>Attribute</j.0:nodeType>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_26">
+    <j.0:hasMethod>http://www.semcomplete.com#DataInputStream.readUTF</j.0:hasMethod>
+    <j.0:code>http://www.semcomplete.com#DataInputStream</j.0:code>
+    <j.0:pit_index>26</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.semcomplete.com#Socket">
-    <j.0:varInitiatedBy rdf:resource="http://www.semcomplete.com#Socket.new"/>
-    <j.0:hasConstructor rdf:resource="http://www.semcomplete.com#Socket.new"/>
-    <j.0:hasInstance>socket</j.0:hasInstance>
-    <j.0:nodeID>2</j.0:nodeID>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_19">
     <j.0:nodeType>Class</j.0:nodeType>
+    <j.0:code>http://www.semcomplete.com#ExternallyRolledFileAppender</j.0:code>
+    <j.0:pit_index>19</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.semcomplete.com#DataOutputStream.writeUTF">
-    <j.0:hasParameter rdf:resource="http://www.semcomplete.com#ExternallyRolledFileAppender.ROLL_OVER"/>
-    <j.0:nodeID>8</j.0:nodeID>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_9">
+    <j.0:nodeType>Constructor</j.0:nodeType>
+    <j.0:code>http://www.semcomplete.com#DataOutputStream.new</j.0:code>
+    <j.0:pit_index>9</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_17">
     <j.0:nodeType>Method</j.0:nodeType>
+    <j.0:code>http://www.semcomplete.com#DataOutputStream.writeUTF</j.0:code>
+    <j.0:pit_index>17</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_22">
+    <j.0:hasParameter>http://www.semcomplete.com#ExternallyRolledFileAppender.ROLL_OVER</j.0:hasParameter>
+    <j.0:code>http://www.semcomplete.com#DataOutputStream.writeUTF</j.0:code>
+    <j.0:pit_index>22</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.semcomplete.com#try">
     <rdf:_1 rdf:resource="http://www.semcomplete.com#Socket.new"/>
@@ -30,15 +44,11 @@
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
     <j.0:nodeID>1</j.0:nodeID>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.semcomplete.com#DataInputStream.new">
-    <j.0:nodeID>7</j.0:nodeID>
-    <j.0:nodeType>Constructor</j.0:nodeType>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.semcomplete.com#String">
-    <j.0:varInitiatedBy rdf:resource="http://www.semcomplete.com#DataInputStream.readUTF"/>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_24">
     <j.0:hasInstance>rc</j.0:hasInstance>
-    <j.0:nodeID>11</j.0:nodeID>
-    <j.0:nodeType>Class</j.0:nodeType>
+    <j.0:code>http://www.semcomplete.com#String</j.0:code>
+    <j.0:pit_index>24</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.semcomplete.com#DataInputStream.readUTF">
     <j.0:nodeID>12</j.0:nodeID>
@@ -52,19 +62,39 @@
     <j.0:nodeID>6</j.0:nodeID>
     <j.0:nodeType>Class</j.0:nodeType>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.semcomplete.com#ExternallyRolledFileAppender">
-    <j.0:hasAttribute rdf:resource="http://www.semcomplete.com#ExternallyRolledFileAppender.ROLL_OVER"/>
-    <j.0:nodeID>9</j.0:nodeID>
-    <j.0:nodeType>Class</j.0:nodeType>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_13">
+    <j.0:hasInstance>dis</j.0:hasInstance>
+    <j.0:code>http://www.semcomplete.com#DataInputStream</j.0:code>
+    <j.0:pit_index>13</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_11">
+    <j.0:varInitiatedBy>http://www.semcomplete.com#DataOutputStream.new</j.0:varInitiatedBy>
+    <j.0:code>http://www.semcomplete.com#DataOutputStream</j.0:code>
+    <j.0:pit_index>11</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_20">
+    <j.0:nodeType>Attribute</j.0:nodeType>
+    <j.0:code>http://www.semcomplete.com#ExternallyRolledFileAppender.ROLL_OVER</j.0:code>
+    <j.0:pit_index>20</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.semcomplete.com#Socket.new">
     <j.0:nodeID>3</j.0:nodeID>
     <j.0:nodeType>Constructor</j.0:nodeType>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.semcomplete.com#else">
-    <j.0:nodeID>14</j.0:nodeID>
-    <j.0:nodeType>Control</j.0:nodeType>
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_3">
+    <j.0:hasInstance>socket</j.0:hasInstance>
+    <j.0:code>http://www.semcomplete.com#Socket</j.0:code>
+    <j.0:pit_index>3</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_5">
+    <j.0:hasConstructor>http://www.semcomplete.com#Socket.new</j.0:hasConstructor>
+    <j.0:code>http://www.semcomplete.com#Socket</j.0:code>
+    <j.0:pit_index>5</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.semcomplete.com#if">
     <j.0:nodeID>13</j.0:nodeID>
@@ -75,6 +105,132 @@
     <j.0:nodeID>5</j.0:nodeID>
     <j.0:nodeType>Constructor</j.0:nodeType>
   </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_7">
+    <j.0:nodeType>Class</j.0:nodeType>
+    <j.0:code>http://www.semcomplete.com#DataOutputStream</j.0:code>
+    <j.0:pit_index>7</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_15">
+    <j.0:hasConstructor>http://www.semcomplete.com#DataInputStream.new</j.0:hasConstructor>
+    <j.0:code>http://www.semcomplete.com#DataInputStream</j.0:code>
+    <j.0:pit_index>15</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_28">
+    <j.0:nodeType>Control</j.0:nodeType>
+    <j.0:code>http://www.semcomplete.com#if</j.0:code>
+    <j.0:pit_index>28</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_1">
+    <j.0:nodeType>Control</j.0:nodeType>
+    <j.0:code>http://www.semcomplete.com#try</j.0:code>
+    <j.0:pit_index>1</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#ExternallyRolledFileAppender.ROLL_OVER">
+    <j.0:nodeID>10</j.0:nodeID>
+    <j.0:nodeType>Attribute</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#Socket">
+    <j.0:varInitiatedBy rdf:resource="http://www.semcomplete.com#Socket.new"/>
+    <j.0:hasConstructor rdf:resource="http://www.semcomplete.com#Socket.new"/>
+    <j.0:hasInstance>socket</j.0:hasInstance>
+    <j.0:nodeID>2</j.0:nodeID>
+    <j.0:nodeType>Class</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_18">
+    <j.0:hasMethod>http://www.semcomplete.com#DataOutputStream.writeUTF</j.0:hasMethod>
+    <j.0:code>http://www.semcomplete.com#DataOutputStream</j.0:code>
+    <j.0:pit_index>18</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_16">
+    <j.0:varInitiatedBy>http://www.semcomplete.com#DataInputStream.new</j.0:varInitiatedBy>
+    <j.0:code>http://www.semcomplete.com#DataInputStream</j.0:code>
+    <j.0:pit_index>16</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#DataOutputStream.writeUTF">
+    <j.0:hasParameter rdf:resource="http://www.semcomplete.com#ExternallyRolledFileAppender.ROLL_OVER"/>
+    <j.0:nodeID>8</j.0:nodeID>
+    <j.0:nodeType>Method</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#DataInputStream.new">
+    <j.0:nodeID>7</j.0:nodeID>
+    <j.0:nodeType>Constructor</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_25">
+    <j.0:nodeType>Method</j.0:nodeType>
+    <j.0:code>http://www.semcomplete.com#DataInputStream.readUTF</j.0:code>
+    <j.0:pit_index>25</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_23">
+    <j.0:nodeType>Class</j.0:nodeType>
+    <j.0:code>http://www.semcomplete.com#String</j.0:code>
+    <j.0:pit_index>23</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#String">
+    <j.0:varInitiatedBy rdf:resource="http://www.semcomplete.com#DataInputStream.readUTF"/>
+    <j.0:hasInstance>rc</j.0:hasInstance>
+    <j.0:nodeID>11</j.0:nodeID>
+    <j.0:nodeType>Class</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_10">
+    <j.0:hasConstructor>http://www.semcomplete.com#DataOutputStream.new</j.0:hasConstructor>
+    <j.0:code>http://www.semcomplete.com#DataOutputStream</j.0:code>
+    <j.0:pit_index>10</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#ExternallyRolledFileAppender">
+    <j.0:hasAttribute rdf:resource="http://www.semcomplete.com#ExternallyRolledFileAppender.ROLL_OVER"/>
+    <j.0:nodeID>9</j.0:nodeID>
+    <j.0:nodeType>Class</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_12">
+    <j.0:nodeType>Class</j.0:nodeType>
+    <j.0:code>http://www.semcomplete.com#DataInputStream</j.0:code>
+    <j.0:pit_index>12</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_21">
+    <j.0:hasAttribute>http://www.semcomplete.com#ExternallyRolledFileAppender.ROLL_OVER</j.0:hasAttribute>
+    <j.0:code>http://www.semcomplete.com#ExternallyRolledFileAppender</j.0:code>
+    <j.0:pit_index>21</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_27">
+    <j.0:varInitiatedBy>http://www.semcomplete.com#DataInputStream.readUTF</j.0:varInitiatedBy>
+    <j.0:code>http://www.semcomplete.com#String</j.0:code>
+    <j.0:pit_index>27</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#else">
+    <j.0:nodeID>14</j.0:nodeID>
+    <j.0:nodeType>Control</j.0:nodeType>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_6">
+    <j.0:varInitiatedBy>http://www.semcomplete.com#Socket.new</j.0:varInitiatedBy>
+    <j.0:code>http://www.semcomplete.com#Socket</j.0:code>
+    <j.0:pit_index>6</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_4">
+    <j.0:nodeType>Constructor</j.0:nodeType>
+    <j.0:code>http://www.semcomplete.com#Socket.new</j.0:code>
+    <j.0:pit_index>4</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_2">
+    <j.0:nodeType>Class</j.0:nodeType>
+    <j.0:code>http://www.semcomplete.com#Socket</j.0:code>
+    <j.0:pit_index>2</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.semcomplete.com#DataOutputStream">
     <j.0:hasMethod rdf:resource="http://www.semcomplete.com#DataOutputStream.writeUTF"/>
     <j.0:varInitiatedBy rdf:resource="http://www.semcomplete.com#DataOutputStream.new"/>
@@ -82,5 +238,23 @@
     <j.0:hasInstance>dos</j.0:hasInstance>
     <j.0:nodeID>4</j.0:nodeID>
     <j.0:nodeType>Class</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_14">
+    <j.0:nodeType>Constructor</j.0:nodeType>
+    <j.0:code>http://www.semcomplete.com#DataInputStream.new</j.0:code>
+    <j.0:pit_index>14</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_8">
+    <j.0:hasInstance>dos</j.0:hasInstance>
+    <j.0:code>http://www.semcomplete.com#DataOutputStream</j.0:code>
+    <j.0:pit_index>8</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_29">
+    <j.0:nodeType>Control</j.0:nodeType>
+    <j.0:code>http://www.semcomplete.com#else</j.0:code>
+    <j.0:pit_index>29</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
   </rdf:Description>
 </rdf:RDF>

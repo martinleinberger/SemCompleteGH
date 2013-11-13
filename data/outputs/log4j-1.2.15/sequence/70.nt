@@ -18,5 +18,5 @@
 <http://www.semcomplete.com#File> <http://www.semcomplete.com#nodeType> "Class" .
 <http://www.semcomplete.com#File> <http://www.semcomplete.com#hasInstance> "f" .
 <http://www.semcomplete.com#File.new> <http://www.semcomplete.com#nodeType> "Constructor" .
-<http://www.semcomplete.com#File.new> <http://www.semcomplete.com#hasParameter> <http://www.semcomplete.com#String> .
+<http://www.semcomplete.com#File.new> <http://www.semcomplete.com#hasParameter> <http://www.semcomplete.com#POINT_IN_TIME_16> .
 <http://www.semcomplete.com#File> <http://www.semcomplete.com#varInitiatedBy> <http://www.semcomplete.com#File.new> .

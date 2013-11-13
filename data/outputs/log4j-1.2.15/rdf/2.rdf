@@ -1,31 +1,79 @@
 <rdf:RDF
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:j.0="http://www.semcomplete.com#" > 
+  <rdf:Description rdf:about="http://www.semcomplete.com#try">
+    <j.0:nodeID>5</j.0:nodeID>
+    <j.0:nodeType>Control</j.0:nodeType>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#String">
+    <j.0:hasInstance>key</j.0:hasInstance>
+    <j.0:nodeID>1</j.0:nodeID>
+    <j.0:nodeType>Class</j.0:nodeType>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.semcomplete.com#else">
     <rdf:_1 rdf:resource="http://www.semcomplete.com#try"/>
     <j.0:nodeID>4</j.0:nodeID>
     <j.0:nodeType>Control</j.0:nodeType>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_3">
+    <j.0:nodeType>Class</j.0:nodeType>
+    <j.0:code>http://www.semcomplete.com#ResourceBundle</j.0:code>
+    <j.0:pit_index>3</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_6">
+    <j.0:hasCondition>http://www.semcomplete.com#POINT_IN_TIME_4</j.0:hasCondition>
+    <j.0:code>http://www.semcomplete.com#if</j.0:code>
+    <j.0:pit_index>6</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_4">
+    <j.0:hasInstance>rb</j.0:hasInstance>
+    <j.0:code>http://www.semcomplete.com#ResourceBundle</j.0:code>
+    <j.0:pit_index>4</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_5">
+    <j.0:nodeType>Control</j.0:nodeType>
+    <j.0:code>http://www.semcomplete.com#if</j.0:code>
+    <j.0:pit_index>5</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.semcomplete.com#if">
-    <j.0:hasCondition rdf:resource="http://www.semcomplete.com#ResourceBundle"/>
+    <j.0:hasCondition rdf:resource="http://www.semcomplete.com#POINT_IN_TIME_4"/>
     <j.0:nodeID>3</j.0:nodeID>
     <j.0:nodeType>Control</j.0:nodeType>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.semcomplete.com#try">
-    <j.0:nodeID>5</j.0:nodeID>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_2">
+    <j.0:hasInstance>key</j.0:hasInstance>
+    <j.0:code>http://www.semcomplete.com#String</j.0:code>
+    <j.0:pit_index>2</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_7">
     <j.0:nodeType>Control</j.0:nodeType>
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+    <j.0:code>http://www.semcomplete.com#else</j.0:code>
+    <j.0:pit_index>7</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.semcomplete.com#ResourceBundle">
     <j.0:hasInstance>rb</j.0:hasInstance>
     <j.0:nodeID>2</j.0:nodeID>
     <j.0:nodeType>Class</j.0:nodeType>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.semcomplete.com#String">
-    <j.0:hasInstance>key</j.0:hasInstance>
-    <j.0:nodeID>1</j.0:nodeID>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_8">
+    <j.0:nodeType>Control</j.0:nodeType>
+    <j.0:code>http://www.semcomplete.com#try</j.0:code>
+    <j.0:pit_index>8</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_1">
     <j.0:nodeType>Class</j.0:nodeType>
+    <j.0:code>http://www.semcomplete.com#String</j.0:code>
+    <j.0:pit_index>1</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
   </rdf:Description>
 </rdf:RDF>

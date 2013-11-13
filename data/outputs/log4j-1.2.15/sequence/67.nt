@@ -9,9 +9,9 @@
 <http://www.semcomplete.com#PrintWriter> <http://www.semcomplete.com#nodeType> "Class" .
 <http://www.semcomplete.com#PrintWriter> <http://www.semcomplete.com#hasInstance> "writer" .
 <http://www.semcomplete.com#PrintWriter> <http://www.semcomplete.com#varInitiatedBy> "(PrintWriter) e.nextElement()" .
-<http://www.semcomplete.com#PrintWriter.print> <http://www.semcomplete.com#nodeType> "Method" .
-<http://www.semcomplete.com#PrintWriter> <http://www.semcomplete.com#hasMethod> <http://www.semcomplete.com#PrintWriter.print> .
+<http://www.semcomplete.com#POINT_IN_TIME_10.print> <http://www.semcomplete.com#nodeType> "Method" .
+<http://www.semcomplete.com#POINT_IN_TIME_10> <http://www.semcomplete.com#hasMethod> <http://www.semcomplete.com#POINT_IN_TIME_10.print> .
 <http://www.semcomplete.com#if> <http://www.semcomplete.com#nodeType> "Control" .
-<http://www.semcomplete.com#PrintWriter.checkError> <http://www.semcomplete.com#nodeType> "Method" .
-<http://www.semcomplete.com#PrintWriter> <http://www.semcomplete.com#hasMethod> <http://www.semcomplete.com#PrintWriter.checkError> .
-<http://www.semcomplete.com#if> <http://www.semcomplete.com#hasCondition> <http://www.semcomplete.com#PrintWriter.checkError> .
+<http://www.semcomplete.com#POINT_IN_TIME_10.checkError> <http://www.semcomplete.com#nodeType> "Method" .
+<http://www.semcomplete.com#POINT_IN_TIME_10> <http://www.semcomplete.com#hasMethod> <http://www.semcomplete.com#POINT_IN_TIME_10.checkError> .
+<http://www.semcomplete.com#if> <http://www.semcomplete.com#hasCondition> <http://www.semcomplete.com#POINT_IN_TIME_10.checkError> .

@@ -17,5 +17,5 @@
 <http://www.semcomplete.com#if> <http://www.semcomplete.com#nodeType> "Control" .
 <http://www.semcomplete.com#Logger> <http://www.semcomplete.com#hasInstance> "o" .
 <http://www.semcomplete.com#if> <http://www.semcomplete.com#hasCondition> <http://www.semcomplete.com#Logger> .
-<http://www.semcomplete.com#Vector.addElement> <http://www.semcomplete.com#nodeType> "Method" .
-<http://www.semcomplete.com#Vector> <http://www.semcomplete.com#hasMethod> <http://www.semcomplete.com#Vector.addElement> .
+<http://www.semcomplete.com#POINT_IN_TIME_2.addElement> <http://www.semcomplete.com#nodeType> "Method" .
+<http://www.semcomplete.com#POINT_IN_TIME_2> <http://www.semcomplete.com#hasMethod> <http://www.semcomplete.com#POINT_IN_TIME_2.addElement> .

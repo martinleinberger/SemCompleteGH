@@ -10,9 +10,9 @@
 <http://www.semcomplete.com#Iterator> <http://www.semcomplete.com#hasInstance> "it" .
 <http://www.semcomplete.com#Iterator> <http://www.semcomplete.com#varInitiatedBy> <http://www.semcomplete.com#StringBuffer.append> .
 <http://www.semcomplete.com#while> <http://www.semcomplete.com#nodeType> "Control" .
-<http://www.semcomplete.com#Iterator.hasNext> <http://www.semcomplete.com#nodeType> "Method" .
-<http://www.semcomplete.com#Iterator> <http://www.semcomplete.com#hasMethod> <http://www.semcomplete.com#Iterator.hasNext> .
-<http://www.semcomplete.com#while> <http://www.semcomplete.com#hasCondition> <http://www.semcomplete.com#Iterator.hasNext> .
+<http://www.semcomplete.com#POINT_IN_TIME_10.hasNext> <http://www.semcomplete.com#nodeType> "Method" .
+<http://www.semcomplete.com#POINT_IN_TIME_10> <http://www.semcomplete.com#hasMethod> <http://www.semcomplete.com#POINT_IN_TIME_10.hasNext> .
+<http://www.semcomplete.com#while> <http://www.semcomplete.com#hasCondition> <http://www.semcomplete.com#POINT_IN_TIME_10.hasNext> .
 <http://www.semcomplete.com#LogLevel> <http://www.semcomplete.com#nodeType> "Class" .
 <http://www.semcomplete.com#LogLevel> <http://www.semcomplete.com#hasInstance> "level" .
 <http://www.semcomplete.com#LogLevel> <http://www.semcomplete.com#varInitiatedBy> "(LogLevel) it.next()" .

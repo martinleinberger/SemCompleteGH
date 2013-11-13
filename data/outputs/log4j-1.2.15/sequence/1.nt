@@ -11,5 +11,5 @@
 <http://www.semcomplete.com#Appender> <http://www.semcomplete.com#varInitiatedBy> "(Appender) enumeration.nextElement()" .
 <http://www.semcomplete.com#if> <http://www.semcomplete.com#nodeType> "Control" .
 <http://www.semcomplete.com#AppenderAttachable> <http://www.semcomplete.com#hasInstance> "a" .
-<http://www.semcomplete.com#Appender.close> <http://www.semcomplete.com#nodeType> "Method" .
-<http://www.semcomplete.com#Appender> <http://www.semcomplete.com#hasMethod> <http://www.semcomplete.com#Appender.close> .
+<http://www.semcomplete.com#POINT_IN_TIME_10.close> <http://www.semcomplete.com#nodeType> "Method" .
+<http://www.semcomplete.com#POINT_IN_TIME_10> <http://www.semcomplete.com#hasMethod> <http://www.semcomplete.com#POINT_IN_TIME_10.close> .

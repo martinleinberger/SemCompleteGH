@@ -425,6 +425,13 @@ public class MethodVisitor2 extends VoidVisitorAdapter {
 				+ "\" .";
 		// adding the triple
 		sequence_info += triple+"\n";
+
+        Resource pitResource = model.createResource(ns + "POINT_IN_TIME_" + triple_serial);
+
+        pitResource.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), ns+"POINT_IN_TIME");
+        pitResource.addProperty(model.createProperty(ns+"pit_index"), ""+triple_serial);
+        pitResource.addProperty(model.createProperty(ns+"code"), subject);
+        pitResource.addProperty(model.createProperty(predicate), object);
 	}
 
 	protected void explore_declaration_method_parameters(List<Parameter> params) {

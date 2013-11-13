@@ -1,6 +1,126 @@
 <rdf:RDF
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:j.0="http://www.semcomplete.com#" > 
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_36">
+    <j.0:varInitiatedBy>(JCheckBoxMenuItem) menuItems.get(column)</j.0:varInitiatedBy>
+    <j.0:code>http://www.semcomplete.com#JCheckBoxMenuItem</j.0:code>
+    <j.0:pit_index>36</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_42">
+    <j.0:nodeType>Method</j.0:nodeType>
+    <j.0:code>http://www.semcomplete.com#POINT_IN_TIME_11.add</j.0:code>
+    <j.0:pit_index>42</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_17">
+    <j.0:nodeType>Class</j.0:nodeType>
+    <j.0:code>http://www.semcomplete.com#Node</j.0:code>
+    <j.0:pit_index>17</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_19">
+    <j.0:nodeType>Method</j.0:nodeType>
+    <j.0:code>http://www.semcomplete.com#NodeList.item</j.0:code>
+    <j.0:pit_index>19</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_60">
+    <j.0:nodeType>Class</j.0:nodeType>
+    <j.0:code>http://www.semcomplete.com#CategoryNode</j.0:code>
+    <j.0:pit_index>60</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_56">
+    <j.0:hasInstance>all</j.0:hasInstance>
+    <j.0:code>http://www.semcomplete.com#Enumeration</j.0:code>
+    <j.0:pit_index>56</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_22">
+    <j.0:nodeType>Control</j.0:nodeType>
+    <j.0:code>http://www.semcomplete.com#if</j.0:code>
+    <j.0:pit_index>22</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#CategoryNode.breadthFirstEnumeration">
+    <j.0:nodeID>5</j.0:nodeID>
+    <j.0:nodeType>Method</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#Enumeration.hasMoreElements">
+    <j.0:nodeID>7</j.0:nodeID>
+    <j.0:nodeType>Method</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_5">
+    <j.0:nodeType>Method</j.0:nodeType>
+    <j.0:code>http://www.semcomplete.com#Document.getElementsByTagName</j.0:code>
+    <j.0:pit_index>5</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_43">
+    <j.0:hasMethod>http://www.semcomplete.com#POINT_IN_TIME_11.add</j.0:hasMethod>
+    <j.0:code>http://www.semcomplete.com#POINT_IN_TIME_11</j.0:code>
+    <j.0:pit_index>43</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#Document.getElementsByTagName">
+    <j.0:nodeID>3</j.0:nodeID>
+    <j.0:nodeType>Method</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_37">
+    <j.0:nodeType>Method</j.0:nodeType>
+    <j.0:code>http://www.semcomplete.com#JCheckBoxMenuItem.setSelected</j.0:code>
+    <j.0:pit_index>37</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_16">
+    <j.0:hasMethod>http://www.semcomplete.com#NodeList.getLength</j.0:hasMethod>
+    <j.0:code>http://www.semcomplete.com#NodeList</j.0:code>
+    <j.0:pit_index>16</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_18">
+    <j.0:hasInstance>n</j.0:hasInstance>
+    <j.0:code>http://www.semcomplete.com#Node</j.0:code>
+    <j.0:pit_index>18</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_61">
+    <j.0:hasInstance>n</j.0:hasInstance>
+    <j.0:code>http://www.semcomplete.com#CategoryNode</j.0:code>
+    <j.0:pit_index>61</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_57">
+    <j.0:nodeType>Method</j.0:nodeType>
+    <j.0:code>http://www.semcomplete.com#CategoryNode.breadthFirstEnumeration</j.0:code>
+    <j.0:pit_index>57</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_23">
+    <j.0:hasCondition>http://www.semcomplete.com#Node</j.0:hasCondition>
+    <j.0:code>http://www.semcomplete.com#if</j.0:code>
+    <j.0:pit_index>23</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#Document">
+    <j.0:hasMethod rdf:resource="http://www.semcomplete.com#Document.getElementsByTagName"/>
+    <j.0:hasInstance>doc</j.0:hasInstance>
+    <j.0:nodeID>1</j.0:nodeID>
+    <j.0:nodeType>Class</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_68">
+    <j.0:hasMethod>http://www.semcomplete.com#CategoryNode.setSelected</j.0:hasMethod>
+    <j.0:code>http://www.semcomplete.com#CategoryNode</j.0:code>
+    <j.0:pit_index>68</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_6">
+    <j.0:hasMethod>http://www.semcomplete.com#Document.getElementsByTagName</j.0:hasMethod>
+    <j.0:code>http://www.semcomplete.com#Document</j.0:code>
+    <j.0:pit_index>6</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.semcomplete.com#Node">
     <j.0:hasMethod rdf:resource="http://www.semcomplete.com#Node.getAttributes"/>
     <j.0:varInitiatedBy rdf:resource="http://www.semcomplete.com#NodeList.item"/>
@@ -21,16 +141,29 @@
     <j.0:nodeID>4</j.0:nodeID>
     <j.0:nodeType>Class</j.0:nodeType>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.semcomplete.com#CategoryNode.breadthFirstEnumeration">
-    <j.0:nodeID>5</j.0:nodeID>
-    <j.0:nodeType>Method</j.0:nodeType>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.semcomplete.com#try">
-    <rdf:_2 rdf:resource="http://www.semcomplete.com#if"/>
-    <rdf:_1 rdf:resource="http://www.semcomplete.com#JCheckBoxMenuItem.setSelected"/>
-    <j.0:nodeID>15</j.0:nodeID>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_44">
     <j.0:nodeType>Control</j.0:nodeType>
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+    <j.0:code>http://www.semcomplete.com#if</j.0:code>
+    <j.0:pit_index>44</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_34">
+    <j.0:nodeType>Class</j.0:nodeType>
+    <j.0:code>http://www.semcomplete.com#JCheckBoxMenuItem</j.0:code>
+    <j.0:pit_index>34</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_24">
+    <j.0:nodeType>Class</j.0:nodeType>
+    <j.0:code>http://www.semcomplete.com#NamedNodeMap</j.0:code>
+    <j.0:pit_index>24</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_54">
+    <j.0:varInitiatedBy>http://www.semcomplete.com#CategoryExplorerModel.getRootCategoryNode</j.0:varInitiatedBy>
+    <j.0:code>http://www.semcomplete.com#CategoryNode</j.0:code>
+    <j.0:pit_index>54</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.semcomplete.com#for">
     <rdf:_3 rdf:resource="http://www.semcomplete.com#if"/>
@@ -44,27 +177,117 @@
     <rdf:_5 rdf:resource="http://www.semcomplete.com#Node.getAttributes"/>
     <rdf:_4 rdf:resource="http://www.semcomplete.com#Node"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.semcomplete.com#Enumeration.hasMoreElements">
-    <j.0:nodeID>7</j.0:nodeID>
-    <j.0:nodeType>Method</j.0:nodeType>
-  </rdf:Description>
   <rdf:Description rdf:about="http://www.semcomplete.com#NamedNodeMap">
     <j.0:varInitiatedBy rdf:resource="http://www.semcomplete.com#Node.getAttributes"/>
     <j.0:hasInstance>map</j.0:hasInstance>
     <j.0:nodeID>12</j.0:nodeID>
     <j.0:nodeType>Class</j.0:nodeType>
   </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#Node.getAttributes">
+    <j.0:nodeID>13</j.0:nodeID>
+    <j.0:nodeType>Method</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_67">
+    <j.0:nodeType>Method</j.0:nodeType>
+    <j.0:code>http://www.semcomplete.com#CategoryNode.setSelected</j.0:code>
+    <j.0:pit_index>67</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_7">
+    <j.0:varInitiatedBy>http://www.semcomplete.com#Document.getElementsByTagName</j.0:varInitiatedBy>
+    <j.0:code>http://www.semcomplete.com#NodeList</j.0:code>
+    <j.0:pit_index>7</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_11.isEmpty">
+    <j.0:nodeID>21</j.0:nodeID>
+    <j.0:nodeType>Method</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_15">
+    <j.0:nodeType>Method</j.0:nodeType>
+    <j.0:code>http://www.semcomplete.com#NodeList.getLength</j.0:code>
+    <j.0:pit_index>15</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_45">
+    <j.0:nodeType>Method</j.0:nodeType>
+    <j.0:code>http://www.semcomplete.com#POINT_IN_TIME_11.isEmpty</j.0:code>
+    <j.0:pit_index>45</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#CategoryExplorerModel">
+    <j.0:hasMethod rdf:resource="http://www.semcomplete.com#CategoryExplorerModel.getRootCategoryNode"/>
+    <j.0:hasInstance>model</j.0:hasInstance>
+    <j.0:nodeID>1</j.0:nodeID>
+    <j.0:nodeType>Class</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_35">
+    <j.0:hasInstance>item</j.0:hasInstance>
+    <j.0:code>http://www.semcomplete.com#JCheckBoxMenuItem</j.0:code>
+    <j.0:pit_index>35</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_55">
+    <j.0:nodeType>Class</j.0:nodeType>
+    <j.0:code>http://www.semcomplete.com#Enumeration</j.0:code>
+    <j.0:pit_index>55</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_25">
+    <j.0:hasInstance>map</j.0:hasInstance>
+    <j.0:code>http://www.semcomplete.com#NamedNodeMap</j.0:code>
+    <j.0:pit_index>25</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#NodeList.getLength">
+    <j.0:nodeID>8</j.0:nodeID>
+    <j.0:nodeType>Method</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_66">
+    <j.0:hasCondition>http://www.semcomplete.com#Enumeration.hasMoreElements</j.0:hasCondition>
+    <j.0:code>http://www.semcomplete.com#while</j.0:code>
+    <j.0:pit_index>66</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_14">
+    <j.0:nodeType>Control</j.0:nodeType>
+    <j.0:code>http://www.semcomplete.com#for</j.0:code>
+    <j.0:pit_index>14</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_8">
+    <j.0:nodeType>Class</j.0:nodeType>
+    <j.0:code>http://www.semcomplete.com#Map</j.0:code>
+    <j.0:pit_index>8</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_52">
+    <j.0:nodeType>Method</j.0:nodeType>
+    <j.0:code>http://www.semcomplete.com#CategoryExplorerModel.getRootCategoryNode</j.0:code>
+    <j.0:pit_index>52</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_9">
+    <j.0:hasInstance>menuItems</j.0:hasInstance>
+    <j.0:code>http://www.semcomplete.com#Map</j.0:code>
+    <j.0:pit_index>9</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_26">
+    <j.0:nodeType>Method</j.0:nodeType>
+    <j.0:code>http://www.semcomplete.com#Node.getAttributes</j.0:code>
+    <j.0:pit_index>26</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.semcomplete.com#JCheckBoxMenuItem.isSelected">
     <j.0:nodeID>19</j.0:nodeID>
     <j.0:nodeType>Method</j.0:nodeType>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.semcomplete.com#List.isEmpty">
-    <j.0:nodeID>21</j.0:nodeID>
-    <j.0:nodeType>Method</j.0:nodeType>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.semcomplete.com#Node.getAttributes">
-    <j.0:nodeID>13</j.0:nodeID>
-    <j.0:nodeType>Method</j.0:nodeType>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_13">
+    <j.0:varInitiatedBy>http://www.semcomplete.com#ArrayList.new</j.0:varInitiatedBy>
+    <j.0:code>http://www.semcomplete.com#List</j.0:code>
+    <j.0:pit_index>13</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.semcomplete.com#NodeList.item">
     <j.0:nodeID>10</j.0:nodeID>
@@ -86,30 +309,167 @@
     <j.0:nodeID>16</j.0:nodeID>
     <j.0:nodeType>Class</j.0:nodeType>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.semcomplete.com#List.add">
-    <j.0:nodeID>20</j.0:nodeID>
-    <j.0:nodeType>Method</j.0:nodeType>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_65">
+    <j.0:hasMethod>http://www.semcomplete.com#Enumeration.hasMoreElements</j.0:hasMethod>
+    <j.0:code>http://www.semcomplete.com#Enumeration</j.0:code>
+    <j.0:pit_index>65</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.semcomplete.com#if">
-    <rdf:_3 rdf:resource="http://www.semcomplete.com#List.isEmpty"/>
-    <rdf:_2 rdf:resource="http://www.semcomplete.com#List.add"/>
+    <rdf:_3 rdf:resource="http://www.semcomplete.com#POINT_IN_TIME_11.isEmpty"/>
+    <rdf:_2 rdf:resource="http://www.semcomplete.com#POINT_IN_TIME_11.add"/>
     <rdf:_1 rdf:resource="http://www.semcomplete.com#JCheckBoxMenuItem.isSelected"/>
     <j.0:hasCondition rdf:resource="http://www.semcomplete.com#Node"/>
     <j.0:nodeID>11</j.0:nodeID>
     <j.0:nodeType>Control</j.0:nodeType>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.semcomplete.com#ArrayList.new">
-    <j.0:nodeID>6</j.0:nodeID>
-    <j.0:nodeType>Constructor</j.0:nodeType>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_32">
+    <j.0:nodeType>Class</j.0:nodeType>
+    <j.0:code>http://www.semcomplete.com#LogTableColumn</j.0:code>
+    <j.0:pit_index>32</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_46">
+    <j.0:hasMethod>http://www.semcomplete.com#POINT_IN_TIME_11.isEmpty</j.0:hasMethod>
+    <j.0:code>http://www.semcomplete.com#POINT_IN_TIME_11</j.0:code>
+    <j.0:pit_index>46</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_1">
+    <j.0:nodeType>Class</j.0:nodeType>
+    <j.0:code>http://www.semcomplete.com#Document</j.0:code>
+    <j.0:pit_index>1</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.semcomplete.com#CategoryExplorerModel.getRootCategoryNode">
     <j.0:nodeID>3</j.0:nodeID>
     <j.0:nodeType>Method</j.0:nodeType>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.semcomplete.com#Document.getElementsByTagName">
-    <j.0:nodeID>3</j.0:nodeID>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_53">
+    <j.0:hasMethod>http://www.semcomplete.com#CategoryExplorerModel.getRootCategoryNode</j.0:hasMethod>
+    <j.0:code>http://www.semcomplete.com#CategoryExplorerModel</j.0:code>
+    <j.0:pit_index>53</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_12">
+    <j.0:nodeType>Constructor</j.0:nodeType>
+    <j.0:code>http://www.semcomplete.com#ArrayList.new</j.0:code>
+    <j.0:pit_index>12</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_27">
+    <j.0:hasMethod>http://www.semcomplete.com#Node.getAttributes</j.0:hasMethod>
+    <j.0:code>http://www.semcomplete.com#Node</j.0:code>
+    <j.0:pit_index>27</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_64">
     <j.0:nodeType>Method</j.0:nodeType>
+    <j.0:code>http://www.semcomplete.com#Enumeration.hasMoreElements</j.0:code>
+    <j.0:pit_index>64</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_2">
+    <j.0:hasInstance>doc</j.0:hasInstance>
+    <j.0:code>http://www.semcomplete.com#Document</j.0:code>
+    <j.0:pit_index>2</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_33">
+    <j.0:hasInstance>column</j.0:hasInstance>
+    <j.0:code>http://www.semcomplete.com#LogTableColumn</j.0:code>
+    <j.0:pit_index>33</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_47">
+    <j.0:nodeType>Control</j.0:nodeType>
+    <j.0:code>http://www.semcomplete.com#else</j.0:code>
+    <j.0:pit_index>47</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_40">
+    <j.0:nodeType>Method</j.0:nodeType>
+    <j.0:code>http://www.semcomplete.com#JCheckBoxMenuItem.isSelected</j.0:code>
+    <j.0:pit_index>40</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#try">
+    <rdf:_2 rdf:resource="http://www.semcomplete.com#if"/>
+    <rdf:_1 rdf:resource="http://www.semcomplete.com#JCheckBoxMenuItem.setSelected"/>
+    <j.0:nodeID>15</j.0:nodeID>
+    <j.0:nodeType>Control</j.0:nodeType>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_50">
+    <j.0:nodeType>Class</j.0:nodeType>
+    <j.0:code>http://www.semcomplete.com#CategoryNode</j.0:code>
+    <j.0:pit_index>50</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_38">
+    <j.0:hasMethod>http://www.semcomplete.com#JCheckBoxMenuItem.setSelected</j.0:hasMethod>
+    <j.0:code>http://www.semcomplete.com#JCheckBoxMenuItem</j.0:code>
+    <j.0:pit_index>38</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_11">
+    <j.0:hasMethod rdf:resource="http://www.semcomplete.com#POINT_IN_TIME_11.isEmpty"/>
+    <j.0:hasMethod rdf:resource="http://www.semcomplete.com#POINT_IN_TIME_11.add"/>
+    <j.0:hasInstance>selectedColumns</j.0:hasInstance>
+    <j.0:code>http://www.semcomplete.com#List</j.0:code>
+    <j.0:pit_index>11</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_58">
+    <j.0:hasMethod>http://www.semcomplete.com#CategoryNode.breadthFirstEnumeration</j.0:hasMethod>
+    <j.0:code>http://www.semcomplete.com#CategoryNode</j.0:code>
+    <j.0:pit_index>58</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_20">
+    <j.0:hasMethod>http://www.semcomplete.com#NodeList.item</j.0:hasMethod>
+    <j.0:code>http://www.semcomplete.com#NodeList</j.0:code>
+    <j.0:pit_index>20</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_30">
+    <j.0:hasInstance>name</j.0:hasInstance>
+    <j.0:code>http://www.semcomplete.com#String</j.0:code>
+    <j.0:pit_index>30</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_11.add">
+    <j.0:nodeID>20</j.0:nodeID>
+    <j.0:nodeType>Method</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_48">
+    <j.0:nodeType>Class</j.0:nodeType>
+    <j.0:code>http://www.semcomplete.com#CategoryExplorerModel</j.0:code>
+    <j.0:pit_index>48</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_3">
+    <j.0:nodeType>Class</j.0:nodeType>
+    <j.0:code>http://www.semcomplete.com#NodeList</j.0:code>
+    <j.0:pit_index>3</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#ArrayList.new">
+    <j.0:nodeID>6</j.0:nodeID>
+    <j.0:nodeType>Constructor</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_63">
+    <j.0:nodeType>Control</j.0:nodeType>
+    <j.0:code>http://www.semcomplete.com#while</j.0:code>
+    <j.0:pit_index>63</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_28">
+    <j.0:varInitiatedBy>http://www.semcomplete.com#Node.getAttributes</j.0:varInitiatedBy>
+    <j.0:code>http://www.semcomplete.com#NamedNodeMap</j.0:code>
+    <j.0:pit_index>28</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.semcomplete.com#CategoryNode">
     <j.0:hasMethod rdf:resource="http://www.semcomplete.com#CategoryNode.setSelected"/>
@@ -121,15 +481,19 @@
     <j.0:nodeID>2</j.0:nodeID>
     <j.0:nodeType>Class</j.0:nodeType>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.semcomplete.com#CategoryExplorerModel">
-    <j.0:hasMethod rdf:resource="http://www.semcomplete.com#CategoryExplorerModel.getRootCategoryNode"/>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_49">
     <j.0:hasInstance>model</j.0:hasInstance>
-    <j.0:nodeID>1</j.0:nodeID>
-    <j.0:nodeType>Class</j.0:nodeType>
+    <j.0:code>http://www.semcomplete.com#CategoryExplorerModel</j.0:code>
+    <j.0:pit_index>49</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_51">
+    <j.0:hasInstance>root</j.0:hasInstance>
+    <j.0:code>http://www.semcomplete.com#CategoryNode</j.0:code>
+    <j.0:pit_index>51</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.semcomplete.com#List">
-    <j.0:hasMethod rdf:resource="http://www.semcomplete.com#List.isEmpty"/>
-    <j.0:hasMethod rdf:resource="http://www.semcomplete.com#List.add"/>
     <j.0:varInitiatedBy rdf:resource="http://www.semcomplete.com#ArrayList.new"/>
     <j.0:hasInstance>selectedColumns</j.0:hasInstance>
     <j.0:nodeID>5</j.0:nodeID>
@@ -140,16 +504,29 @@
     <j.0:nodeID>14</j.0:nodeID>
     <j.0:nodeType>Class</j.0:nodeType>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.semcomplete.com#NodeList.getLength">
-    <j.0:nodeID>8</j.0:nodeID>
-    <j.0:nodeType>Method</j.0:nodeType>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_41">
+    <j.0:hasMethod>http://www.semcomplete.com#JCheckBoxMenuItem.isSelected</j.0:hasMethod>
+    <j.0:code>http://www.semcomplete.com#JCheckBoxMenuItem</j.0:code>
+    <j.0:pit_index>41</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.semcomplete.com#while">
-    <rdf:_1 rdf:resource="http://www.semcomplete.com#CategoryNode.setSelected"/>
-    <j.0:hasCondition rdf:resource="http://www.semcomplete.com#Enumeration.hasMoreElements"/>
-    <j.0:nodeID>6</j.0:nodeID>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_10">
+    <j.0:nodeType>Class</j.0:nodeType>
+    <j.0:code>http://www.semcomplete.com#List</j.0:code>
+    <j.0:pit_index>10</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_39">
     <j.0:nodeType>Control</j.0:nodeType>
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+    <j.0:code>http://www.semcomplete.com#if</j.0:code>
+    <j.0:pit_index>39</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_62">
+    <j.0:varInitiatedBy>null</j.0:varInitiatedBy>
+    <j.0:code>http://www.semcomplete.com#CategoryNode</j.0:code>
+    <j.0:pit_index>62</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.semcomplete.com#NodeList">
     <j.0:hasMethod rdf:resource="http://www.semcomplete.com#NodeList.item"/>
@@ -159,20 +536,51 @@
     <j.0:nodeID>2</j.0:nodeID>
     <j.0:nodeType>Class</j.0:nodeType>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.semcomplete.com#Document">
-    <j.0:hasMethod rdf:resource="http://www.semcomplete.com#Document.getElementsByTagName"/>
-    <j.0:hasInstance>doc</j.0:hasInstance>
-    <j.0:nodeID>1</j.0:nodeID>
-    <j.0:nodeType>Class</j.0:nodeType>
+  <rdf:Description rdf:about="http://www.semcomplete.com#while">
+    <rdf:_1 rdf:resource="http://www.semcomplete.com#CategoryNode.setSelected"/>
+    <j.0:hasCondition rdf:resource="http://www.semcomplete.com#Enumeration.hasMoreElements"/>
+    <j.0:nodeID>6</j.0:nodeID>
+    <j.0:nodeType>Control</j.0:nodeType>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_21">
+    <j.0:varInitiatedBy>http://www.semcomplete.com#NodeList.item</j.0:varInitiatedBy>
+    <j.0:code>http://www.semcomplete.com#Node</j.0:code>
+    <j.0:pit_index>21</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_59">
+    <j.0:varInitiatedBy>http://www.semcomplete.com#CategoryNode.breadthFirstEnumeration</j.0:varInitiatedBy>
+    <j.0:code>http://www.semcomplete.com#Enumeration</j.0:code>
+    <j.0:pit_index>59</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.semcomplete.com#else">
-    <rdf:_1 rdf:resource="http://www.semcomplete.com#List.isEmpty"/>
+    <rdf:_1 rdf:resource="http://www.semcomplete.com#POINT_IN_TIME_11.isEmpty"/>
     <j.0:nodeID>22</j.0:nodeID>
     <j.0:nodeType>Control</j.0:nodeType>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_4">
+    <j.0:hasInstance>nodeList</j.0:hasInstance>
+    <j.0:code>http://www.semcomplete.com#NodeList</j.0:code>
+    <j.0:pit_index>4</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_31">
+    <j.0:nodeType>Control</j.0:nodeType>
+    <j.0:code>http://www.semcomplete.com#try</j.0:code>
+    <j.0:pit_index>31</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.semcomplete.com#JCheckBoxMenuItem.setSelected">
     <j.0:nodeID>18</j.0:nodeID>
     <j.0:nodeType>Method</j.0:nodeType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semcomplete.com#POINT_IN_TIME_29">
+    <j.0:nodeType>Class</j.0:nodeType>
+    <j.0:code>http://www.semcomplete.com#String</j.0:code>
+    <j.0:pit_index>29</j.0:pit_index>
+    <rdf:type>http://www.semcomplete.com#POINT_IN_TIME</rdf:type>
   </rdf:Description>
 </rdf:RDF>

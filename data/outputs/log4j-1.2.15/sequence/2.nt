@@ -3,6 +3,6 @@
 <http://www.semcomplete.com#ResourceBundle> <http://www.semcomplete.com#nodeType> "Class" .
 <http://www.semcomplete.com#ResourceBundle> <http://www.semcomplete.com#hasInstance> "rb" .
 <http://www.semcomplete.com#if> <http://www.semcomplete.com#nodeType> "Control" .
-<http://www.semcomplete.com#if> <http://www.semcomplete.com#hasCondition> <http://www.semcomplete.com#ResourceBundle> .
+<http://www.semcomplete.com#if> <http://www.semcomplete.com#hasCondition> <http://www.semcomplete.com#POINT_IN_TIME_4> .
 <http://www.semcomplete.com#else> <http://www.semcomplete.com#nodeType> "Control" .
 <http://www.semcomplete.com#try> <http://www.semcomplete.com#nodeType> "Control" .

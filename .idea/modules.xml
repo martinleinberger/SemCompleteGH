@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SemCompleteGH.iml" filepath="$PROJECT_DIR$/SemCompleteGH.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data/outputs/log4j-1.2.15/log4j-1.2.15.iml" filepath="$PROJECT_DIR$/data/outputs/log4j-1.2.15/log4j-1.2.15.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data/projects/projects.iml" filepath="$PROJECT_DIR$/data/projects/projects.iml" />
+    </modules>
+  </component>
+</project>
+
